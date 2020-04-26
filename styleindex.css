@@ -40,13 +40,19 @@ header img {
     float: right;
     width: 150px;
     height: 150px;
+    box-shadow: 0 0 8px #333;
+    padding: .3em;
 }
 
 header {
-    height: 200px;
+    text-align: center;
+    background-color: #7EBDC2;
+    color: #964130;
+    width: 560px;
+    box-shadow: 0 0 8px #333;
+    height: 150px;
 }
 
-header,
 footer,
 footer a {
     text-align: center;
@@ -58,6 +64,7 @@ footer a {
 
 hr {
     width: 560px;
+    box-shadow: 0 0 8px #333;
 }
 
 #currentdate {
