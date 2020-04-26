@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+* {
+    margin: 0 auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+html body {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+    padding: .5em;
+    margin: 0 auto;
+    color: #964130;
+}
+
+h1 {
+    font-style: italic;
+    color: #964130;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #964130;
+}
+
+#content {
+    width: 580px;
+    margin: 0 auto;
+    background-color: #EFE6DD;
+    padding: 1em;
+    text-align: center;
+}
+
+header img {
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    height: 200px;
+}
+
+header,
+footer,
+footer a {
+    text-align: center;
+    background-color: #7EBDC2;
+    color: #964130;
+    width: 560px;
+    box-shadow: 0 0 8px #333;
+}
+
+hr {
+    width: 560px;
+}
+
+#currentdate {
+    color: #4b7;
+}
