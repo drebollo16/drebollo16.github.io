@@ -44,6 +44,10 @@ header img {
     padding: .3em;
 }
 
+li {
+    text-align: left;
+}
+
 header {
     text-align: center;
     background-color: #7EBDC2;
