@@ -1,5 +1,4 @@
-/* CSS files add styling rules to your content */
-
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
 * {
     margin: 0 auto;
     border-radius: 20px;
@@ -38,8 +37,8 @@ h2 {
 
 header img {
     float: right;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     box-shadow: 0 0 8px #333;
     padding: .3em;
 }
