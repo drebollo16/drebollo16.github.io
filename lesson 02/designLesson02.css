@@ -1,19 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
-* {
-    margin: 0 auto;
-    border-radius: 20px;
-    box-sizing: border-box;
-    width: 600px;
-}
-
-html body {
-    font-size: 16px;
-    line-height: 30px;
-    font-family: sans-serif;
-    box-shadow: 0 0 30px #333;
-    padding: .5em;
-    margin: 0 auto;
-    color: #964130;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
 }
 
 h1 {
@@ -27,49 +16,56 @@ h2 {
     color: #964130;
 }
 
-#content {
-    width: 580px;
-    margin: 0 auto;
-    background-color: #EFE6DD;
-    padding: 1em;
-    text-align: center;
-}
-
-header img {
-    float: right;
-    width: 125px;
-    height: 125px;
-    box-shadow: 0 0 8px #333;
-    padding: .3em;
-}
-
-li {
-    text-align: left;
-}
-
-header {
+header,
+main,
+footer {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
-    width: 560px;
-    box-shadow: 0 0 8px #333;
-    height: 150px;
-}
-
-footer,
-footer a {
-    text-align: center;
-    background-color: #7EBDC2;
-    color: #964130;
-    width: 560px;
+    width: 800px;
     box-shadow: 0 0 8px #333;
 }
 
-hr {
-    width: 560px;
-    box-shadow: 0 0 8px #333;
+section {
+    display: flefx;
 }
 
 #currentdate {
     color: #4b7;
+}
+
+
+/* Tablet view */
+
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    section:nth-child(2) {
+        display: block;
+    }
+    section:nth-last-child(3) {
+        grid-column: span 2;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+
+
+/* desktop view */
+
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 35px;
+    }
 }
