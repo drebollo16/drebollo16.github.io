@@ -16,6 +16,11 @@ h2 {
     color: #964130;
 }
 
+img {
+    height: 500px;
+    width: 200px;
+}
+
 header,
 main,
 footer {
@@ -48,10 +53,10 @@ section {
         grid-column: span 2;
     }
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 15px;
     }
 }
 
@@ -63,9 +68,9 @@ section {
         grid-template-columns: 1fr 1fr 1fr;
     }
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 20px;
     }
 }
