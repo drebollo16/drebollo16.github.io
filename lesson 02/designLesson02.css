@@ -2,6 +2,8 @@
 img {
     height: 600px;
     width: 250px;
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
@@ -56,6 +58,10 @@ footer a {
     color: #964130;
     width: 960px;
     box-shadow: 0 0 8px #333;
+}
+
+section {
+    padding: 10px;
 }
 
 #currentdate {
