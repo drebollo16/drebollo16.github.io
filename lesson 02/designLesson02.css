@@ -69,11 +69,11 @@ footer a {
 }
 
 section:nth-last-child(1) {
-    grid-row: 1/1;
+    grid-column: 1;
 }
 
 section:nth-last-child(3) {
-    grid-row: 3/1;
+    grid-column: 3;
 }
 
 
