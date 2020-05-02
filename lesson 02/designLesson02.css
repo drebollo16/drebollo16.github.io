@@ -71,17 +71,17 @@ p {
 }
 
 .design-proximity {
-    grid-column: 1;
+    grid-template-columns: 1;
     text-align: center;
 }
 
 .visual-hierarchy {
-    grid-column: 2;
+    grid-template-columns: 2;
     text-align: center;
 }
 
 .white-space {
-    grid-column: 3;
+    grid-template-columns: 3;
     text-align: center;
 }
 
@@ -92,10 +92,10 @@ p {
     main {
         grid-template-columns: 1fr 1fr;
     }
-    section:nth-child(2) {
+    .visual-hierarchy {
         display: block;
     }
-    section:nth-last-child(3) {
+    .white-space {
         grid-column: span 2;
     }
     h1 {
