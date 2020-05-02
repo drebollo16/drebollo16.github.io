@@ -37,6 +37,7 @@ main section {
     padding: 0 1rem;
     background-color: #eee;
     border-radius: 25px;
+    align-items: center;
 }
 
 header {
@@ -45,7 +46,7 @@ header {
     color: #964130;
     width: 100%;
     box-shadow: 0 0 8px #333;
-    height: 200px;
+    height: 160px;
 }
 
 #content {
