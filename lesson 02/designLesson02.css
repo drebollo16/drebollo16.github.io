@@ -1,24 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
-* {
-    margin: 0 auto;
-    border-radius: 20px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
-}
-
-html body {
-    font-size: 16px;
-    font-family: sans-serif;
-    box-shadow: 0 0 30px #333;
-    padding: .5em;
-    margin: 0 auto;
-    color: #964130;
-}
-
 img {
     height: 600px;
     width: 250px;
@@ -35,12 +15,21 @@ h2 {
     color: #964130;
 }
 
-#content {
+main {
     width: 960px;
     margin: 0 auto;
     background-color: #EFE6DD;
     padding: 1em;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
 }
 
 header {
@@ -50,6 +39,14 @@ header {
     width: 960px;
     box-shadow: 0 0 8px #333;
     height: 200px;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #EFE6DD;
+    padding: 1em;
+    text-align: center;
 }
 
 footer,
@@ -70,17 +67,17 @@ p {
     width: 12px;
 }
 
-.design-proximity {
+.proximity-section {
     grid-template-columns: 1;
     text-align: center;
 }
 
-.visual-hierarchy {
+.visual-section {
     grid-template-columns: 2;
     text-align: center;
 }
 
-.white-space {
+.whitespace-section {
     grid-template-columns: 3;
     text-align: center;
 }
