@@ -73,15 +73,10 @@ section {
     color: #4b7;
 }
 
-p {
-    font: sans-serif;
-    width: 12px;
-    column-span: all;
-}
-
 .proximity-section {
     grid-template-columns: 1;
     text-align: center;
+    column-span: all;
 }
 
 .visual-section {
