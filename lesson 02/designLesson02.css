@@ -18,7 +18,7 @@ h2 {
 }
 
 main {
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
     background-color: #EFE6DD;
     padding: 1em;
@@ -38,7 +38,7 @@ header {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
-    width: 960px;
+    width: 980px;
     box-shadow: 0 0 8px #333;
     height: 200px;
 }
@@ -56,7 +56,7 @@ footer a {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
-    width: 960px;
+    width: 980px;
     box-shadow: 0 0 8px #333;
 }
 
