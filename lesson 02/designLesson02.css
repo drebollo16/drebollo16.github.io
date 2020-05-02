@@ -22,13 +22,13 @@ section h2 {
 }
 
 main {
-    width: 925px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
     display: grid;
     border-radius: 20px;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
 main section {
@@ -54,6 +54,7 @@ header {
     background-color: #EFE6DD;
     padding: 1em;
     text-align: center;
+    border-radius: 20px;
 }
 
 footer,
