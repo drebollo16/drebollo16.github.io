@@ -24,7 +24,6 @@ section a {
 }
 
 section img {
-    padding: 5px;
     width: 200px;
     align-items: center;
     height: 480px;
@@ -83,7 +82,6 @@ footer {
 .proximity-section {
     grid-template-columns: 1;
     text-align: center;
-    column-span: all;
 }
 
 .visual-section {
@@ -97,31 +95,17 @@ footer {
 }
 
 
-/* phone view */
-
-@media only screen and (min-width: 32.5em) {
-    main {
-        grid-template-columns: 1fr;
-    }
-    .visual-hierarchy {
-        display: block;
-    }
-    .white-space {
-        grid-column: span 1;
-    }
-}
-
-
-/* Tablet view */
+/* tablet view */
 
 @media only screen and (min-width: 37.5em) {
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .visual-hierarchy {
+    .visual-section {
         display: block;
     }
-    .white-space {
+    .whitespace-section {
         grid-column: span 2;
     }
 }
@@ -131,9 +115,10 @@ footer {
 
 @media only screen and (min-width: 60em) {
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .white-space {
-        grid-column: span 2;
+    .whitespace-section {
+        grid-column: span 1;
     }
 }
