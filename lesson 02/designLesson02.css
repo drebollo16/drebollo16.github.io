@@ -71,7 +71,7 @@ p {
 }
 
 .design-proximity {
-    grid-template-columns: 1;
+    grid-column: 1;
 }
 
 .visual-hierarchy {
