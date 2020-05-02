@@ -12,11 +12,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    color: #964130;
-}
-
 section h2 {
     background-color: #7EBDC2;
     color: #964130;
@@ -27,12 +22,12 @@ section h2 {
 }
 
 main {
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
-    background-color: #EFE6DD;
     padding: 1em;
     text-align: center;
     display: grid;
+    border-radius: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
