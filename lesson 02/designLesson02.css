@@ -17,6 +17,15 @@ h2 {
     color: #964130;
 }
 
+section h2 {
+    background-color: #7EBDC2;
+    color: #964130;
+    margin-top: 0px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
 main {
     width: 960px;
     margin: 0 auto;
