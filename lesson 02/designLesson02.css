@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri|Crimson+Text|EB+Garamond|Jost|Patrick+Hand&display=swap');
 h1 {
     font-style: italic;
-    font-style: 'Patrick Hand', cursive;
+    font-style: 'Patrick Hand';
     color: #964130;
     text-align: center;
 }
@@ -13,7 +13,7 @@ h2 {
     border-radius: 20px;
     font-size: 20px;
     text-align: center;
-    font-style: 'Patrick Hand', cursive;
+    font-style: 'Patrick Hand';
     padding: .5em;
 }
 
@@ -23,7 +23,7 @@ section a {
     padding-right: 8px;
     margin-bottom: 15px;
     line-height: 15px;
-    font-style: 'Patrick Hand', cursive;
+    font-style: 'Patrick Hand';
 }
 
 section img {
@@ -83,17 +83,17 @@ footer {
 }
 
 section:nth-child(1) {
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     text-align: center;
 }
 
 section:nth-child(2) {
-    grid-template-columns: 2;
+    grid-template-columns: 2fr;
     text-align: center;
 }
 
 section:nth-child(3) {
-    grid-template-columns: 3;
+    grid-template-columns: 3fr;
     text-align: center;
 }
 
