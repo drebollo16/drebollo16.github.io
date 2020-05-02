@@ -107,6 +107,15 @@ main {
     display: block;
 }
 
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+}
+
 main section {
     margin: 0.5rem;
     border: 1px solid #bbb;
@@ -128,6 +137,12 @@ main section {
     .whitespace-section {
         grid-column: span 2;
     }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: medium;
+    }
 }
 
 
@@ -141,5 +156,11 @@ main section {
     }
     .whitespace-section {
         grid-column: span 1;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: large;
     }
 }
