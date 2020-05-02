@@ -1,139 +1,144 @@
-                        @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
-                    h1 {
-                        font-style: italic;
-                        color: #964130;
-                        text-align: center;
-                    }
-                    
-                    h2 {
-                        background-color: #7EBDC2;
-                        color: #964130;
-                        margin-top: 1px;
-                        border-radius: 20px;
-                        font-size: 20px;
-                        text-align: center;
-                        padding: .5em;
-                    }
-                    
-                    section p,
-                    section a {
-                        padding-left: 8px;
-                        padding-right: 8px;
-                        margin-bottom: 15px;
-                        line-height: 15px;
-                    }
-                    
-                    img {
-                        height: 600px;
-                        width: 250px;
-                        align-items: center;
-                        text-align: center;
-                    }
-                    
-                    main {
-                        margin: 0 auto;
-                        padding: .2em;
-                        text-align: center;
-                        display: grid;
-                        border-radius: 20px;
-                        grid-template-columns: 1fr 1fr 1fr;
-                        grid-gap: 10px;
-                    }
-                    
-                    main section {
-                        margin: 0.5rem;
-                        border: 1px solid #bbb;
-                        padding: 0 1rem;
-                        background-color: #eee;
-                        border-radius: 25px;
-                        align-items: center;
-                        box-shadow: 0 0 5px #333;
-                    }
-                    
-                    header {
-                        text-align: center;
-                        background-color: #7EBDC2;
-                        color: #964130;
-                        width: 100%;
-                        box-shadow: 0 0 8px #333;
-                        height: 160px;
-                    }
-                    
-                    #content {
-                        width: 960px;
-                        margin: 0 auto;
-                        background-color: #EFE6DD;
-                        padding: 1em;
-                        text-align: center;
-                        border-radius: 20px;
-                    }
-                    
-                    footer {
-                        text-align: center;
-                        background-color: #7EBDC2;
-                        color: #964130;
-                        width: 100%;
-                        box-shadow: 0 0 8px #333;
-                    }
-                    
-                    #currentdate {
-                        color: #964130;
-                    }
-                    
-                    .proximity-section {
-                        grid-template-columns: 1;
-                        text-align: center;
-                    }
-                    
-                    .visual-section {
-                        grid-template-columns: 2;
-                        text-align: center;
-                    }
-                    
-                    .whitespace-section {
-                        grid-template-columns: 3;
-                        text-align: center;
-                    }
-                    /* phone */
-                    
-                    main {
-                        grid-template-columns: 1fr;
-                        max-width: 760px;
-                        margin: 0 auto;
-                        font-size: 0.8rem;
-                    }
-                    
-                    .visual-section {
-                        display: block;
-                    }
-                    
-                    main section {
-                        margin: 0.5rem;
-                        border: 1px solid #bbb;
-                        padding: 0 1rem;
-                    }
-                    /* tablet view */
-                    
-                    @media only screen and (min-width: 30.5em) {
-                        main {
-                            display: grid;
-                            grid-template-columns: 1fr 1fr;
-                            max-width: 850px;
-                        }
-                        .visual-section {
-                            display: block;
-                        }
-                        .whitespace-section {
-                            grid-column: span 2;
-                        }
-                        /* desktop view */
-                        @media only screen and (min-width: 60em) {
-                            main {
-                                display: grid;
-                                grid-template-columns: 1fr 1fr 1fr;
-                                max-width: 960px;
-                            }
-                            .whitespace-section {
-                                grid-column: span 1;
-                            }
-                        }
+h1 {
+    font-style: italic;
+    color: #964130;
+    text-align: center;
+}
+
+h2 {
+    background-color: #7EBDC2;
+    color: #964130;
+    margin-top: 1px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: .5em;
+}
+
+section p,
+section a {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+
+section img {
+    width: 200px;
+    align-items: center;
+    height: 480px;
+}
+
+main {
+    margin: 0 auto;
+    padding: .2em;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+    background-color: #eee;
+    border-radius: 25px;
+    align-items: center;
+    box-shadow: 0 0 5px #333;
+}
+
+header {
+    text-align: center;
+    background-color: #7EBDC2;
+    color: #964130;
+    width: 100%;
+    box-shadow: 0 0 8px #333;
+    height: 160px;
+}
+
+#content {
+    margin: 0 auto;
+    background-color: #EFE6DD;
+    padding: 1em;
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #7EBDC2;
+    color: #964130;
+    width: 100%;
+    box-shadow: 0 0 8px #333;
+}
+
+#currentdate {
+    color: #964130;
+}
+
+.proximity-section {
+    grid-template-columns: 1;
+    text-align: center;
+}
+
+.visual-section {
+    grid-template-columns: 2;
+    text-align: center;
+}
+
+.whitespace-section {
+    grid-template-columns: 3;
+    text-align: center;
+}
+
+
+/* phone */
+
+main {
+    grid-template-columns: 1fr;
+    max-width: 767px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+.visual-section {
+    display: block;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+}
+
+
+/* tablet view */
+
+@media only screen and (min-width: 30.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 850px;
+    }
+    .visual-section {
+        display: block;
+    }
+    .whitespace-section {
+        grid-column: span 2;
+    }
+}
+
+
+/* desktop view */
+
+@media only screen and (min-width: 60em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
+    }
+    .whitespace-section {
+        grid-column: span 1;
+    }
+}
