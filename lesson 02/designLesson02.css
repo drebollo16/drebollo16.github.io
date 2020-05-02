@@ -6,13 +6,12 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
 }
 
 html body {
     font-size: 16px;
-    line-height: 30px;
     font-family: sans-serif;
     box-shadow: 0 0 30px #333;
     padding: .5em;
@@ -66,15 +65,20 @@ footer a {
     color: #4b7;
 }
 
-section:nth-last-child(1) {
-    grid-column: 1;
+p {
+    font: sans-serif;
+    width: 12px;
 }
 
-section:nth-last-child(2) {
-    grid-template-columns: 2;
+.design-proximity {
+    grid-template-columns: 1;
 }
 
-section:nth-last-child(3) {
+.visual-hierarchy {
+    grid-column: 2;
+}
+
+.visual-hierarchy {
     grid-column: 3;
 }
 
