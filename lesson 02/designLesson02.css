@@ -58,7 +58,7 @@ header {
     height: 160px;
 }
 
-#content {
+.content {
     width: 960px;
     margin: 0 auto;
     background-color: #EFE6DD;
@@ -95,12 +95,35 @@ footer {
 }
 
 
+/* phone */
+
+main {
+    grid-template-columns: 1fr;
+    max-width: 767px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    color: blue;
+}
+
+.visual-section {
+    display: block;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0 1rem;
+}
+
+
 /* tablet view */
 
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 30.5em) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        max-width: 850px;
+        color: chocolate;
     }
     .visual-section {
         display: block;
@@ -117,6 +140,8 @@ footer {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
+        color: darkgreen;
     }
     .whitespace-section {
         grid-column: span 1;
