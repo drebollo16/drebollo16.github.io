@@ -102,7 +102,6 @@ main {
     max-width: 767px;
     margin: 0 auto;
     font-size: 0.8rem;
-    color: blue;
 }
 
 .visual-section {
@@ -123,7 +122,6 @@ main section {
         display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 850px;
-        color: chocolate;
     }
     .visual-section {
         display: block;
@@ -141,7 +139,6 @@ main section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 960px;
-        color: green;
     }
     .whitespace-section {
         grid-column: span 1;
