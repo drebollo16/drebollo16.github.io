@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
+* {
+    margin: 0 auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+}
+
+html body {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: sans-serif;
+    box-shadow: 0 0 30px #333;
+    padding: .5em;
+    margin: 0 auto;
+    color: #964130;
+}
+
+img {
+    height: 600px;
+    width: 300px;
 }
 
 h1 {
@@ -16,23 +37,30 @@ h2 {
     color: #964130;
 }
 
-img {
-    height: 500px;
-    width: 200px;
+#content {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #EFE6DD;
+    padding: 1em;
+    text-align: center;
 }
 
-header,
-main,
-footer {
+header {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
-    width: 800px;
+    width: 560px;
     box-shadow: 0 0 8px #333;
+    height: 150px;
 }
 
-section {
-    display: flefx;
+footer,
+footer a {
+    text-align: center;
+    background-color: #7EBDC2;
+    color: #964130;
+    width: 560px;
+    box-shadow: 0 0 8px #333;
 }
 
 #currentdate {
