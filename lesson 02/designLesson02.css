@@ -24,7 +24,7 @@ html body {
 
 img {
     height: 600px;
-    width: 300px;
+    width: 250px;
 }
 
 h1 {
@@ -52,7 +52,7 @@ header {
     color: #964130;
     width: 960px;
     box-shadow: 0 0 8px #333;
-    height: 150px;
+    height: 200px;
 }
 
 footer,
@@ -70,6 +70,10 @@ footer a {
 
 section:nth-last-child(1) {
     grid-column: 1;
+}
+
+section:nth-last-child(2) {
+    grid-template-columns: 2;
 }
 
 section:nth-last-child(3) {
