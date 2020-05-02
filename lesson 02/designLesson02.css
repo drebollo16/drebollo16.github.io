@@ -39,6 +39,7 @@ main section {
     background-color: #eee;
     border-radius: 25px;
     align-items: center;
+    box-shadow: 0 0 5px #333;
 }
 
 header {
