@@ -72,14 +72,17 @@ p {
 
 .design-proximity {
     grid-column: 1;
+    text-align: center;
 }
 
 .visual-hierarchy {
     grid-column: 2;
+    text-align: center;
 }
 
 .visual-hierarchy {
     grid-column: 3;
+    text-align: center;
 }
 
 
