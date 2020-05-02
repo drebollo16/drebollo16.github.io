@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
-wimg {
-    height: 600px;
-    width: 250px;
-    align-items: center;
-    text-align: center;
-}
-
 h1 {
     font-style: italic;
     color: #964130;
     text-align: center;
 }
 
-section h2 {
+h2 {
     background-color: #7EBDC2;
     color: #964130;
     margin-top: 1px;
@@ -32,8 +25,9 @@ section a {
 
 section img {
     padding: 5px;
-    max-width: 85%;
-    position: center;
+    width: 200px;
+    align-items: center;
+    height: 480px;
 }
 
 main {
@@ -74,8 +68,7 @@ header {
     border-radius: 20px;
 }
 
-footer,
-footer a {
+footer {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
