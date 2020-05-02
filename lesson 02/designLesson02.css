@@ -58,6 +58,7 @@ header {
 }
 
 #content {
+    width: fit-content;
     margin: 0 auto;
     background-color: #EFE6DD;
     padding: 1em;
