@@ -102,12 +102,6 @@ footer a {
     .white-space {
         grid-column: span 1;
     }
-    h1 {
-        font-size: 20px;
-    }
-    h2 {
-        font-size: 10px;
-    }
 }
 
 
@@ -123,12 +117,6 @@ footer a {
     .white-space {
         grid-column: span 2;
     }
-    h1 {
-        font-size: 30px;
-    }
-    h2 {
-        font-size: 15px;
-    }
 }
 
 
@@ -139,6 +127,6 @@ footer a {
         grid-template-columns: 1fr 1fr 1fr;
     }
     .white-space {
-        grid-column: span 1;
+        grid-column: span 2;
     }
 }
