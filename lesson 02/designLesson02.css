@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amiri|Crimson+Text|EB+Garamond|Jost|Patrick+Hand&display=swap');
 h1 {
     font-style: italic;
-    font-style: 'Patrick Hand';
+    font-family: 'Patrick Hand';
     color: #964130;
     text-align: center;
 }
@@ -13,7 +13,7 @@ h2 {
     border-radius: 20px;
     font-size: 20px;
     text-align: center;
-    font-style: 'Patrick Hand';
+    font-family: 'Patrick Hand';
     padding: .5em;
 }
 
@@ -23,7 +23,7 @@ section a {
     padding-right: 8px;
     margin-bottom: 15px;
     line-height: 15px;
-    font-style: 'Patrick Hand';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
 }
 
 section img {
