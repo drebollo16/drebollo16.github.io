@@ -71,6 +71,7 @@ section {
 p {
     font: sans-serif;
     width: 12px;
+    column-span: all;
 }
 
 .proximity-section {
