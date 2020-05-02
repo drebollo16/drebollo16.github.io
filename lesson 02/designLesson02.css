@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemonada&family=Merienda&family=Sacramento&display=swap');
-img {
+wimg {
     height: 600px;
     width: 250px;
     align-items: center;
@@ -20,6 +20,20 @@ section h2 {
     font-size: 20px;
     text-align: center;
     padding: .5em;
+}
+
+section p,
+section a {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+
+section img {
+    padding: 5px;
+    max-width: 85%;
+    position: center;
 }
 
 main {
