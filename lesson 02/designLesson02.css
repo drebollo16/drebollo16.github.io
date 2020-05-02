@@ -15,10 +15,11 @@ h1 {
 section h2 {
     background-color: #7EBDC2;
     color: #964130;
-    margin-top: 0px;
+    margin-top: 1px;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    padding: .5em;
 }
 
 main {
