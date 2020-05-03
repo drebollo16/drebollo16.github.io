@@ -148,7 +148,7 @@ main section {
         font-size: medium;
     }
     section img {
-        width: fit-content;
+        width: auto;
     }
 }
 
