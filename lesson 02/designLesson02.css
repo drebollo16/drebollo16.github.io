@@ -147,6 +147,9 @@ main section {
     h2 {
         font-size: medium;
     }
+    .white-space {
+        width: fit-content;
+    }
 }
 
 
