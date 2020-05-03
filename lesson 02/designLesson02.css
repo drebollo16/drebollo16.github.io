@@ -147,7 +147,7 @@ main section {
     h2 {
         font-size: medium;
     }
-    .white-space {
+    section img {
         width: fit-content;
     }
 }
