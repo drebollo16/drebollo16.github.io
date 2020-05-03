@@ -20,6 +20,7 @@ h1 {
     font-style: italic;
     color: #964130;
     text-align: center;
+    padding: .5em;
 }
 
 h2 {
@@ -29,16 +30,16 @@ h2 {
 
 #content {
     width: 580px;
-    margin: 0 auto;
+    margin: 1 auto;
     background-color: #EFE6DD;
-    padding: 1em;
+    padding: .5em;
     text-align: center;
 }
 
 header img {
     float: right;
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     box-shadow: 0 0 8px #333;
     padding: .3em;
 }
@@ -56,8 +57,7 @@ header {
     height: 150px;
 }
 
-footer,
-footer a {
+footer {
     text-align: center;
     background-color: #7EBDC2;
     color: #964130;
