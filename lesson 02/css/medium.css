@@ -1,17 +1,21 @@
-@media only screen and (min-with: 32.5em) {
+/* tablet view */
+
+@media only screen and (min-width: 35.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 850px;
+    }
+    .visual-section {
+        display: block;
+    }
+    .whitespace-section {
+        grid-column: span 2;
+    }
     h1 {
-        font-size: 2.5rem;
+        font-size: 25px;
     }
     h2 {
-        font-size: 1.5em;
-    }
-    header,
-    footer {
-        border-radius: 10px;
-    }
-    header img {
-        box-shadow: 0 0 8px #333;
-        float: right;
-        border-radius: 0 10px 0 0;
+        font-size: medium;
     }
 }
