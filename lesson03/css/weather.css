@@ -21,7 +21,7 @@
     
     header,
     footer {
-        background-color: rgb(18, 169, 196);
+        background-color: #0086AD;
         display: flex;
         flex-flow: column;
         align-items: center;
