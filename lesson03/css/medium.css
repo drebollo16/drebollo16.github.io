@@ -1,17 +1,27 @@
-@media only screen and (min-with: 32.5em) {
-    h1 {
-        font-size: 2.5rem;
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
     }
-    h2 {
-        font-size: 1.5em;
+    nav ul li {
+        flex: 1 1 100%;
     }
-    header,
-    footer {
-        border-radius: 10px;
+    nav li {
+        display: inline-block;
     }
-    header img {
-        box-shadow: 0 0 8px #333;
-        float: right;
-        border-radius: 0 10px 0 0;
+    nav li {
+        float: left;
+        margin-right: 15px;
+    }
+    main {
+        clear: both;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    main picture {
+        display: block;
     }
 }

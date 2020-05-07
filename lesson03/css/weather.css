@@ -16,7 +16,7 @@
     }
     
     h2 {
-        color: #536878;
+        color: #0b0c0c;
     }
     
     header,
@@ -51,6 +51,11 @@
         text-decoration: none;
         display: inline-flex;
         font-size: 0.95rem;
+    }
+    
+    p {
+        margin: 1px;
+        padding: 2px;
     }
     
     li {
