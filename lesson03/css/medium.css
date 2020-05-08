@@ -6,9 +6,6 @@
         flex: 1 1 100%;
     }
     nav li {
-        display: inline-block;
-    }
-    nav li {
         float: left;
         margin-right: 15px;
     }
