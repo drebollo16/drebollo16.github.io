@@ -72,3 +72,36 @@ main {
     background-color: rgb(225, 243, 243);
     border-radius: 6px;
 }
+
+td,
+th,
+tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-attachment: #ffffff;
+}
+
+.secondary {
+    background-color: #FAFAFA;
+}
+
+.accent1 {
+    background-color: #0086AD;
+}
+
+.accent2 {
+    background-color: #005065;
+}
+
+.accent3 {
+    background-color: #232323;
+}
