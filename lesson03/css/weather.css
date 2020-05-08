@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
 body {
     font-size: 16px;
     font-family: cursive;
@@ -12,7 +13,8 @@ footer {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
+    font-family: 'Calligraffitti', cursive;
 }
 
 header,
@@ -57,10 +59,11 @@ nav ul li a {
 p {
     margin: .5px;
     padding: 2px;
+    font-family: 'Lato', sans-serif;
 }
 
 nav a:hover {
-    background-color: #003F62;
+    background-color: 003F62;
     color: #209cee;
 }
 
