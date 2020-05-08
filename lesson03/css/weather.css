@@ -79,11 +79,11 @@ tr {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    width: 90%;
     display: block;
 }
 
 .colors td {
-    width: 90%;
     height: 3em;
 }
 
