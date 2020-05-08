@@ -81,6 +81,7 @@ tr {
     padding: 8px;
     width: 90%;
     display: block;
+    margin: 0 auto;
 }
 
 .colors td {
