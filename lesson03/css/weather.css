@@ -69,7 +69,7 @@ main {
     grid-template-columns: 1fr;
     font-size: 0.8rem;
     box-shadow: 0 2px 15px gray;
-    background-color: rgb(225, 243, 243);
+    background-color: #FAFAFA;
     border-radius: 6px;
 }
 
