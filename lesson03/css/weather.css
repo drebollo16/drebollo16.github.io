@@ -18,7 +18,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'IM Fell Great Primer', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
 }
 
 header,
@@ -86,7 +90,7 @@ tr {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-    width: 90%;
+    width: auto;
     display: block;
     margin: 0 auto;
 }
@@ -113,8 +117,4 @@ tr {
 
 .accent3 {
     background-color: #232323;
-}
-
-font td {
-    background-color: blue;
 }
