@@ -17,7 +17,7 @@ h1 {
 
 header,
 footer {
-    background-color: #0086AD;
+    background-color: #006287;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -60,7 +60,7 @@ p {
 }
 
 nav a:hover {
-    background-color: rgb(145, 149, 177);
+    background-color: #003F62;
     color: #209cee;
 }
 
@@ -89,19 +89,19 @@ tr {
 }
 
 .primary {
-    background-attachment: #ffffff;
+    background-attachment: #F0F0F0;
 }
 
 .secondary {
-    background-color: #FAFAFA;
+    background-color: #003F62;
 }
 
 .accent1 {
-    background-color: #0086AD;
+    background-color: #DDDDDD;
 }
 
 .accent2 {
-    background-color: #005065;
+    background-color: #006287;
 }
 
 .accent3 {
