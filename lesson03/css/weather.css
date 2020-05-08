@@ -15,12 +15,6 @@ h1 {
     font-size: 35px;
 }
 
-main {
-    box-shadow: 0 2px 15px gray;
-    background-color: lightcyan;
-    border-radius: 15px;
-}
-
 header,
 footer {
     background-color: #0086AD;
@@ -51,7 +45,7 @@ nav ul li a {
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
-    display: inline-flex;
+    display: block;
     font-size: 0.95rem;
 }
 
@@ -60,19 +54,18 @@ p {
     padding: 2px;
 }
 
-li {
-    display: inline;
-}
-
 nav a:hover {
     background-color: rgb(145, 149, 177);
-    color: #36454f;
+    color: #209cee;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    box-shadow: 0 2px 15px gray;
+    background-color: rgb(225, 243, 243);
+    border-radius: 15px;
 }
 
 footer {
