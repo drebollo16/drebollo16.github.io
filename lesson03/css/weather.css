@@ -84,6 +84,10 @@ main {
     border-radius: 6px;
 }
 
+.weathericon {
+    text-align: center;
+}
+
 td,
 th,
 tr {
