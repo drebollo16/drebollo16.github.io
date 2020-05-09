@@ -110,6 +110,7 @@ tr {
 
 .secondary {
     background-color: #003F62;
+    text-emphasis-color: #f0f0f0;
 }
 
 .accent1 {
@@ -118,8 +119,10 @@ tr {
 
 .accent2 {
     background-color: #006287;
+    text-emphasis-color: #f0f0f0;
 }
 
 .accent3 {
     background-color: #232323;
+    text-emphasis-color: #f0f0f0;
 }
