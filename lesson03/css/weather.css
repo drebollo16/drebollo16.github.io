@@ -2,9 +2,6 @@
 body {
     font-size: 16px;
     font-family: cursive;
-    padding: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 header,
@@ -13,6 +10,7 @@ main,
 footer {
     max-width: 767px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
@@ -85,6 +83,7 @@ main {
     box-shadow: 0 2px 15px gray;
     background-color: #FAFAFA;
     border-radius: 6px;
+    align-content: center;
 }
 
 .weathericon {
