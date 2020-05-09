@@ -49,7 +49,7 @@ footer {
 
 footer {
     flex: 0 1 100%;
-    border-radius: 0 0 15px 15px;
+    border-radius: 3px 3px 15px 15px;
 }
 
 nav {
@@ -90,7 +90,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
-    box-shadow: 0 2px 15px gray;
+    box-shadow: 0 5px 5px gray;
     background-color: #FAFAFA;
     border-radius: 6px;
     align-content: center;
