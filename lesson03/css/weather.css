@@ -3,6 +3,8 @@ body {
     font-size: 16px;
     font-family: cursive;
     padding: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 header,
