@@ -7,13 +7,6 @@ body {
     margin: 0 auto;
 }
 
-header,
-nav,
-main,
-footer {
-    max-width: auto;
-}
-
 h1 {
     font-size: 35px;
     font-family: 'Calligraffitti', cursive;
