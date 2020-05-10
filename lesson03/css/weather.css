@@ -134,3 +134,8 @@ li {
     margin-top: .1em;
     margin-bottom: 1em;
 }
+
+.palette {
+    widows: 250px;
+    height: 450px;
+}
