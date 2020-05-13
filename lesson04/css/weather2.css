@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
+body {
+    font-size: 16px;
+    font-family: cursive;
+    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.weathericon {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.weather-logo {
+    margin-left: 10px;
+    border-radius: 50px 50px 0 0;
+    padding: 0.5em;
+    box-shadow: 10px;
+}
+
+h1 {
+    font-family: 'Calligraffitti', cursive;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lato', sans-serif;
+    padding: .5em;
+}
+
+header,
+footer {
+    background-color: #006287;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    color: #f0f0f0;
+}
+
+footer {
+    flex: 0 1 100%;
+    border-radius: 3px 3px 15px 15px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+}
+
+p {
+    margin: .5px;
+    padding: 6px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+    color: #209cee;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    box-shadow: 0 5px 5px gray;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+    align-content: center;
+    padding: 15px;
+}
+
+.weathericon {
+    text-align: center;
+    padding: 20px;
+}
+
+td,
+th,
+tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.colors td {
+    height: 3em;
+}
+
+.font td {
+    height: 3em;
+}
+
+.primary {
+    background-color: #f0f0f0;
+}
+
+.secondary {
+    background-color: #003F62;
+}
+
+.accent1 {
+    background-color: #DDDDDD;
+}
+
+.accent2 {
+    background-color: #006287;
+}
+
+.accent3 {
+    background-color: #232323;
+}
+
+li {
+    margin-top: .1em;
+    margin-bottom: 1em;
+}
+
+.palette {
+    widows: 250px;
+    height: 450px;
+}
