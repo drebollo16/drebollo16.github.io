@@ -42,6 +42,7 @@ header img {
 .headings h1 {
     font-size: 1.6rem;
     margin: 0 0 0 3px;
+    margin-left: 10px;
 }
 
 .iconH4 {
