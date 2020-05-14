@@ -41,7 +41,7 @@ header img {
 
 .headings h1 {
     font-size: 1.6rem;
-    margin: 0 0 0 3px;
+    margin: 0 0 0 8px;
     margin-left: 10px;
 }
 
@@ -58,6 +58,7 @@ footer {
     border-radius: 3px 3px 15px 15px;
     padding: 10px;
     align-items: center;
+    color: #f0f0f0;
     justify-content: center;
 }
 
