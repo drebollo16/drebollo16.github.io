@@ -21,7 +21,7 @@ h2 {
 }
 
 #content {
-    width: 600px;
+    width: fit-content;
     margin: 0 auto;
     background-color: #EFE6DD;
     padding: .5em;
