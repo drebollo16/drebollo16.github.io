@@ -155,40 +155,7 @@ tr {
     margin: 0 auto;
 }
 
-.colors td {
-    height: 3em;
-}
-
-.font td {
-    height: 3em;
-}
-
-.primary {
-    background-color: #f0f0f0;
-}
-
-.secondary {
-    background-color: #003F62;
-}
-
-.accent1 {
-    background-color: #DDDDDD;
-}
-
-.accent2 {
-    background-color: #006287;
-}
-
-.accent3 {
-    background-color: #232323;
-}
-
 li {
     margin-top: .1em;
     margin-bottom: 1em;
-}
-
-.palette {
-    widows: 250px;
-    height: 450px;
 }
