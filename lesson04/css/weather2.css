@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     font-family: cursive;
     margin: 0;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ header {
     justify-content: center;
     border-radius: 15px 15px 0 0;
     color: #f0f0f0;
-    padding: 20px;
+    padding: 15px 0;
 }
 
 header img {
@@ -40,8 +40,8 @@ header img {
 }
 
 .headings h1 {
-    font-size: 1.6em;
-    margin: 0 0 0 17px;
+    font-size: 1.6rem;
+    margin: 0 0 0 3px;
 }
 
 .iconH4 {
@@ -53,7 +53,6 @@ header img {
 
 footer {
     background-color: #006287;
-    flex: 0 1 100%;
     display: flex;
     border-radius: 3px 3px 15px 15px;
     padding: 10px;
@@ -96,7 +95,7 @@ nav a:hover {
 }
 
 main {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
     box-shadow: 0 5px 5px gray;
