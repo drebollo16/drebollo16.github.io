@@ -3,7 +3,6 @@ body {
     font-size: 16px;
     line-height: 30px;
     font-family: sans-serif;
-    box-shadow: 0 0 30px #333;
     padding: .5em;
     margin: 0 auto;
     color: #964130;
@@ -26,6 +25,7 @@ h2 {
     margin: 0 auto;
     background-color: #EFE6DD;
     padding: .5em;
+    box-shadow: 0 0 30px #333;
     border-radius: 10px;
     margin: 0 auto;
 }
