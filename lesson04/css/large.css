@@ -18,4 +18,10 @@
         font-size: larger;
         margin-left: 17px;
     }
+    .footer {
+        width: 90%;
+    }
+    main h1 {
+        text-align: center;
+    }
 }

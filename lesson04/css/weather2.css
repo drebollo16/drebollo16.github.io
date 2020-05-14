@@ -2,7 +2,7 @@
 body {
     font-size: 16px;
     font-family: cursive;
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -148,8 +148,7 @@ nav a:hover {
 }
 
 main {
-    display: flex;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
     box-shadow: 0 5px 5px gray;
     background-color: #FAFAFA;
