@@ -7,19 +7,6 @@ body {
     margin: 0 auto;
 }
 
-.weathericon {
-    height: 100px;
-    width: 100px;
-    position: relative;
-}
-
-.weather-logo {
-    margin-left: 10px;
-    border-radius: 50px 50px 0 0;
-    padding: 0.5em;
-    box-shadow: 10px;
-}
-
 h1 {
     font-family: 'Calligraffitti', cursive;
 }
@@ -32,21 +19,46 @@ h5 {
     padding: .5em;
 }
 
-header,
-footer {
+header {
     background-color: #006287;
     display: flex;
-    flex-flow: column;
     align-items: center;
     justify-content: center;
     border-radius: 15px 15px 0 0;
     color: #f0f0f0;
+    padding: 20px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6em;
+    margin: 0 0 0 17px;
+}
+
+.iconH4 {
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: 15px;
 }
 
 footer {
+    background-color: #006287;
     flex: 0 1 100%;
+    display: flex;
     border-radius: 3px 3px 15px 15px;
     padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -92,11 +104,6 @@ main {
     border-radius: 6px;
     align-content: center;
     padding: 15px;
-}
-
-.weathericon {
-    text-align: center;
-    padding: 20px;
 }
 
 td,
