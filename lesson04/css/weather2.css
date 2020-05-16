@@ -98,9 +98,11 @@ nav ul li a {
     border: 1px dashed #006287;
     padding: 15px;
     display: flex;
-    background-color: #eee;
-    color: #444;
+    background-color: #deecf9;
+    color: black;
     font-style: italic;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .navigation li:first-child {
@@ -121,7 +123,7 @@ nav ul li a {
 
 .navigation a:hover {
     color: white;
-    background-color: black;
+    background-color: #003F62;
 }
 
 .responsive li {

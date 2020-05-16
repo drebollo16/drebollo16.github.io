@@ -16,7 +16,9 @@
         text-align: center;
     }
     .boxes {
-        background-color: burlywood;
+        background-color: #78b7ce;
+        color: black;
+        text-align: center;
     }
     nav ul {
         display: flex;
@@ -40,5 +42,8 @@
     }
     footer {
         width: 80%;
+    }
+    main {
+        width: 75%;
     }
 }
