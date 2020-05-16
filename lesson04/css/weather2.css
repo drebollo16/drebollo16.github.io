@@ -58,6 +58,7 @@ footer {
     text-align: center;
     color: #f0f0f0;
     margin: 0 auto;
+    width: 90%;
 }
 
 nav {
@@ -136,9 +137,6 @@ p {
 
 main {
     font-size: 0.8rem;
-    box-shadow: 0 5px 5px gray;
-    background-color: #FAFAFA;
-    border-radius: 6px;
     padding: 15px;
     margin: 0 auto;
     text-align: center;
