@@ -1,12 +1,6 @@
 /* Desktop Views ****************************/
 
 @media only screen and (min-width: 60em) {
-    nav a {
-        font-size: 1.1rem;
-    }
-    main {
-        grid-template-columns: 1fr;
-    }
     header img {
         width: 100px;
     }
@@ -19,9 +13,32 @@
         margin-left: 17px;
     }
     .footer {
-        width: 90%;
+        width: 80%;
     }
     main h1 {
         text-align: center;
+    }
+    .boxes {
+        background-color: burlywood;
+    }
+    nav ul {
+        display: flex;
+    }
+    .navigation {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 auto;
     }
 }

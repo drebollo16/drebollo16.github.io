@@ -2,7 +2,6 @@
 body {
     font-size: 16px;
     font-family: cursive;
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -21,22 +20,19 @@ h5 {
 
 header {
     background-color: #006287;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px 15px 0 0;
     color: #f0f0f0;
     padding: 15px 0;
+    text-align: center;
 }
 
 header img {
     width: 80px;
     height: auto;
-}
-
-.headings {
-    display: flex;
-    flex-direction: column;
 }
 
 .headings h1 {
@@ -45,21 +41,23 @@ header img {
     margin-left: 10px;
 }
 
+.headings {
+    margin-left: 1rem;
+}
+
 .iconH4 {
     font-style: italic;
     letter-spacing: 1pt;
-    margin-left: 20px;
     font-size: 15px;
 }
 
 footer {
     background-color: #006287;
-    display: flex;
     border-radius: 3px 3px 15px 15px;
     padding: 10px;
-    align-items: center;
+    text-align: center;
     color: #f0f0f0;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 nav {
@@ -90,8 +88,8 @@ nav ul li a {
     padding: 0;
 }
 
-.ham {
-    text-align: center;
+.menusign {
+    align-content: center;
 }
 
 .boxes {
@@ -116,7 +114,6 @@ nav ul li a {
 .navigation a {
     display: block;
     padding: 0.75rem;
-    text-align: left;
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -126,11 +123,6 @@ nav ul li a {
     color: white;
     background-color: black;
 }
-
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 
 .responsive li {
     display: block;
@@ -142,19 +134,14 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-nav a:hover {
-    background-color: #dddddd;
-    color: #209cee;
-}
-
 main {
-    grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
     box-shadow: 0 5px 5px gray;
     background-color: #FAFAFA;
     border-radius: 6px;
-    align-content: center;
     padding: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 li {

@@ -1,40 +1,8 @@
 @media only screen and (min-width: 37.5em) {
-    nav ul {
-        display: flex;
-    }
-    nav ul li {
-        flex: 1 1 100%;
-    }
-    nav li {
-        float: left;
-    }
     main {
-        clear: both;
+        width: 80%;
     }
-    nav a {
-        font-size: 1rem;
+    .boxes {
+        background-color: aquamarine;
     }
-    main {
-        grid-template-columns: 1fr;
-    }
-    main picture {
-        display: block;
-    }
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        display: block;
-        /* change state in small view */
-        flex: 1 1 auto;
-    }
-    .navigation a {
-        text-align: center;
-    }
-    .navigation li:first-child {
-        display: none;
-    }
-}
-
-
 }
