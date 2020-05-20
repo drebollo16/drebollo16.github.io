@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+    align-content: center;
+}
+
+img {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+header {
+    background-color: lightseagreen;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    grid-template-columns: 110px auto;
+}
+
+footer {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+nav {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+}
+
+.column1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    background-color: mediumaquamarine;
+    border-style: dotted;
+}
+
+.column2 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    background-color: rgb(87, 102, 97);
+    border-style: dotted;
+}
+
+.column3 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    background-color: gainsboro;
+    border-style: dotted;
+}
+
+.column4 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    background-color: rgb(78, 85, 83);
+    border-style: dotted;
+}
+
+@media print {
+    header h1 {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body {
+        background-color: white;
+    }
+    a::after {
+        content: attr(href);
+        color: #666
+    }
+    img {
+        display: none;
+    }
+    .column1 {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 300px;
+        background-color: mediumaquamarine;
+    }
+    .column2 {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 300px;
+        background-color: rgb(87, 102, 97);
+    }
+    .column3 {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 300px;
+        background-color: gainsboro;
+    }
+    .column4 {
+        float: left;
+        width: 25%;
+        padding: 10px;
+        height: 300px;
+        background-color: rgb(78, 85, 83);
+    }
+}

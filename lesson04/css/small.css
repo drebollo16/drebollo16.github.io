@@ -62,3 +62,10 @@ hr {
 #currentdate {
     color: #4b7;
 }
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}

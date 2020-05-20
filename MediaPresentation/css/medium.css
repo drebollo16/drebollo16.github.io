@@ -1,0 +1,12 @@
+@media only screen and (min-width:37.5em) {
+    body {
+        background-color: lightblue;
+    }
+    header {
+        text-align: center;
+    }
+    img {
+        align-content: center;
+        width: 70%;
+    }
+}

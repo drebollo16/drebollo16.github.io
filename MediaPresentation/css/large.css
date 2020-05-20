@@ -1,0 +1,36 @@
+    @media only screen and (min-width:60em) {
+        body {
+            background-color: rgb(117, 181, 192);
+        }
+        header h1 {
+            text-align: center;
+        }
+        .column1 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+            background-color: mediumaquamarine;
+        }
+        .column2 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+            background-color: rgb(87, 102, 97);
+        }
+        .column3 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+            background-color: gainsboro;
+        }
+        .column4 {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            height: 300px;
+            background-color: rgb(78, 85, 83);
+        }
+    }
