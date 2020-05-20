@@ -144,3 +144,28 @@ main {
     margin: 0 auto;
     text-align: center;
 }
+
+.banndiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    text-shadow: 3px 3px 5px #777;
+}
+
+.bannSection {
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    background: radial-gradient(rgb(182, 183, 189), #003F62);
+    color: #eee;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .6;
+    ;
+}
