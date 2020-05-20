@@ -143,11 +143,17 @@ main {
     padding: 15px;
     margin: 0 auto;
     text-align: center;
+    width: 820px;
 }
 
 .banndiv {
     margin: 10px auto;
     position: relative;
+}
+
+.banndiv img {
+    height: 300px;
+    width: 860px;
 }
 
 h1,
