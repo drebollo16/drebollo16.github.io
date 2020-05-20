@@ -159,8 +159,8 @@ p {
 
 .bannSection {
     position: absolute;
-    top: 25px;
-    left: 150px;
+    top: 50px;
+    left: 250px;
     background: radial-gradient(rgb(182, 183, 189), #003F62);
     color: #eee;
     border: 1px solid #000;
