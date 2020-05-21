@@ -37,7 +37,6 @@
     }
     .navigation li {
         display: block;
-        /* change state in small view */
         flex: 1 1 auto;
     }
     footer {
@@ -45,5 +44,19 @@
     }
     main {
         width: 70%;
+    }
+    .forecasttable th {
+        background-color: #006287;
+        height: 30px;
+        width: 150px;
+        color: white;
+    }
+    .forecasttable td {
+        border: 1px solid black;
+        height: 100px;
+    }
+    .forecastsection {
+        margin: auto;
+        width: 800px;
     }
 }

@@ -1,177 +1,179 @@
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
-body {
-    font-size: 16px;
-    font-family: cursive;
-    margin: 0 auto;
-}
-
-h1 {
-    font-family: 'Calligraffitti', cursive;
-    text-align: center;
-}
-
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Lato', sans-serif;
-    padding: .5em;
-}
-
-header {
-    background-color: #006287;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px 15px 0 0;
-    color: #f0f0f0;
-    padding: 15px 0;
-    text-align: center;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-
-.headings h1 {
-    font-size: 1.6rem;
-    margin: 0 0 0 8px;
-    margin-left: 10px;
-}
-
-.headings {
-    margin-left: 1rem;
-}
-
-.iconH4 {
-    font-style: italic;
-    letter-spacing: 1pt;
-    font-size: 15px;
-    padding: 5px;
-}
-
-footer {
-    background-color: #006287;
-    border-radius: 3px 3px 15px 15px;
-    padding: 10px;
-    text-align: center;
-    color: #f0f0f0;
-    margin: 0 auto;
-}
-
-nav {
-    background-color: #f0f0f0;
-    text-align: center;
-    box-shadow: 0 2px 15px gray;
-    width: 100%;
-    border-radius: 0 0 10px 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    text-align: center;
-    padding: 0.75rem;
-    text-decoration: none;
-    display: block;
-    font-size: 0.95rem;
-}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-}
-
-.menusign {
-    align-content: center;
-}
-
-.boxes {
-    box-sizing: border-box;
-    margin: 10px auto;
-    border: 1px dashed #006287;
-    padding: 15px;
-    display: flex;
-    background-color: #deecf9;
-    color: black;
-    font-style: italic;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none
-}
-
-.navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-decoration: none;
-    color: black;
-    font-weight: 700;
-}
-
-.navigation a:hover {
-    color: white;
-    background-color: #003F62;
-}
-
-.responsive li {
-    display: block;
-}
-
-p {
-    margin: .5px;
-    padding: 6px;
-    font-family: 'Lato', sans-serif;
-}
-
-main {
-    font-size: 0.8rem;
-    padding: 15px;
-    margin: 0 auto;
-    text-align: center;
-    width: 820px;
-}
-
-.banndiv {
-    margin: 10px auto;
-    position: relative;
-}
-
-.banndiv img {
-    height: 300px;
-    width: 860px;
-}
-
-h1,
-h2,
-p {
-    margin: 0;
-    text-shadow: 3px 3px 5px #777;
-}
-
-.bannSection {
-    position: absolute;
-    top: 50px;
-    left: 250px;
-    background: radial-gradient(rgb(182, 183, 189), #003F62);
-    color: #eee;
-    border: 1px solid #000;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px #111;
-    opacity: .6;
-    ;
-}
+    @import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
+    body {
+        font-size: 16px;
+        font-family: cursive;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        font-family: 'Calligraffitti', cursive;
+        text-align: center;
+    }
+    
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Lato', sans-serif;
+        padding: .5em;
+    }
+    
+    header {
+        background-color: #006287;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 15px 0 0;
+        color: #f0f0f0;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    header img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .headings h1 {
+        font-size: 1.6rem;
+        margin: 0 0 0 8px;
+        margin-left: 10px;
+    }
+    
+    .headings {
+        margin-left: 1rem;
+    }
+    
+    .iconH4 {
+        font-style: italic;
+        letter-spacing: 1pt;
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    footer {
+        background-color: #006287;
+        border-radius: 3px 3px 15px 15px;
+        padding: 10px;
+        text-align: center;
+        color: #f0f0f0;
+        margin: 0 auto;
+    }
+    
+    nav {
+        background-color: #f0f0f0;
+        text-align: center;
+        box-shadow: 0 2px 15px gray;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li a {
+        text-align: center;
+        padding: 0.75rem;
+        text-decoration: none;
+        display: block;
+        font-size: 0.95rem;
+    }
+    
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menusign {
+        align-content: center;
+    }
+    
+    .boxes {
+        box-sizing: border-box;
+        margin: 10px auto;
+        border: 1px dashed #006287;
+        padding: 15px;
+        display: flex;
+        background-color: #deecf9;
+        color: black;
+        font-style: italic;
+        border-radius: 8px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+    }
+    
+    .navigation li {
+        display: none
+    }
+    
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .navigation a:hover {
+        color: white;
+        background-color: #003F62;
+    }
+    
+    .responsive li {
+        display: block;
+    }
+    
+    p {
+        margin: .5px;
+        padding: 6px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    main {
+        font-size: 0.8rem;
+        padding: 15px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .banndiv {
+        margin: 10px auto;
+        position: relative;
+    }
+    
+    .banndiv img {
+        height: 300px;
+        width: 860px;
+    }
+    
+    h1,
+    h2,
+    p {
+        margin: 0;
+        text-shadow: 3px 3px 5px #777;
+    }
+    
+    .bannSection {
+        position: absolute;
+        top: 50px;
+        left: 250px;
+        background: radial-gradient(rgb(182, 183, 189), #003F62);
+        color: #eee;
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .6;
+    }
+    
+    .forecastsection {
+        display: flex;
+    }

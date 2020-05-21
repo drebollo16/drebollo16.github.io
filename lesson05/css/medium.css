@@ -10,4 +10,8 @@
     .footer {
         width: 80%;
     }
+    .forecastsection {
+        margin: auto;
+        width: 800px;
+    }
 }
