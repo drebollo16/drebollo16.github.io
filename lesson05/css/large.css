@@ -50,10 +50,15 @@
         height: 30px;
         width: 150px;
         color: white;
+        border: 1px solid black;
     }
     .forecasttable td {
         border: 1px solid black;
+        border-collapse: initial;
         height: 100px;
+    }
+    table {
+        border-collapse: collapse;
     }
     .forecastsection {
         margin: auto;
