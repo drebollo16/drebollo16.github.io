@@ -143,8 +143,6 @@ main {
 
 .bannerdiv img {
     height: 300px;
-    width: auto;
-    display: flex;
 }
 
 .bannerSection {
@@ -160,7 +158,7 @@ main {
     opacity: .6;
 }
 
-.gmap {
+.map {
     margin: 10px 0 30px;
     border: 1px solid #000;
     box-shadow: 0 0 30px #555;
@@ -182,6 +180,7 @@ main {
     color: black;
     border-radius: 8px;
     text-align: center;
+    height: 300px;
 }
 
 #banner {
@@ -199,4 +198,12 @@ main {
 
 .mapsection {
     height: 300px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border: 1px solid #006287;
+    padding: 15px;
+    background-color: #deecf9;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
 }

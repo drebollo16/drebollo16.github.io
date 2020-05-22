@@ -40,10 +40,10 @@
         flex: 1 1 auto;
     }
     footer {
-        width: 70%;
+        width: 50%;
     }
     main {
-        width: 70%;
+        width: 50%;
     }
     .forecasttable th {
         background-color: #006287;
@@ -88,9 +88,6 @@
     }
     .bannerSection {
         position: absolute;
-    }
-    .bannerdiv img {
-        width: auto;
     }
     .active {
         background-color: #78b7ce;
