@@ -5,19 +5,11 @@
         margin: 0 auto;
     }
     
-    h1,
-    h2,
-    h3 {
+    h1 {
         font-family: 'Calligraffitti', cursive;
         text-align: center;
-    }
-    
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-family: 'Lato', sans-serif;
-        padding: .5em;
+        margin: 0;
+        text-shadow: 3px 3px 5px #777;
     }
     
     header {
@@ -61,6 +53,7 @@
         text-align: center;
         color: #f0f0f0;
         margin: 0 auto;
+        display: flex;
     }
     
     nav {
@@ -100,13 +93,10 @@
         margin: 10px auto;
         border: 1px dashed #006287;
         padding: 15px;
-        display: flex;
         background-color: #deecf9;
         color: black;
-        font-style: italic;
         border-radius: 8px;
         text-align: center;
-        font-weight: bold;
     }
     
     .navigation li:first-child {
@@ -136,12 +126,11 @@
     
     p {
         margin: .5px;
-        padding: 6px;
+        font-size: 15px;
         font-family: 'Lato', sans-serif;
     }
     
     main {
-        font-size: 0.8rem;
         padding: 15px;
         margin: 0 auto;
         text-align: center;
@@ -154,20 +143,14 @@
     
     .banndiv img {
         height: 300px;
-        width: 860px;
+        width: auto;
     }
     
-    h1,
-    h2,
-    p {
-        margin: 0;
-        text-shadow: 3px 3px 5px #777;
-    }
-    
-    .bannSection {
+    .bannerSection {
         position: absolute;
-        top: 50px;
-        left: 250px;
+        top: 30px;
+        left: 40px;
+        flex-wrap: wrap;
         background: radial-gradient(rgb(182, 183, 189), #003F62);
         color: white;
         border: 1px solid #000;
@@ -176,6 +159,29 @@
         opacity: .6;
     }
     
-    .forecastsection {
-        display: flex;
+    .gmap {
+        margin: 10px 0 30px;
+        border: 1px solid #000;
+        box-shadow: 0 0 30px #555;
+    }
+    
+    .articleimg {
+        box-shadow: 0 0 30px #555;
+        padding: .25rem;
+        width: 250px;
+        position: relative;
+    }
+    
+    .articlebox {
+        border: 1px solid #006287;
+        padding: 15px;
+        background-color: #deecf9;
+        color: black;
+        border-radius: 8px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    
+    #banner {
+        display: none;
     }

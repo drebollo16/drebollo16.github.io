@@ -12,6 +12,6 @@
     }
     .forecastsection {
         margin: auto;
-        width: 800px;
+        display: block;
     }
 }

@@ -40,7 +40,7 @@
         flex: 1 1 auto;
     }
     footer {
-        width: 80%;
+        width: 70%;
     }
     main {
         width: 70%;
@@ -57,11 +57,49 @@
         border-collapse: initial;
         height: 100px;
     }
+    .forecasttable img {
+        width: 90px;
+        height: 70px;
+        text-align: center;
+    }
     table {
         border-collapse: collapse;
     }
     .forecastsection {
         margin: auto;
-        width: 800px;
+        height: 150px;
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .articleh3 {
+        text-align: left;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .author {
+        font-style: italic;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .articleimg {
+        box-shadow: 0 0 30px #555;
+        margin: .5rem .25rem .5rem 1.25rem;
+        padding: .25rem;
+        width: 350px;
+        flex-direction: row-reverse;
+    }
+    .bannerSection {
+        position: absolute;
+        float: left;
+        top: 50px;
+        left: 250px;
+    }
+    .banndiv img {
+        width: auto;
+    }
+    .active {
+        background-color: #78b7ce;
+        color: white;
+        font-weight: bold;
     }
 }
