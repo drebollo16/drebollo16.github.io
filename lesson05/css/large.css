@@ -67,10 +67,6 @@
         margin: auto;
     }
     .forecastsection {
-        margin: auto;
-        height: 150px;
-        width: 700px;
-        flex-wrap: wrap;
         display: contents;
     }
     .articleh3 {
@@ -92,11 +88,8 @@
     }
     .bannerSection {
         position: absolute;
-        float: left;
-        top: 50px;
-        left: 250px;
     }
-    .banndiv img {
+    .bannerdiv img {
         width: auto;
     }
     .active {
