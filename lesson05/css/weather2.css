@@ -50,9 +50,9 @@ footer {
     background-color: #006287;
     border-radius: 3px 3px 15px 15px;
     padding: 10px;
-    text-align: center;
     color: #f0f0f0;
     margin: 0 auto;
+    text-align: center;
     display: flex;
 }
 
@@ -183,7 +183,7 @@ main {
     height: 300px;
 }
 
-#banner {
+.banneralert {
     display: none;
     text-align: center;
     background-color: rgb(55, 65, 94);
@@ -196,8 +196,12 @@ main {
     display: none;
 }
 
+.h4forecast {
+    display: none;
+}
+
 .mapsection {
-    height: 300px;
+    height: 250px;
     box-sizing: border-box;
     margin: 10px auto;
     border: 1px solid #006287;
@@ -205,5 +209,4 @@ main {
     background-color: #deecf9;
     color: black;
     border-radius: 8px;
-    text-align: center;
 }
