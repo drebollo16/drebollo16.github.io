@@ -64,12 +64,14 @@
     }
     table {
         border-collapse: collapse;
+        margin: auto;
     }
     .forecastsection {
         margin: auto;
         height: 150px;
         width: 700px;
         flex-wrap: wrap;
+        display: contents;
     }
     .articleh3 {
         text-align: left;

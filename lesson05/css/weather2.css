@@ -184,4 +184,13 @@
     
     #banner {
         display: none;
+        text-align: center;
+        background-color: rgb(55, 65, 94);
+        padding: 1em;
+        color: white;
+        text-decoration: solid;
+    }
+    
+    .forecastsection {
+        display: none;
     }
