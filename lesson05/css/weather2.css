@@ -186,11 +186,6 @@ main {
     display: none;
 }
 
-.h2forecast h2 {
-    display: none;
-    padding: 20px;
-}
-
 .banpic {
     width: 900px;
     display: flex;
@@ -211,28 +206,6 @@ main {
     background-color: #78b7ce;
     color: white;
     font-weight: bold;
-}
-
-.flexx-container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: row wrap;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-    justify-content: space-around;
-    margin: 0;
-    list-style: none;
-}
-
-.flexx-item {
-    background: tomato;
-    padding: 5px;
-    margin-top: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
 }
 
 .artimg {
