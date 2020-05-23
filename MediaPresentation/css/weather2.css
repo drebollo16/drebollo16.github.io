@@ -155,26 +155,6 @@ main {
     float: left;
 }
 
-.articlebox img {
-    box-shadow: 0 0 30px #555;
-    padding: .25rem;
-    width: 300px;
-    height: 300px;
-    float: right;
-}
-
-.articlebox {
-    border: 1px solid #006287;
-    padding: 15px;
-    background-color: #deecf9;
-    height: auto;
-    color: black;
-    border-radius: 8px;
-    display: grid;
-    float: left;
-    grid-template-columns: 1fr;
-}
-
 .alert {
     display: none;
     text-align: center;
@@ -211,28 +191,6 @@ main {
     background-color: #78b7ce;
     color: white;
     font-weight: bold;
-}
-
-.flexx-container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: row wrap;
-    padding: 10px;
-    margin: 0;
-    width: 100%;
-    justify-content: space-around;
-    margin: 0;
-    list-style: none;
-}
-
-.flexx-item {
-    background: tomato;
-    padding: 5px;
-    margin-top: 10px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
 }
 
 .artimg {
