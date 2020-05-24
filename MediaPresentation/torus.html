@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function torus rate
+        function torus() {
+            // Get the previous rate -current rate from the user.
+            let a = parseFloat(document.getElementById('innerRadius').value);
+            let b = parseFloat(document.getElementById('outerRadius').value);
+
+            // Compute 
+            let a1 = a + b;
+            let b1 = a - b;
+            let outer = Math.pow(b1, 2)
+            let pie = Math.pow(Math.PI, 2);
+            //sqare root of pi
+
+            let value = (pie * a1 * outer) / 4;
+
+            // Display the value the user.
+            document.getElementById('outputDiv').innerHTML = value;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Volume of a Torus</h1>
+    Inner radius <input type="text" id="innerRadius" size="5"><br> Outer radius
+    <input type="text" id="outerRadius" size="5"><br>
+    <button type="button" onclick="torus()">Torus</button><br>
+    <div id="outputDiv"></div>
+</body>
+
+</html>
