@@ -69,4 +69,11 @@
     .bannerSection {
         position: absolute;
     }
+    .artimg{
+        width: 250px;
+        height: 250px;
+        float: right;
+        box-shadow: 0 0 30px #111;
+        top: -50px
+    }
 }
