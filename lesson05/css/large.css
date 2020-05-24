@@ -62,6 +62,7 @@
     .forecastsection {
         display: contents;
         background-color: #78b7ce;
+        border-radius: 10px;
     }
     .h4forecast {
         display: contents;
