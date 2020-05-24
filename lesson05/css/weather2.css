@@ -185,17 +185,6 @@ main {
     display: flex;
 }
 
-.mapsection {
-    height: 250px;
-    box-sizing: border-box;
-    margin: 10px auto;
-    border: 1px solid #006287;
-    padding: 15px;
-    background-color: #deecf9;
-    color: black;
-    border-radius: 8px;
-}
-
 .active {
     background-color: #78b7ce;
     color: white;
