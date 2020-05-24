@@ -149,13 +149,6 @@ main {
     opacity: .6;
 }
 
-.map {
-    margin: 10px 0 30px;
-    border: 1px solid #000;
-    box-shadow: 0 0 30px #555;
-    float: left;
-}
-
 .articlebox img {
     box-shadow: 0 0 30px #555;
     padding: .25rem;
