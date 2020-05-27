@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-Denise Rebollo</title>
+</head>
+<script>
+    function myFunction() {
+
+        let weather = document.getElementById('inputBox').value;
+        let display;
+
+        if (weather === "hot") {
+            display = "Wear Sandals";
+        } else if (weather === "rain") {
+            display = "galoshes";
+        } else if (weather === "snow") {
+            display = "boots";
+        } else {
+            display = "Shoes";
+        }
+        document.getElementById('displayinfo').innerHTML = display;
+    }
+</script>
+
+<body>
+    </script>
+
+    <body>
+
+        <p>Please choose the weather today, to know what type of shoes to wear </p>
+        <ul>
+            <li>Hot</li>
+            <li>rain</li>
+            <li>snow</li>
+            <li>humid</li>
+            <li>wind</li>
+
+        </ul>
+
+
+        <input id="inputBox" type="text">
+        <button type="button" onclick="MyFunction()">Submit </button>
+        <div id="displayinfo"></div>
+
+
+
+    </body>
+
+</html>

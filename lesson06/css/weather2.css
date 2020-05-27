@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
+body {
+    font-size: 16px;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 5px #777;
+}
+
+header {
+    background-color: #006287;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    color: #f0f0f0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 8px;
+    margin-left: 10px;
+}
+
+.headings {
+    margin-left: 1rem;
+}
+
+.iconH4 {
+    font-style: italic;
+    letter-spacing: 1pt;
+    font-size: 15px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #006287;
+    border-radius: 3px 3px 15px 15px;
+    padding: 10px;
+    text-align: center;
+    color: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+nav {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.menusign {
+    align-content: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #003F62;
+}
+
+.responsive li {
+    display: block;
+}
+
+p {
+    margin: .5px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    padding: 15px 15px 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bannerdiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.bannerdiv img {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bannerSection {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    flex-wrap: wrap;
+    background: radial-gradient(rgb(182, 183, 189), #003F62);
+    color: white;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .6;
+}
+
+.articlebox img {
+    box-shadow: 0 0 30px #555;
+    padding: .25rem;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.articlebox {
+    border: 1px solid #006287;
+    padding: 15px;
+    background-color: #deecf9;
+    height: auto;
+    color: black;
+    border-radius: 8px;
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr;
+}
+
+.alert {
+    display: none;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+.forecastsection {
+    display: none;
+}
+
+.banpic {
+    width: 900px;
+    display: flex;
+}
+
+.active {
+    background-color: #78b7ce;
+    color: white;
+    font-weight: bold;
+}
+
+.artimg {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    min-width: 200px;
+    max-width: 1220px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-item {
+    background-color: #deecf9;
+    border: 1px solid #006287;
+    margin: 3px;
+    padding: 10px 0 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span {
+    padding-left: 10px;
+    text-align: right;
+}
+
+.flex-container2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    max-width: 1220px;
+    margin-top: 10px;
+    margin-bottom: 0em;
+}
+
+.contactspan {
+    padding-left: 10px;
+    text-align: center;
+    left: -350px;
+    float: right;
+    top: -300px;
+}
+
+.flex-item2 {
+    background-color: #deecf9;
+    border: 1px solid #006287;
+    margin: 3px;
+    padding: 10px 0 0 10px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.map {
+    width: 300px;
+    height: 260px;
+    float: left;
+    margin-right: 100px;
+}
+
+.googleicon {
+    width: 90px;
+}
+
+.facebook {
+    width: 100px;
+}
+
+.phone {
+    width: 20px;
+    padding: .3px;
+}
