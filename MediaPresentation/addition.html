@@ -6,55 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script>
-    function caculation() {
-
-        let number = document.getElementById('numberBox').value;
-        let operator = document.getElementById('operatorBox').value;
-        let number3 = document.getElementById('number3Box').value;
-        let result = document.getElementById('resultBox').value;
-
-        let display;
-
-        switch (operator) {
-            case 1:
-                operator = "+";
-                if (number + number3 == result) {
-                    display = "Correct!";
-                } else {
-                    display = "Try again";
-                }
-                break;
-            case "-":
-                operator = "-";
-                if (number - number3 == result) {
-                    display = "Correct!";
-                } else {
-                    display = "Sorry try again!";
-                }
-                break;
-            case "/":
-                operator = "/";
-                if (number / number3 == result) {
-                    display = "Correct!";
-                } else {
-                    display = "Sorry try again!";
-                }
-                break;
-            case "*":
-                operator = "*";
-                if (number * number3 == result) {
-                    display = "Correct";
-                } else {
-                    display = "Sorry try again!";
-                }
-                break;
-
-
-        }
-        document.getElementById('output').innerHTML = display;
-    }
-</script>
 
 <body>
 
@@ -68,6 +19,57 @@
     <button type="button" onclick="caculation()">Submit</button>
     <div id="output"></div>
 
+
+
+    <script>
+        function caculation() {
+
+            let number = parseFloat(document.getElementById('numberBox').value);
+            let operator = document.getElementById('operatorBox').value;
+            let number3 = parseFloat(document.getElementById('number3Box').value);
+            let result = parseFloat(document.getElementById('resultBox').value);
+
+            let display;
+
+            switch (operator) {
+                case "+":
+
+                    if (number + number3 == result) {
+                        display = "Correct!";
+                    } else {
+                        display = "Try again";
+                    }
+                    break;
+                case "-":
+
+                    if (number - number3 == result) {
+                        display = "Correct!";
+                    } else {
+                        display = "Sorry try again!";
+                    }
+                    break;
+                case "/":
+
+                    if (number / number3 == result) {
+                        display = "Correct!";
+                    } else {
+                        display = "Sorry try again!";
+                    }
+                    break;
+                case "*":
+
+                    if (number * number3 == result) {
+                        display = "Correct";
+                    } else {
+                        display = "Sorry try again!";
+                    }
+                    break;
+
+
+            }
+            document.getElementById('output').innerHTML = display;
+        }
+    </script>
 </body>
 
 </html>
