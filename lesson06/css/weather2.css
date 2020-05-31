@@ -281,3 +281,7 @@ span {
     clear: both;
     display: table;
 }
+
+.icon {
+    width: 40px;
+}
