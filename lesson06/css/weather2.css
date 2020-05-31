@@ -253,7 +253,12 @@ span {
 }
 
 .googleicon {
-    width: 90px;
+    width: 45px;
+}
+
+.twittericon {
+    width: 45px;
+    height: 45px;
 }
 
 .facebook {
