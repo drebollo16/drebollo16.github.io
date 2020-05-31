@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Calligraffitti|IM+Fell+English:400i|IM+Fell+Great+Primer:400i|Lato:100i&display=swap');
+*/
+
 body {
     font-size: 16px;
-    font-family: cursive;
+    font-family: 'Acme';
     margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Calligraffitti', cursive;
+    font-family: 'Acme', cursive;
     text-align: center;
     margin: 0;
     text-shadow: 3px 3px 5px #777;
