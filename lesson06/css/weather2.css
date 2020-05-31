@@ -131,20 +131,18 @@ main {
 }
 
 .bannerdiv img {
-    height: 300px;
     width: 100%;
     border-radius: 10px;
 }
 
 .bannerSection {
     position: absolute;
-    top: 30px;
-    left: 40px;
+    top: 5px;
+    left: 20px;
     flex-wrap: wrap;
     background: radial-gradient(rgb(182, 183, 189), #003F62);
     color: white;
     border: 1px solid #000;
-    padding: 1.5rem;
     box-shadow: 0 0 30px #111;
     opacity: .6;
 }
