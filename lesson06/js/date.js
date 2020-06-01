@@ -1,14 +1,20 @@
-let date = new Date();
-let todaydate = date.getDate();
+ let date = new Date();
+ let todaydate = date.getDate();
 
-document.getElementById("update").innerHTML = date.toDateString();
+ document.getElementById("update").innerHTML = date.toDateString();
 
 
-// Banner for Fridays
-let d = new Date();
-const banner = document.getElementById("alert");
-if (d.getDate() == 3) {
-    banner.style.display = "content";
-} else {
-    banner.style.display = "none";
-}
+
+
+
+
+
+
+ // Banner for Fridays
+ let d = new Date();
+ const banner = document.getElementById("alert");
+ if (d.getDate() == 5) {
+     banner.style.display = "block";
+ } else {
+     banner.style.display = "none";
+ }
