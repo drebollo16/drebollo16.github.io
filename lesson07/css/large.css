@@ -1,0 +1,86 @@
+/* Desktop Views ****************************/
+
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100px;
+    }
+    .headings h1 {
+        font-size: 3rem;
+    }
+    .iconH4 {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+    nav ul {
+        display: flex;
+    }
+    .navigation {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    footer {
+        width: 60%;
+    }
+    main {
+        width: 60%;
+    }
+    .forecasttable th {
+        background-color: #006287;
+        height: 30px;
+        width: 120px;
+        color: white;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .forecasttable td {
+        border: 1px solid black;
+        border-collapse: initial;
+        height: 100px;
+    }
+    .forecasttable img {
+        width: 90px;
+        height: 70px;
+        align-items: center;
+    }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    .forecastsection {
+        display: contents;
+        background-color: #78b7ce;
+        border-radius: 10px;
+    }
+    .h4forecast {
+        display: contents;
+    }
+    .bannerSection {
+        position: absolute;
+        padding: 1.5rem;
+        top: 30px;
+        left: 40px;
+    }
+    .bannerdiv img {
+        height: 350px;
+    }
+    .artimg {
+        width: 350px;
+        height: 350px;
+        float: right;
+        box-shadow: 0 0 30px #111;
+        top: -50px
+    }
+}

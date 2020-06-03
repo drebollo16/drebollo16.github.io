@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days of Week- Week07 | Denise Rebollo CIT 160</title>
+</head>
+<script>
+    function daysweek() {
+
+        var dayOfWeek = new Date().getDay();
+        let output;
+        let tax = 0.06;
+        let total;
+        let subtract = .10;
+        let display;
+        let input = parseFloat(document.getElementById('inputBox').value);
+        if (dayOfWeek == 1) {
+            output += input * tax;
+            display += output;
+        } else if (dayOfWeek == 2 || input > 50) {
+            output -= input * 1.10;
+        } else if (dayOfWeek == 3 || input > 50) {
+            output -= input * 1.10;
+        } else if (dayOfWeek == 4) {
+            output += input * 1.06;
+        }
+
+
+        document.getElementById('result').innerHTML = display;
+    }
+</script>
+
+<body>
+
+    <h1>Day of day the Week</h1>
+    Enter items Price:
+    <input id="inputBox" type="text">
+    <button type="button" onclick="daysweek()">Results</button>
+    <div id="result"></div>
+
+
+</body>
+
+</html>
