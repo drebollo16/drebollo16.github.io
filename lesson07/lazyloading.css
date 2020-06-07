@@ -10,7 +10,7 @@ h1 {
 }
 
 section img {
-    width: 100%;
+    width: 92%;
     border: solid 10px #FFF;
     filter: blur(0em);
     transition: filter 0.5s;
@@ -40,6 +40,12 @@ img[data-src] {
 
 
 /* CSS from SMALL Navagation Footer Header*/
+
+.active {
+    background-color: #78b7ce;
+    color: white;
+    font-weight: bold;
+}
 
 .alert {
     display: none;
