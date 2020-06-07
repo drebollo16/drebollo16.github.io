@@ -3,10 +3,16 @@ main {
     align-items: center;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
 }
 
 h1 {
     text-align: center;
+}
+
+section {
+    background-color: whitesmoke;
+    border: solid .1px rgb(146, 146, 146);
 }
 
 section img {
