@@ -5,10 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery images | Denise Rebollo | WDD230</title>
+    <link rel="stylesheet" href="/lesson07/normalize.css">
+    <link rel="stylesheet" href="lazyloading.css">
+    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="large.css">
+
 </head>
+<header>
+    <picture class="weathericon"> <img src="../lesson04/img/519820-34_Cloud_Snow_Sun-512.png" alt="weathericon">
+    </picture>
+    <section class="headings">
+        <h1>Night Star Weather </h1>
+        <div class="iconH4">
+            Star Gazing at its core predictions
+        </div>
+    </section>
+
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="menusign" href="#">&#9776; Menu</a></li>
+        <li>
+            <a href="#">home</a>
+        </li>
+
+        <li><a href="preston-5.html" class="">Preston</a></li>
+
+        <li>
+            <a href="#" class="">Soda Springs</a>
+        </li>
+        <li>
+            <a href="#">Fish Haven</a>
+        </li>
+        <li>
+            <a href="#">Storm Center</a>
+        </li>
+        <li>
+            <a href="gallery-7.html" class="active">Gallery</a>
+        </li>
+    </ul>
+
+</nav>
 
 <body>
+    <main>
+        <h1>Gallery Page</h1>
 
+        <div class="grid">
+            <section> <img src='placeholder.png' data-src='weatherimg1.png' alt='weather'>
+                <p>Purple Weather Image</p>
+            </section>
+
+            <section> <img src='placeholder.png' data-src='weatherimg2.png' alt='rain'>
+                <p>Weather scenery Image</p>
+            </section>
+            <section> <img src='placeholder.png' data-src='weatherimg3.png' alt='rainbow'>
+                <p>Rainbow Weather Image </p>
+            </section>
+            <section><img src='placeholder.png' data-src='weatherimg4.png' alt='snow'>
+                <p>Snow Fall Weather Image</p>
+            </section>
+            <section><img src='placeholder.png' data-src='weatherimg5.png' alt='rainstorm'>
+                <p>Heavy Rain image</p>
+            </section>
+            <section> <img src='placeholder.png' data-src='weatherimg6.png' alt='cloudy'>
+                <p>Rainbow Cactus rain Image</p>
+            </section>
+            <section> <img src='placeholder.png' data-src='weatherimg7.png' alt='thunder'>
+                <p>Lightening scenery Image</p>
+            </section>
+            <section> <img src='placeholder.png' data-src='weatherimg8.png' alt='cloudy'>
+                <p>Cloudy Scenery Weather Image</p>
+            </section>
+            <section> <img src='placeholder.png' data-src='weatherimg9.png' alt='cloudy'>
+                <p>Sunny Partly Cloudy Image</p>
+            </section>
+        </div>
+
+    </main>
+
+
+
+
+    <script src="lazy.js" defer>
+    </script>
+
+
+    <footer>
+        <p>
+            @Night Star Weather | Attributions | Denise Rebollo</p>
+        <span id="update"></span>
+    </footer>
+    <script src="/lesson07/date.js">
+    </script>
+    <script src="/lesson07/response.js"></script>
 </body>
 
 </html>

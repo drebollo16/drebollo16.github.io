@@ -1,0 +1,12 @@
+@media only screen and (min-width: 34.5em) {
+    .footer {
+        width: 80%;
+    }
+    main {
+        width: 80%;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,46 @@
+@media only screen and (min-width: 60em) {
+    img:hover {
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .3);
+    }
+    main {
+        width: 80%;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* CSS LARGE Header/Footer */
+    header img {
+        width: 100px;
+    }
+    .headings h1 {
+        font-size: 3rem;
+    }
+    .iconH4 {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+    nav ul {
+        display: flex;
+    }
+    .navigation {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    footer {
+        width: 60%;
+    }
+}
