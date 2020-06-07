@@ -1,6 +1,6 @@
 @media only screen and (min-width: 60em) {
-    section img:hover {
-        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .3);
+    section:hover {
+        box-shadow: 5px 5px 5px 5px rgb(143, 143, 143);
     }
     main {
         width: 80%;
