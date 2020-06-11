@@ -16,7 +16,7 @@ section {
 }
 
 section img {
-    width: 92%;
+    width: 90%;
     filter: blur(0em);
     transition: filter 0.5s;
     padding: 10px;

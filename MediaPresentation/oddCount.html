@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cit 160 | Denise Rebollo | Week 08- Odd number Sum</title>
+</head>
+<script>
+    function oddCount() {
+
+        let number = parseFloat(document.getElementById('inputbox').value);
+
+        let sum = 0;
+
+        for (let i = 1; i <= number; i += 2) {
+
+            sum += i;
+
+        }
+
+
+
+        document.getElementById('output').innerHTML = "The sum is : " + sum;
+
+    }
+</script>
+
+<body>
+
+    <h2>Counting Odd number</h2>
+    Enter a Odd number:
+    <input id="inputbox" type="text" size="5"><br> submit for sum
+    <button type="button" onclick="oddCount()">Submit</button>
+
+    <span id="output"></span>
+
+</body>
+
+
+</html>

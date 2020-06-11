@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep In Program Week 07 | Denise Rebollo |Cit 160</title>
+
+
+
+
+    <script>
+        function sleepIn() {
+            var now = new Date();
+            var month = now.getMonth();
+            var dayofMonth = now.getDate();
+            var dayofWeek = now.getDay();
+            let display;
+
+            if (dayofMonth == 1 && month == 0 || dayofMonth == 4 && month == 6 || dayofMonth == 25 && month == 11) {
+                display = "Sleep In";
+
+            } else {
+                display = " Get up";
+
+            }
+
+
+
+            document.getElementById('outputDiv').innerHTML = "Today is " + now.toDateString() + " You need to " + display + "!";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Determine if you can Sleep in?</h2>
+
+    <button type="button" onclick="sleepIn()">Can you Sleep in today?</button><br>
+    <br>
+    <div id="outputDiv"></div>
+</body>
+
+</html>
