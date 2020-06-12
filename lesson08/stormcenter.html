@@ -5,15 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 08 Storm center | Denise Rebollo | WDD 230</title>
+    <link rel="stylesheet" href="/lesson08/css/normalize.css">
+    <link rel="stylesheet" href="/lesson08/css/small.css">
+    <link rel="stylesheet" href="/lesson08/css/medium.css">
+    <link rel="stylesheet" href="/lesson08/css/large.css">
 </head>
 
 <body>
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-    </form>
+
+
+
+
+
+
+
+    <main>
+        <div class="container">
+            <h2>Storm Center Forum</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Information
+                    </legend>
+                    <label class="top"> Full Name:&ast;
+                        <input type="text" name="fullname" required></label>
+                    <label class="top"> Email:
+                        <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label class="top"> Phone Number:&ast;
+                        <input type="tel" name="phone"
+                            placeholder="555-555-55555" required></label>
+                    <label class="top"> Zip code:&ast;
+                        <input type="number" name="Zip" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Storm Activity Information
+                    </legend>
+                    <label class="top"> Storm Date:
+                        <input type="date" name="stormdate" required></label>
+                    <label class="top"> Storm Type:
+                        <input list="list">
+                        <datalist id="list">
+                            <option value="">Please select</option>
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunder Storm"></option>
+                            <option value="Tornado"></option>
+                        </datalist></label>
+
+                    <label class="top" for="rating"> Storm Severity:
+                        <input type="range" name="stormdate" min="1" max="10"
+                            step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)"
+                            onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">10</span>
+                    </label>
+
+                    <datalist id="tickmarks">
+                        <option value="0">
+                            <option value="1">
+                                <option value="2">
+                                    <option value="3">
+                                        <option value="4">
+                                            <option value="5">
+                                                <option value="6">
+                                                    <option value="7">
+                                                        <option value="8">
+                                                            <option value="9">
+                                                                <option
+                                                                    value="10">
+                                                            </datalist>
+                    <div class="select">
+                        <label class="top">Storm Region:
+                            <select type="text" name="option">
+                                <option value="0">Select Region</option>
+                                <option value="1">Preston</option>
+                                <option value="2">Sodq Springs</option>
+                                <option value="3">Fish Haven</option>
+                            </div>
+                            
+                            User in Danger Level <em>(Choose one)</em></legend>
+                            <div class="selection">
+        <label for="Damger level"><input type="radio" id="yes" name="No" value="yes" checked> yes</label>
+                        <label type="radio" id="yes" name="No" value="yes" checked> no</label>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Comments or feedback</legend>
+                    <textarea name="comments" placeholder="Enter comments here..."></textarea>
+                </fieldset>
+            </form>
+
+            <input type="submit" value="Send Storm Report" class="submitbutton">
+    </main>
+    <script src="js/forum.js"></script>
 </body>
 
 </html>

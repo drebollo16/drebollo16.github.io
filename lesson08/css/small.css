@@ -1,0 +1,107 @@
+.flexly {
+    display: flex;
+}
+
+input[type="button"] {
+    color: rgb(11, 11, 172);
+}
+
+input[type="button"]:hover {
+    background-color: rgb(218, 218, 224);
+}
+
+.container {
+    margin: 0px auto;
+    font-size: 20px;
+    width: 550px;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+    text-align: center;
+    line-height: 1.1rem;
+}
+
+a {
+    color: #0e3fc4;
+}
+
+h2,
+h3 {
+    font-weight: 400;
+    color: #0b1269;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    opacity: 80%;
+}
+
+fieldset {
+    background-color: #a1a2a7;
+    border: 1px solid #37839c;
+}
+
+legend {
+    background-color: #113c5e;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 15px;
+    color: #f0f3f5;
+}
+
+form div {
+    padding-bottom: 2px;
+}
+
+label {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 10px;
+}
+
+form div {
+    padding-top: 10px;
+}
+
+.range {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 250px;
+    padding-top: 20px
+}
+
+.slider {
+    width: 100%;
+    height: 10px;
+    background-color: #80b7df;
+}
+
+.slider:hover {
+    background-color: #0080aa;
+}
+
+.submitbutton {
+    background-color: #aba9b6;
+    color: #070b0e;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 3px #c0c0c0;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.thank-you {
+    padding-bottom: 30px;
+}
