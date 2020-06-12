@@ -27,7 +27,7 @@
                     <legend>Contact Information
                     </legend>
                     <label class="top"> Full Name:&ast;
-                        <input type="text" name="fullname" required></label>
+                        <input type="text" name="fullname" pattern="[A-Za-z]{5}" title="Five letter Minimium" required></label>
                     <label class="top"> Email:
                         <input type="email" name="email" placeholder="someone@gmail.com"></label>
                     <label class="top"> Phone Number:&ast;
@@ -95,9 +95,10 @@
                     <legend>Comments or feedback</legend>
                     <textarea name="comments" placeholder="Enter comments here..."></textarea>
                 </fieldset>
+
+                <input type="submit" value="Send Storm Report" class="submitbutton">
             </form>
 
-            <input type="submit" value="Send Storm Report" class="submitbutton">
     </main>
     <script src="js/forum.js"></script>
 </body>
