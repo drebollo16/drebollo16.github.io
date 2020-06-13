@@ -111,12 +111,17 @@
     body {
         font-family: 'Acme', cursive;
     }
+    /* ---------CSS Thank you Page---------------*/
     
     .thanks {
         text-align: center;
         border: solid 1px #006287;
         border-radius: 15px;
         box-shadow: 5px 5px 5px #006287;
+    }
+    
+    .checkmark {
+        height: 70px;
     }
     /* ---------CSS from SMALL Navagation Footer Header---------------*/
     
