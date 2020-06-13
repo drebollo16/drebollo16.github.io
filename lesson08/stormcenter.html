@@ -52,28 +52,28 @@
 
 <body>
     <main>
-        <div class="container">
-            <h2>Storm Center Forum</h2>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Contact Information
-                    </legend>
-                    <label class="top"> Full Name:&ast;
+
+        <h2>Storm Center Forum</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information
+                </legend>
+                <label class="top"> Full Name:&ast;
                         <input type="text" name="fullname" pattern="[A-Za-z]{5,}" placeholder="Full Name" required></label>
-                    <label class="top"> Email:
+                <label class="top"> Email:
                         <input type="email" name="email" placeholder="Someone@gmail.com"></label>
-                    <label class="top"> Phone Number:&ast;
+                <label class="top"> Phone Number:&ast;
                         <input type="tel" name="phone"
                             placeholder="##########" required></label>
-                    <label class="top"> Zip code:&ast;
+                <label class="top"> Zip code:&ast;
                         <input type="number" name="Zip" required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Storm Activity Information
-                    </legend>
-                    <label class="top"> Storm Date:
+            </fieldset>
+            <fieldset>
+                <legend>Storm Activity Information
+                </legend>
+                <label class="top"> Storm Date:
                         <input type="date" name="stormdate"></label>
-                    <label class="top"> Storm Type:
+                <label class="top"> Storm Type:
                         <input list="list">
                         <datalist id="list">
                             <option value="">Please select &#9662;</option>
@@ -84,12 +84,12 @@
                             <option value="Tornado"></option>
                         </datalist></label>
 
-                    <label class="rate"> Storm Severity (1-10)
+                <label class="rate"> Storm Severity (1-10)
                         <input type="range" name="stormdate" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                     </label>
 
-                    <datalist id="tickmarks">
+                <datalist id="tickmarks">
                         <option value="0">
                             <option value="1">
                                 <option value="2">
@@ -104,8 +104,8 @@
                                                                     value="10">
                                                             </datalist>
 
-                    <label class="top">Storm Region:
-                            <select type="text" name="option">
+                <label class="top">Storm Region:
+                            <select name="text" name="option">
                                 <option value="0">Select Region</option>
                                 <option value="1">Preston</option>
                                 <option value="2">Soda Springs</option>
@@ -115,23 +115,23 @@
 
 
 
-                    <div>User in Danger?</div>
-                    <label class="sbs"><input type="radio" name="audience" value="yes" checked> Yes</label>
-                    <label class="sbs"><input type="radio" name="audience" value="maybe" checked> Maybe</label>
-                    <label class="sbs"><input type="radio" name="audience" value="no" checked> No</label>
+                <div>User in Danger?</div>
+                <label class="sbs"><input type="radio" name="audience" value="yes" checked> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="maybe" checked> Maybe</label>
+                <label class="sbs"><input type="radio" name="audience" value="no" checked> No</label>
 
 
-                </fieldset>
+            </fieldset>
 
 
-                <fieldset>
-                    <legend>Comments or feedback</legend>
+            <fieldset>
+                <legend>Comments or feedback</legend>
 
 
-                    <textarea name="comments" placeholder="Enter comments or Additional Information here..."></textarea>
-                </fieldset>
-                <input type="submit" value="Send Storm Report" class="submitbutton">
-            </form>
+                <textarea name="comments" placeholder="Enter comments or Additional Information here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Send Storm Report" class="submitbutton">
+        </form>
 
     </main>
     <footer>
