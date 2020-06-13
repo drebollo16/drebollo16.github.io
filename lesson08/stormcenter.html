@@ -10,15 +10,47 @@
     <link rel="stylesheet" href="/lesson08/css/medium.css">
     <link rel="stylesheet" href="/lesson08/css/large.css">
 </head>
+<div id="alert">
+    <h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
+    </h3>
+</div>
+<header>
+    <picture class="weathericon"> <img src="../lesson04/img/519820-34_Cloud_Snow_Sun-512.png" alt="weathericon">
+    </picture>
+    <section class="headings">
+        <h1>Night Star Weather </h1>
+        <div class="iconH4">
+            Star Gazing at its core predictions
+        </div>
+    </section>
+
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="menusign" href="#">&#9776; Menu</a></li>
+        <li>
+            <a href="#">home</a>
+        </li>
+
+        <li><a href="/lesson06/preston-6.html">Preston</a></li>
+
+        <li>
+            <a href="#">Soda Springs</a>
+        </li>
+        <li>
+            <a href="#">Fish Haven</a>
+        </li>
+        <li>
+            <a href="#" class="active">Storm Center</a>
+        </li>
+        <li>
+            <a href="/lesson07/gallery-7.html">Gallery</a>
+        </li>
+    </ul>
+
+</nav>
 
 <body>
-
-
-
-
-
-
-
     <main>
         <div class="container">
             <h2>Storm Center Forum</h2>
@@ -27,12 +59,12 @@
                     <legend>Contact Information
                     </legend>
                     <label class="top"> Full Name:&ast;
-                        <input type="text" name="fullname" pattern="[A-Za-z]{5}" placeholder="Full Name" title="Five or more letters" required></label>
+                        <input type="text" name="fullname" pattern="[A-Za-z]{5,}" placeholder="Full Name" required></label>
                     <label class="top"> Email:
-                        <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                        <input type="email" name="email" placeholder="Someone@gmail.com"></label>
                     <label class="top"> Phone Number:&ast;
                         <input type="tel" name="phone"
-                            placeholder="555-555-55555" required></label>
+                            placeholder="555-555-55555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
                     <label class="top"> Zip code:&ast;
                         <input type="number" name="Zip" required></label>
                 </fieldset>
@@ -40,11 +72,11 @@
                     <legend>Storm Activity Information
                     </legend>
                     <label class="top"> Storm Date:
-                        <input type="date" name="stormdate" required></label>
+                        <input type="date" name="stormdate"></label>
                     <label class="top"> Storm Type:
                         <input list="list">
                         <datalist id="list">
-                            <option value="">Please select</option>
+                            <option value="">Please select &#9662;</option>
                             <option value="Flash Flood"></option>
                             <option value="Hail"></option>
                             <option value="Hurricane"></option>
@@ -52,12 +84,9 @@
                             <option value="Tornado"></option>
                         </datalist></label>
 
-                    <label class="top" for="rating"> Storm Severity:
-                        <input type="range" name="stormdate" min="1" max="10"
-                            step="1" list="tickmarks"
-                            oninput="adjustRating(this.value)"
-                            onchange="adjustRating(this.value)">
-                        <span id="ratingvalue">10</span>
+                    <label class="rate" for="rating"> Storm Severity (1-10)
+                        <input type="range" name="stormdate" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
                     </label>
 
                     <datalist id="tickmarks">
@@ -74,32 +103,50 @@
                                                                 <option
                                                                     value="10">
                                                             </datalist>
-                    <div class="select">
-                        <label class="top">Storm Region:
+
+                    <label class="top">Storm Region:
                             <select type="text" name="option">
                                 <option value="0">Select Region</option>
                                 <option value="1">Preston</option>
-                                <option value="2">Sodq Springs</option>
+                                <option value="2">Soda Springs</option>
                                 <option value="3">Fish Haven</option>
-                            </div>
-                            
-                            User in Danger Level <em>(Choose one)</em></legend>
-                            <div class="selection">
-        <label for="Damger level"><input type="radio" id="yes" name="No" value="yes" checked> yes</label>
-                        <label type="radio" id="yes" name="No" value="yes" checked> no</label>
+                                </select>
+                                </label>
+
+
+
+                    <div>User in Danger?</div>
+                    <label class="sbs"><input type="radio" name="audience" value="yes" checked> Yes</label>
+                    <label class="sbs"><input type="radio" name="audience" value="maybe" checked> Maybe</label>
+                    <label class="sbs"><input type="radio" name="audience" value="no" checked> No</label>
+
 
                 </fieldset>
 
 
                 <fieldset>
                     <legend>Comments or feedback</legend>
-                    <textarea name="comments" placeholder="Enter comments here..."></textarea>
-                </fieldset>
 
+
+                    <textarea name="comments" placeholder="Enter comments or Additional Information here..."></textarea>
+                </fieldset>
                 <input type="submit" value="Send Storm Report" class="submitbutton">
             </form>
 
     </main>
+    <footer>
+        <p>
+            @Night Star Weather | Attributions | Denise Rebollo</p>
+        <span id="update"></span>
+    </footer>
+    <script src="/lesson07/js/date.js">
+    </script>
+    <script src="/lesson07/js/response.js"></script>
+    <script src="/lesson07/js/windchill.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson08/js/webfont.js">
+    </script>
     <script src="js/forum.js"></script>
 </body>
 
