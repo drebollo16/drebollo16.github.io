@@ -64,7 +64,7 @@
                         <input type="email" name="email" placeholder="Someone@gmail.com"></label>
                     <label class="top"> Phone Number:&ast;
                         <input type="tel" name="phone"
-                            placeholder="555-555-55555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
+                            placeholder="##########" required></label>
                     <label class="top"> Zip code:&ast;
                         <input type="number" name="Zip" required></label>
                 </fieldset>
@@ -84,7 +84,7 @@
                             <option value="Tornado"></option>
                         </datalist></label>
 
-                    <label class="rate" for="rating"> Storm Severity (1-10)
+                    <label class="rate"> Storm Severity (1-10)
                         <input type="range" name="stormdate" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
                     </label>
