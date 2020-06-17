@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Table by 5 | Denise Rebollo CIT 160
+    </title>
+    <script>
+        function TimesTable() {
+
+            var display = "";
+            for (i = 1; i <= 12; i++) {
+
+                var number = 5;
+                display += number + " x " + i + " = " + i * 5 + "<br>" + "<br>";
+
+            }
+            document.getElementById("timesout").innerHTML = display;
+        }
+    </script>
+</head>
+
+<body>
+    <h3>Times Table! by 5</h3>
+
+    <button type="button" onclick="TimesTable()">Multiply!</button>
+    <div id="timesout"></div>
+</body>
+
+</html>

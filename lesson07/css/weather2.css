@@ -220,18 +220,6 @@ span {
     text-align: right;
 }
 
-
-/*
-.flex-container2 {
-    flex-direction: column;
-    flex-wrap: wrap;
-    min-width: 200px;
-    max-width: 1220px;
-    margin-top: 10px;
-    margin-bottom: 0em;
-}
-*/
-
 .contactspan {
     padding-left: 10px;
     text-align: center;

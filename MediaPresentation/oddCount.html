@@ -5,26 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cit 160 | Denise Rebollo | Week 08- Odd number Sum</title>
-</head>
-<script>
-    function oddCount() {
+    <script>
+        function oddCount() {
 
-        let number = parseFloat(document.getElementById('inputbox').value);
+            let number = parseFloat(document.getElementById('inputbox').value);
 
-        let sum = 0;
+            let sum = 0;
 
-        for (let i = 1; i <= number; i += 2) {
+            for (let i = 1; i <= number; i += 2) {
+                sum += i;
+            }
 
-            sum += i;
+            document.getElementById('output').innerHTML = "The sum is : " + sum;
 
         }
-
-
-
-        document.getElementById('output').innerHTML = "The sum is : " + sum;
-
-    }
-</script>
+    </script>
+</head>
 
 <body>
 
@@ -33,7 +29,7 @@
     <input id="inputbox" type="text" size="5"><br> submit for sum
     <button type="button" onclick="oddCount()">Submit</button>
 
-    <span id="output"></span>
+    <div id="output"></div>
 
 </body>
 
