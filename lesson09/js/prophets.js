@@ -23,9 +23,10 @@
              birthdate.innerHTML = `<strong>Date of Birth: ${prophets.birthdate}</strong>`;
              birthplace.innerHTML = `<strong>Place of Birth: ${prophets.birthplace}</strong>`;
              card.appendChild(h2);
-             card.appendChild(image);
              card.appendChild(birthdate);
              card.appendChild(birthplace);
+             card.appendChild(image);
+
              document.querySelector('div.cards').appendChild(card);
          });
      });
