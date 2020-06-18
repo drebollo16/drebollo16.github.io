@@ -5,14 +5,11 @@
          return response.json();
      })
      .then(function(jsonObject) {
-         //console.table(jsonObject); // temporary checking for valid response and data parsing
 
          const prophets = jsonObject['prophets'];
          // const utah = prophets.filter(prophet => (prophet.birthplace == "Utah")); //example for main page filter
          prophets.forEach(prophets => {
 
-
-             // for (let i = 0; i < prophets.length; i++) {
              let card = document.createElement('section');
 
              let h2 = document.createElement('h2');
