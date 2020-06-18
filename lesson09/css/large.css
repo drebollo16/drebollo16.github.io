@@ -4,6 +4,9 @@
         font-size: 16px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    section {
+        grid-column: 1fr;
+    }
     /* CSS LARGE Header/Footer */
     header img {
         width: 100px;

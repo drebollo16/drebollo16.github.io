@@ -17,10 +17,15 @@ fetch(requestURL)
 
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
+                let motto = document.createElement('motto');
                 let yearFounded = document.createElement('year');
                 let currentPopulation = document.createElement('div');
+                let photo = document.createElement('img');
                 let name = document.createElement('div');
                 let averageRainfall = document.createElement('div');
+
+                photo.setAttribute('src', towns.photo);
+                motto.innerHTML = `<i>${towns.motto}`;
 
                 currentPopulation.innerHTML = `<h4>Population: ${towns.currentPopulation}</h4>`;
                 yearFounded.innerHTML = `<h4>Year Founded: ${towns.yearFounded}</h4>`;
@@ -28,9 +33,12 @@ fetch(requestURL)
                 averageRainfall.innerHTML = `<h4>Average Rainfall :${towns.averageRainfall}</h4>`;
                 card.appendChild(name);
                 card.appendChild(h2);
+                card.appendChild(motto);
                 card.appendChild(yearFounded);
+
                 card.appendChild(currentPopulation);
                 card.appendChild(averageRainfall);
+                card.appendChild(photo);
 
                 document.querySelector('div.cards').appendChild(card);
             }
