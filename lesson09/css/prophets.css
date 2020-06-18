@@ -17,6 +17,12 @@ img {
     box-shadow: 5px 5px 5px rgb(69, 71, 73);
 }
 
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+}
+
 section {
     background-color: #bfafd1;
     border: solid 2px #540dc7;
