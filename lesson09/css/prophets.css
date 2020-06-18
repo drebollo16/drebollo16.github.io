@@ -8,17 +8,30 @@ main {
     margin: 0 auto;
     width: 80%;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    padding: 20px;
+    background-color: rgb(244, 247, 250);
+    box-shadow: 5px 5px 5px rgb(69, 71, 73);
 }
 
 section {
-    background-color: #daccee;
-    border: solid 2px #581fb3;
+    background-color: #bfafd1;
+    border: solid 2px #540dc7;
+    box-shadow: 5px 5px 5px rgb(69, 71, 73);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
 }
 
 h1,
 h2 {
     text-align: center;
-    color: #9821ec;
+    color: #500880;
 }
 
 @media only screen and (min-width: 35.5em) {
