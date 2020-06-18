@@ -1,0 +1,40 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+section {
+    background-color: #daccee;
+    border: solid 2px #581fb3;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #9821ec;
+}
+
+@media only screen and (min-width: 35.5em) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    img {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    img {
+        width: 80%;
+    }
+}
