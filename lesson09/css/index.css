@@ -1,0 +1,142 @@
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+section {
+    background-color: #deecf9;
+    border: solid 2px #b8c9ee;
+    box-shadow: 5px 5px 5px rgb(69, 71, 73);
+}
+
+
+/*------------------------------Main-----------------------------*/
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    font-family: 'Acme', cursive;
+}
+
+
+/* ---------CSS from SMALL Navagation Footer Header---------------*/
+
+.active {
+    background-color: #78b7ce;
+    color: white;
+    font-weight: bold;
+}
+
+.alert {
+    display: none;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+header {
+    background-color: #006287;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    color: #f0f0f0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 8px;
+    margin-left: 10px;
+}
+
+.headings {
+    margin-left: 1rem;
+}
+
+.iconH4 {
+    font-style: italic;
+    letter-spacing: 1pt;
+    font-size: 15px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #006287;
+    border-radius: 3px 3px 15px 15px;
+    padding: 10px;
+    text-align: center;
+    color: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+nav {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: block;
+    font-size: 0.95rem;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.menusign {
+    align-content: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #003F62;
+}
+
+.responsive li {
+    display: block;
+}

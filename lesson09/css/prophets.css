@@ -17,6 +17,7 @@ main {
 
 img {
     padding: 20px;
+    width: 100%;
     background-color: rgb(244, 247, 250);
     box-shadow: 5px 5px 5px rgb(69, 71, 73);
 }
