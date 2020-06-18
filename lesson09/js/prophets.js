@@ -18,9 +18,8 @@
              let birthdate = document.createElement('birth');
 
              h2.innerHTML = `${prophets.name} ${prophets.lastname}`;
-             image.setAttribute('src', prophets.image);
 
-
+             image.setAttribute('src', prophets.imageurl);
              birthdate.innerHTML = `<strong>Date of Birth: ${prophets.birthdate}</strong>`;
              birthplace.innerHTML = `<strong>Place of Birth: ${prophets.birthplace}</strong>`;
              card.appendChild(h2);
