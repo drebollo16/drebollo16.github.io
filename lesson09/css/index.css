@@ -1,13 +1,17 @@
 .cards {
+    grid-gap: 15px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 15px;
 }
 
 section {
     background-color: #deecf9;
     border: solid 2px #b8c9ee;
     box-shadow: 5px 5px 5px rgb(69, 71, 73);
+}
+
+img {
+    width: 100%;
 }
 
 

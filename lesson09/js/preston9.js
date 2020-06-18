@@ -17,25 +17,24 @@ fetch(requestURL)
 
                 let card = document.createElement('section');
                 let h2 = document.createElement('h2');
-                let motto = document.createElement('motto');
-                let yearFounded = document.createElement('year');
-                let currentPopulation = document.createElement('div');
+                let motto = document.createElement('text');
+                let yearFounded = document.createElement('text');
+                let currentPopulation = document.createElement('text');
                 let photo = document.createElement('img');
-                let name = document.createElement('div');
-                let averageRainfall = document.createElement('div');
+                let name = document.createElement('text');
+                let averageRainfall = document.createElement('text');
 
                 photo.setAttribute('src', towns.photo);
-                motto.innerHTML = `<i>${towns.motto}`;
+                motto.innerHTML = `<i>${towns.motto}<br>`;
 
-                currentPopulation.innerHTML = `<h4>Population: ${towns.currentPopulation}</h4>`;
-                yearFounded.innerHTML = `<h4>Year Founded: ${towns.yearFounded}</h4>`;
-                h2.innerHTML = towns.name;
-                averageRainfall.innerHTML = `<h4>Average Rainfall :${towns.averageRainfall}</h4>`;
+                currentPopulation.innerHTML = `Population: ${towns.currentPopulation}<br>`;
+                yearFounded.innerHTML = `Year Founded: ${towns.yearFounded}<br>`;
+                h2.innerHTML = `<h4>${towns.name}</h4>`;
+                averageRainfall.innerHTML = `Average Rainfall :${towns.averageRainfall}`;
                 card.appendChild(name);
                 card.appendChild(h2);
                 card.appendChild(motto);
                 card.appendChild(yearFounded);
-
                 card.appendChild(currentPopulation);
                 card.appendChild(averageRainfall);
                 card.appendChild(photo);

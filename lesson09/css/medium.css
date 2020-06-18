@@ -5,4 +5,14 @@
     main {
         width: 90%;
     }
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    section:nth-child(odd) .text {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    img {
+        grid-row: 2;
+    }
 }

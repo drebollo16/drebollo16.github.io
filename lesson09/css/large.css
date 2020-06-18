@@ -1,11 +1,22 @@
 @media only screen and (min-width: 64em) {
     main {
-        width: 750px;
+        margin: 0 auto;
         font-size: 16px;
+        width: 80%;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    img {
+        width: 90%;
+        padding: 10px;
+    }
+    h4 {
+        text-align: center;
+    }
     section {
-        grid-column: 1fr;
+        text-align: center;
     }
     /* CSS LARGE Header/Footer */
     header img {
