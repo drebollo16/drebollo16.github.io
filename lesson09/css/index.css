@@ -31,6 +31,12 @@ body {
 
 /* ---------CSS from SMALL Navagation Footer Header---------------*/
 
+h3 {
+    font-weight: 400;
+    color: #006287;
+    text-align: center;
+}
+
 .active {
     background-color: #78b7ce;
     color: white;

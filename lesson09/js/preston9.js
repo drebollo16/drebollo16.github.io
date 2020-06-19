@@ -15,20 +15,20 @@ fetch(requestURL)
             if (towns.name == 'Preston' || towns.name == 'Fish Haven' || towns.name == 'Soda Springs') {
 
                 let card = document.createElement('section');
-                let h2 = document.createElement('text');
-                let motto = document.createElement('text');
-                let yearFounded = document.createElement('text');
-                let currentPopulation = document.createElement('text');
+                let h2 = document.createElement('div');
+                let motto = document.createElement('div');
+                let yearFounded = document.createElement('div');
+                let currentPopulation = document.createElement('div');
                 let photo = document.createElement('img');
-                let name = document.createElement('text');
-                let averageRainfall = document.createElement('text');
+                let name = document.createElement('div');
+                let averageRainfall = document.createElement('div');
 
                 photo.setAttribute('src', towns.photo);
                 motto.innerHTML = `<i>${towns.motto}<br>`;
 
                 currentPopulation.innerHTML = `Population: ${towns.currentPopulation}<br>`;
                 yearFounded.innerHTML = `Year Founded: ${towns.yearFounded}<br>`;
-                h2.innerHTML = `<h3>${towns.name}</h3>`;
+                h2.innerHTML = `<h2>${towns.name}</h2>`;
                 averageRainfall.innerHTML = `Average Rainfall :${towns.averageRainfall}`;
                 card.appendChild(name);
                 card.appendChild(h2);
