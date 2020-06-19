@@ -8,7 +8,6 @@ fetch(requestURL)
     .then(function(jsonObject) {
 
         const towns = jsonObject['towns'];
-        // const utah = prophets.filter(prophet => (prophet.birthplace == "Utah")); //example for main page filter
 
         towns.forEach(towns => {
 
