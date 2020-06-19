@@ -6,11 +6,16 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .cards {
-        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    img {
+    section {
+        display: grid;
+    }
+    .cards section img {
         width: 90%;
-        padding: 10px;
+        height: 300px;
+        margin: 0 auto;
     }
     h4 {
         text-align: center;

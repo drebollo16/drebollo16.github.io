@@ -1,18 +1,27 @@
-@media only screen and (min-width: 37.5em) {
-    .footer {
-        width: 90%;
+    @media only screen and (min-width: 35.5em) {
+        .footer {
+            width: 90%;
+        }
+        main {
+            width: 90%;
+        }
+        .cards {
+            display: grid;
+        }
+        section:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        section {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        text {
+            float: left;
+        }
     }
-    main {
-        width: 90%;
-    }
-    section:nth-child(odd) {
-        flex-direction: row-reverse;
-    }
-    section:nth-child(odd) .text {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    img {
-        grid-row: 2;
-    }
-}
