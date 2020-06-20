@@ -2,7 +2,6 @@
     main {
         margin: 0 auto;
         font-size: 16px;
-        width: 80%;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .cards {
@@ -22,6 +21,11 @@
     }
     section {
         text-align: center;
+    }
+    .star {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     /* CSS LARGE Header/Footer */
     header img {
