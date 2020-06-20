@@ -3,7 +3,7 @@
             width: 90%;
         }
         main {
-            width: 90%;
+            width: 95%;
         }
         .cards {
             display: grid;
@@ -16,9 +16,11 @@
             flex-direction: row;
             text-align: center;
         }
-        idmg {
-            width: 80%;
-            margin-left: 15px;
-            margin-right: 15px;
+        img {
+            width: 50%;
+        }
+        .star {
+            margin-bottom: 30px;
+            text-align: center;
         }
     }
