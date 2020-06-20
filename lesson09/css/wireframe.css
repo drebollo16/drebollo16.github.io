@@ -1,0 +1,24 @@
+main,
+footer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    font-size: 25px;
+    color: royalblue;
+}
+
+h1 {
+    font-size: 35px;
+    color: royalblue;
+}
+
+h3 {
+    color: royalblue;
+    font-size: 30px;
+}
+
+img {
+    border: royalblue;
+}
