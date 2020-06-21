@@ -8,6 +8,7 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
     }
     section {
         display: grid;
@@ -21,15 +22,18 @@
     h4 {
         text-align: center;
     }
-    section {
-        text-align: center;
-    }
     .star {
-        margin: 0 auto;
-        display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 35px;
         text-align: center;
+    }
+    .starimg {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow: 5px 5px 5px rgb(69, 71, 73);
     }
     img {
         width: 80%;

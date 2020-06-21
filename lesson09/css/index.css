@@ -19,6 +19,21 @@ img {
     text-align: center;
 }
 
+.star {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.star img {
+    box-shadow: 5px 5px 5px darkslategray;
+    width: 100%;
+    margin-top: 35px;
+}
+
+h3 {
+    margin: 0 auto;
+}
+
 
 /*------------------------------Main-----------------------------*/
 
