@@ -1,9 +1,9 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 60em) {
     main {
         margin: 0 auto;
         font-size: 16px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        width: 960px;
+        width: 60%;
     }
     .cards {
         display: grid;
@@ -19,8 +19,9 @@
         height: 300px;
         margin: 0 auto;
     }
-    h4 {
+    h2 {
         text-align: center;
+        margin-bottom: 10px;
     }
     .star {
         grid-template-columns: 1fr 1fr;
@@ -34,6 +35,13 @@
         margin-left: 10px;
         margin-right: 10px;
         box-shadow: 5px 5px 5px rgb(69, 71, 73);
+    }
+    .sectdiv {
+        grid-template-columns: 1fr;
+    }
+    .secdiv img {
+        width: 200px;
+        width: 80%;
     }
     img {
         width: 80%;

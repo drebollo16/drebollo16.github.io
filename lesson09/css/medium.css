@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35.5em) {
+@media only screen and (min-width: 34.5em) {
     .footer {
         width: 90%;
     }
@@ -17,15 +17,19 @@
         text-align: center;
         overflow: hidden;
     }
-    article:nth-child(1) {
-        text-align: left;
-        color: salmon;
-    }
     img {
-        width: 70%;
+        width: 50%;
     }
     .star {
         margin-bottom: 30px;
         text-align: center;
+    }
+    .secdtdiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sectdiv img {
+        width: 70%;
+        overflow: hidden;
     }
 }
