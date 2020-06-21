@@ -27,6 +27,7 @@ fetch(requestURL)
                 photo.setAttribute('src', towns.photo);
                 motto.innerHTML = `<i>${towns.motto}`;
                 display.setAttribute('class', 'display');
+                card.setAttribute('class', 'sectdiv');
 
                 currentPopulation.innerHTML = `Population: ${towns.currentPopulation}`;
                 yearFounded.innerHTML = `Year Founded: ${towns.yearFounded}`;
