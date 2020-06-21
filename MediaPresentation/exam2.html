@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Denise Rebollo | CIT 160</title>
+    <script>
+        /* Input:
+         * Processing:
+         * Output:
+         */
+        function threenum() {
+            let first = parseFloat(document.getElementById('start').value);
+            let second = parseFloat(document.getElementById('end').value);
+            let third = parseFloat(document.getElementById('divisor').value);
+            // let one = first % third;
+            //let two = second % third;
+            display = "";
+            for (let i = first; i < second; i++) {
+                if (i % third == 0) {
+
+                    display += i + ',';
+                }
+            }
+            document.getElementById('output').innerHTML = display;
+
+        }
+    </script>
+</head>
+
+<body>
+    Start: <input type="text" id="start" size="5"><br> End: <input type="text" id="end" size="5"><br> Divisor: <input type="text" id="divisor" size="5"><br>
+    <button type="button" onclick="threenum()">Click</button>
+    <div id="output"></div>
+</body>
+
+</html>

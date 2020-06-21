@@ -1,26 +1,28 @@
-    @media only screen and (min-width: 35.5em) {
-        .footer {
-            width: 90%;
-        }
-        main {
-            width: 95%;
-        }
-        .cards {
-            display: grid;
-        }
-        section:nth-child(odd) {
-            flex-direction: row-reverse;
-        }
-        section {
-            display: flex;
-            flex-direction: row;
-            text-align: center;
-        }
-        img {
-            width: 50%;
-        }
-        .star {
-            margin-bottom: 30px;
-            text-align: center;
-        }
+@media only screen and (min-width: 35.5em) {
+    .footer {
+        width: 90%;
     }
+    main {
+        width: 80%;
+    }
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        overflow: hidden;
+    }
+    article:nth-child(1) {
+        text-align: left;
+        color: salmon;
+    }
+    img {
+        width: 70%;
+    }
+    .star {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

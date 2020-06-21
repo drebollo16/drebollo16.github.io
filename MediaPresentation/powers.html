@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CIT 160 | Denise Rebollo | Week 09 Powers</title>
     <script>
         function Powers() {
 
-            let number = 0;
+            let result = 0;
+            let num = 0;
+            let display = 0;
             for (let i = 0; i < 31; i++) {
-                let result = Math.pow(2, number);
-                number++;
+                result = Math.pow(2, num);
+                display += result + ', ';
+                num++;
             }
+
+            document.getElementById('powers').innerHTML = "Powers of 2: " + '<br>' + display;
         }
     </script>
 </head>
 
-<h2>Powers Table</h2>
-
 <body>
-    <div class="powers"></div>
+
+    <h2>Powers Table</h2>
+
+
+    <div id="powers"></div>
+    <button type="button" onclick="Powers()">Submit</button>
+
 </body>
 
 </html>

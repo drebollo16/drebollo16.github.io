@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIT 160 | Denise Rebollo |Exam 2</title>
+    <script>
+        /* Input:
+         * Processing:
+         * Output:
+         */
+
+        function fives() {
+
+            let one = parseFloat(document.getElementById('one').value)
+            let two = parseFloat(document.getElementById('second').value);
+            let display = "";
+            let sum = one + two;
+
+
+            if (one > 5 && two > 5 || sum > 20) {
+                display = "True";
+            } else {
+                display = "False";
+            }
+
+
+            document.getElementById('output').innerHTML = display;
+
+
+        }
+    </script>
+
+</head>
+
+<body>
+
+
+    Please enter two numbers:
+    <input type="text" id="one" size="5">
+    <input type="text" id="second" size="5">
+    <button type="button" onclick="fives()">Click</button>
+    <div id="output"></div>
+    <br><br>
+
+</body>
+
+</html>
