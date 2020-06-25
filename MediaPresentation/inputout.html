@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatue Weather | Denise Rebollo | CIT 160</title>
+    <script>
+        function doInputOutput() {
+            let number1 = parseFloat(document.getElementById('temperature').value);
+            let number2 = parseFloat(document.getElementById('wind').value);
+
+            let wind = windchill(number1, number2);
+            document.getElementById('output').innerHTML = wind.toFixed(2);
+
+        }
+
+        function windchill(tempF, speed) {
+
+            let ws = Math.pow(speed, 0.16);
+            return 35.74 + 0.6215 * tempF - 35.75 * ws + 0.4275 * tempF * ws;
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Weather Temperature </h1>
+    Temperature: <input id="temperature" type="text" size="5"><br> Wind Speed:
+    <input id="wind" type="text" size="5"><br><br>
+
+    <button type="button" onclick="doInputOutput()">Wind Chill!</button>
+    <div id="output"></div>
+</body>
+
+</html>

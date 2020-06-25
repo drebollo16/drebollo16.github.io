@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>WO10 Coding Assignment</title>
+
+    <script>
+        function windchill(tempF, speed) {
+            var one = 35.75 * speed;
+            var two = 0.4275 * tempF * speed;
+            ///s = speed t = tempF
+            //f = 35.74 + 0.6215 t - 35.75s0.16 + 0.4275 t s0.16
+            return 35.74 + 0.6215 * tempF - Math.pow(one, 0.16) + Math.pow(two, 0.16);
+        }
+
+        function doInputOutput() {
+            var temperature = parseFloat(document.getElementById('tempurature').value);
+            var wind = parseFloat(document.getElementById('windSpeed').value);
+            var Chill = windchill(temperature, wind);
+            document.getElementById('output').innerHTML = Chill;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Determine the windchill</h1>
+
+    Tempurature: <input type="text" id="tempurature"> Fahrenheit <br> Wind Speed 5 feet abve the ground: <input type="text" id="windSpeed"> MPG <br>
+    <button type='button' onclick="doInputOutput()">Wind Chill</button>
+    <div id='output'></div>
