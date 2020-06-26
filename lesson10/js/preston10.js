@@ -17,16 +17,16 @@ fetch(apiURL)
             let d = new Date(forecast.dt_txt);
 
             const tempt = document.querySelector('tempt');
-            document.getElementById(`tempt${day+1}`).textContent = forecast.main.temp;
-
-            document.getElementById(`dayofweek${day+1}`).textContent = weekday[d.getDay()];
             const icon = document.querySelector('img');
 
-            const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0] + '.png';
-            const desc = jsObject.weather[0].description;
+            const desc = forecast.weather[0].description
+            const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';;
 
+            document.getElementById(`dayofweek${day+1}`).textContent = weekday[d.getDay()];
 
-            document.getElementById('imagesrc').textContent = imagesrc;
+            document.getElementById(`tempt${day+1}`).textContent = forecast.main.temp;
+
+            document.getElementById('imagesrc').innerHTML = imagesrc;
             document.getElementById('icon').setAttribute('src', imagesrc);
             document.getElementById('icon').setAttribute('alt', desc);
             /*
