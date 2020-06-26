@@ -1,0 +1,13 @@
+@media only screen and (min-width: 37.5em) {
+    .boxes {
+        background-color: #c7e0f4;
+        align-items: center;
+        color: black;
+    }
+    .footer {
+        width: 80%;
+    }
+    main {
+        width: 80%;
+    }
+}
