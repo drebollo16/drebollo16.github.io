@@ -16,7 +16,7 @@
 
 
 <body>
-    <div id="alert ">
+    <div id="alert">
         <h3>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.
         </h3>
     </div>
@@ -68,10 +68,10 @@
             <section class="bannerSection ">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="currently ">Sunny</span></p>
-                <p>High: <span id="high "> 26 &deg;F</span></p>
+                <p>High: <span id="high "> &deg;F</span></p>
                 <p>Wind Chill: <span id="windchill "> &deg;F </span></p>
-                <p>Humidity: <span id="humid ">21% </span></p>
-                <p>Wind Speed: <span id="windspeed ">5 mph </span></p>
+                <p>Humidity: <span id="humid ">% </span></p>
+                <p>Wind Speed: <span id="windspeed "> mph </span></p>
             </section>
         </div>
 
@@ -80,28 +80,32 @@
             <h2>5 Day Forecast</h2>
             <table class="forecasttable ">
                 <tr>
-                    <th><span id="dayofweek1 "></span></th>
-                    <th><span id="dayofweek2 "></span> </th>
-                    <th><span id="dayofweek3 "></span> </th>
-                    <th><span id="dayofweek4 "></span> </th>
-                    <th><span id="dayofweek5 "></span> </th>
+                    <th><span id="dayofweek1"></span></th>
+                    <th><span id="dayofweek2"></span> </th>
+                    <th><span id="dayofweek3"></span> </th>
+                    <th><span id="dayofweek4"></span> </th>
+                    <th><span id="dayofweek5"></span> </th>
                 </tr>
                 <tr>
 
-                    <td> <br><span id="imagesrc "></span> &nbsp;<img src=" " alt=" " id="icon "> <span id="tempt1 "></span>&deg; F</td>
-                    <td> <br><span id="imagesrc1 "></span> &nbsp;<img src=" " alt=" " id="icon "> <span id="tempt2 "></span>&deg; F</td>
-                    <td> <br><span id="imagesrc2 "></span> &nbsp;<img src=" " alt=" " id="icon "> <span id="tempt3 "></span>&deg; F</td>
-                    <td> <br><span id="imagesrc3 "></span> &nbsp;<img src=" " alt=" " id="icon "> <span id="tempt4 "></span>&deg; F</td>
-                    <td> <br><span id="imagesrc4 "></span> &nbsp;<img src=" " alt=" " id="icon "> <span id="tempt5 "></span>&deg; F</td>
+
+                    <td> <br> &nbsp;<img src=" " alt=" " id="icon2 "><br> <span id="forecast1"></span>&deg; F</td>
+
+
+                    <td> <br> &nbsp;<img src=" " alt=" " id="icon2 "> <br><span id="forecast2"></span>&deg; F</td>
+                    <td> <br> &nbsp;<img src=" " alt=" " id="icon3 "> <br><span id="forecast3"></span>&deg; F</td>
+                    <td> <br> &nbsp;<img src=" " alt=" " id="icon4 "> <br><span id="forecast4"></span>&deg; F</td>
+                    <td> <br> &nbsp;<img src=" " alt=" " id="icon5 "> <br><span id="forecast5"></span>&deg; F</td>
                 </tr>
             </table>
+            <span id="imagesrc "></span>
         </div>
 
 
         <div class="flex-container ">
 
             <div class="flex-item ">
-                <img class="artimg " src="/lesson10/img/city_article.jpg" alt="aartimg ">
+                <img class="artimg " src="/lesson10/img/city_article.jpg" alt="artimg ">
 
                 <h2>Founder Day Fresco</h2>
                 <i>Denise Rebollo</i><br><br>
@@ -147,18 +151,16 @@
     <footer>
         <p>
             @Night Star Weather | Attributions | Denise Rebollo</p>
-        <span id="update "></span>
+        <span id="update"></span>
     </footer>
     <script src="/lesson10/js/date.js">
     </script>
-    <script src="/lesson10/js/response.js "></script>
     <script src="/lesson10/js/windchill.js "></script>
 
     <script src="/lesson10/js/preston10.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js "></script>
-    <script src="/lesson10/js/webfont.js ">
-    </script>
+    <script src="/lesson10/js/webfont.js"></script>
 </body>
 
 </html>

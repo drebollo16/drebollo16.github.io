@@ -6,15 +6,19 @@
 
 
 
-
-
-
-
  // Banner for Fridays
  let d = new Date();
  const banner = document.getElementById("alert");
- if (d.getDate() == 5) {
-     banner.style.display = "block";
+ if (d.getDate() == 6) {
+     banner.style.d = "none";
  } else {
-     banner.style.display = "none";
+     banner.style.d = "none";
  }
+
+
+
+
+ const hambutton = document.querySelector('.menusign');
+ const mainnav = document.querySelector('.navigation')
+
+ hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);
