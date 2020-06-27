@@ -18,7 +18,13 @@
              document.getElementById(`forecast${day+1}`).textContent = forecast.main.temp;
 
              document.getElementById(`dayofweek${day+1}`).textContent = weekday[d.getDay()];
+             const icon = document.querySelector('img');
+             const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+             const desc = forecast.weather[0].description;
 
+             // document.getElementById('imagesrc').textContent = imagesrc;
+             document.getElementById('icon').setAttribute('src', imagesrc);
+             document.getElementById('icon').setAttribute('alt', desc);
              day++;
 
          });
