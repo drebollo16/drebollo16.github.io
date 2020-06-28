@@ -13,8 +13,7 @@ fetch(apiURL)
         document.getElementById('imagesrc').textContent = imagesrc;
         document.getElementById('icon').setAttribute('src', imagesrc);
         document.getElementById('icon').setAttribute('alt', desc);
-        //  icon.setAttribute('src', imagesrc);
-        //  icon.setAttribute('alt', desc);
+
 
 
     });

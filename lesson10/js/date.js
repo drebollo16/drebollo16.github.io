@@ -6,15 +6,15 @@
 
 
 
+
  // Banner for Fridays
  let d = new Date();
  const banner = document.getElementById("alert");
- if (d.getDate() == 6) {
-     banner.style.d = "none";
+ if (d.getDate() == 5) {
+     banner.style.display = "block";
  } else {
-     banner.style.d = "none";
+     banner.style.display = "none";
  }
-
 
 
 
