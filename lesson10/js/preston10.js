@@ -33,10 +33,9 @@ fetch(apiURLs)
     .then((jsObject) => {
 
         const forecast = jsObject['list'];
-        console.log(forecast);
-        console.table(forecast);
 
-        let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+        let weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         let day = 0;
 
         for (let i = 6; i < forecast.length; i += 8) {
