@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denise Rebollo | CIT 160 Future Value</title>
+    <script>
+        function doFV() {
+
+            let principal = parseFloat(document.getElementById('amounttext').value);
+            let annualRate = parseFloat(document.getElementById('annualtext').value);
+            let years = parseFloat(document.getElementById('numbertext').value);
+            let periodsPerYear = parseFloat(document.getElementById('periodstext').value);
+
+
+            let results = computeFutureValue(principal, annualRate, years, periodsPerYear);
+
+            document.getElementById('invest').innerHTML = '$' + results.toFixed(2);
+        }
+
+        function computeFutureValue(principal, annualRate, years, periodsPerYear) {
+
+
+            let num1 = 1 + annualRate / periodsPerYear;
+            let compound = years * periodsPerYear;
+            let caculations = Math.pow(num1, compound);
+            let futureValue = principal * caculations;
+            return futureValue;
+        }
+
+        function myFunction() {
+            document.getElementById("myForm").reset();
+        }
+    </script>
+</head>
+
+<body>
+    <form id="myForm">
+        <h1>
+            Investment Calculator
+        </h1>
+
+        Amount Invested (principal)&nbsp;&nbsp;
+        <input id="amounttext" type="text" size="5"><br> Annual Rate(example : .08)&nbsp;&nbsp;
+        <input id="annualtext" type="text" size="5"><br> Number of years &nbsp;&nbsp;&nbsp;
+        <input id="numbertext" type="text" size="10"><br> Periods per year &nbsp;&nbsp;
+        <input id="periodstext" type="text" size="10"><br>
+
+        <button type="button" onclick="doFV()">Compute future value</button><br><br>
+        <input type="button" onclick="myFunction()" value="Reset form">
+
+    </form>
+    <div id="invest"></div>
+</body>
+
+</html>

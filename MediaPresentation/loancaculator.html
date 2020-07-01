@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denise Rebollo | CIT 160 Loan Caculator</title>
+    <script>
+        function doPayment() {
+
+            let principal = parseFloat(document.getElementById('borrowed').value);
+            let annualRate = parseFloat(document.getElementById('interestRate').value);
+            let years = parseFloat(document.getElementById('numYears').value);
+            let periodsPerYear = parseFloat(document.getElementById('payments').value);
+            let results = computePayment(principal, annualRate, years, periodsPerYear);
+
+            document.getElementById('loan').innerHTML = '$' + results.toFixed(2);
+        }
+
+        function computePayment(principal, annualRate, years, periodsPerYear) {
+
+
+
+            let r = annualRate / periodsPerYear;
+            let n = years * periodsPerYear;
+            let caculation = 1 + r;
+            let bottomDivide = 1 - (Math.pow(caculation, (-n)));
+            return principal * r / bottomDivide;
+        }
+
+        function doBalance() {
+
+            let principal = parseFloat(document.getElementById('borrowed').value);
+            let annualRate = parseFloat(document.getElementById('interestRate').value);
+            let years = parseFloat(document.getElementById('numYears').value);
+            let periodsPerYear = parseFloat(document.getElementById('payments').value);
+
+            let numberOfPaymentPaidToDate = parseFloat(document.getElementById('paidPayments').value);
+
+
+            let result2 = computeBalance(principal, annualRate, years, periodsPerYear, numberOfPaymentPaidToDate);
+
+            document.getElementById('paidtodate').innerHTML = '$' + result2.toFixed(2);
+        }
+
+        function computeBalance(principal, annualRate, years, periodsPerYear, numberOfPaymentPaidToDate) {
+
+            let r2 = annualRate / periodsPerYear;
+            let d = numberOfPaymentPaidToDate;
+            let parenthesis = Math.pow(1 + r2, d);
+            let computepayment1 = computePayment(principal, annualRate, years, periodsPerYear);
+            let balance = (principal * parenthesis - (computepayment1 * (parenthesis - 1) / r2));
+            return balance;
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>
+        Loan Calculator
+    </h1>
+
+    Amount Invested (principal)&nbsp;&nbsp;
+    <input id="borrowed" type="text" size="5"><br> Annual Rate(example : .08)&nbsp;&nbsp;
+    <input id="interestRate" type="text" size="5"><br> Number of years &nbsp;&nbsp;&nbsp;
+    <input id="numYears" type="text" size="10"><br> Periods per year &nbsp;&nbsp;
+    <input id="payments" type="text" size="10"><br>
+    <div id="loan"></div>
+    <button type="button" onclick="doPayment()">Compute payment</button><br> Number if payments paid to date
+    <input id="paidPayments" type="text" size="10"><br>
+    <button type="button" onclick="doBalance()">Compute payoff amount</button>
+
+
+    <div id="paidtodate"></div>
+
+
+
+</body>
+
+</html>
