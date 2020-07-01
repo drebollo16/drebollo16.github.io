@@ -14,6 +14,10 @@ h1 {
     text-shadow: 3px 3px 5px #777;
 }
 
+h2 {
+    color: steelblue;
+}
+
 header {
     background-color: #006287;
     margin: 0 auto;

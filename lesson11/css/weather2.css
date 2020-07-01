@@ -15,6 +15,10 @@
      color: black;
  }
  
+ h2 {
+     color: steelblue;
+ }
+ 
  header {
      background-color: #006287;
      margin: 0 auto;

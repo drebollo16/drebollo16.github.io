@@ -1,6 +1,9 @@
 /* Desktop Views ****************************/
 
 @media only screen and (min-width: 60em) {
+    h2 {
+        color: steelblue;
+    }
     header img {
         width: 100px;
     }
