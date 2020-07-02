@@ -10,4 +10,9 @@
     main {
         width: 80%;
     }
+    /*************Lazy Loading*******************/
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -1,7 +1,23 @@
+ /*------------------------------Main-----------------------------*/
+ 
  body {
      font-size: 16px;
-     font-family: 'Acme';
      margin: 0 auto;
+ }
+ 
+ main {
+     margin: 0 auto;
+     padding: 20px;
+     font-family: 'Crimson Text', serif;
+     text-align: center;
+     margin-bottom: 25px;
+ }
+ 
+ .alert {
+     display: none;
+     text-align: center;
+     padding: 1em;
+     color: white;
  }
  
  h1 {
@@ -13,6 +29,7 @@
  
  h2 {
      color: steelblue;
+     font-family: 'Acme', cursive;
  }
  
  header {
@@ -58,6 +75,7 @@
      margin: 0 auto;
      margin-top: 0;
  }
+ /*****************Navigation***********************************/
  
  nav {
      background-color: #f0f0f0;
@@ -119,14 +137,8 @@
  p {
      margin: .5px;
      font-size: 15px;
-     font-family: 'Lato', sans-serif;
  }
- 
- main {
-     padding: 15px 15px 0 15px;
-     margin: 0 auto;
-     text-align: center;
- }
+ /*****************Banner***********************************/
  
  .bannerdiv {
      margin: 10px auto;
@@ -149,6 +161,7 @@
      box-shadow: 0 0 30px #111;
      opacity: .9;
  }
+ /*****************Article boxes***********************************/
  
  .articlebox img {
      box-shadow: 0 0 30px #555;
@@ -162,6 +175,7 @@
      border: 1px solid #006287;
      padding: 15px;
      background-color: #deecf9;
+     box-shadow: 5px 5px 5px #0b617e;
      height: auto;
      color: black;
      border-radius: 8px;
@@ -202,11 +216,12 @@
  
  .flex-item {
      background-color: #deecf9;
+     box-shadow: 5px 5px 5px rgb(69, 71, 73);
      border: 1px solid #006287;
      margin: 3px;
      padding: 10px 0 0 10px;
      padding: 10px;
-     border-radius: 10px;
+     border-radius: 6px;
  }
  
  span {
@@ -225,13 +240,14 @@
  .flex-item2 {
      background-color: #deecf9;
      border: 1px solid #006287;
+     box-shadow: 5px 5px 5px rgb(69, 71, 73);
      margin: 3px;
      padding: 10px 0 0 10px;
      padding: 10px;
      text-align: left;
-     border-radius: 10px;
+     border-radius: 6px;
  }
- /* Icon */
+ /*-------------------------- Icon---------------------- */
  
  .map {
      width: 300px;
@@ -266,4 +282,143 @@
  
  .icon {
      width: 40px;
+ }
+ /* -------------Forum-----------------*/
+ 
+ form fieldset {
+     border: 1px solid #0b617e;
+     background-color: #deecf9;
+     margin: 2rem 0;
+     border-radius: 5px;
+     padding: 15px;
+     box-shadow: 5px 5px 5px rgb(69, 71, 73);
+     box-sizing: border-box;
+ }
+ 
+ form legend {
+     background-color: #006287;
+     padding: 5px 5px;
+     text-align: left;
+     box-shadow: 2px 2px 2px 2px gray;
+     border-radius: 15px;
+     color: #f5f8fa;
+ }
+ 
+ form label.top,
+ form div {
+     display: block;
+     padding-top: 5px;
+     color: rgb(17, 15, 15);
+     text-align: left;
+ }
+ 
+ form label.top input,
+ form label.top select {
+     -webkit-appearance: none;
+     display: block;
+     text-align: left;
+     font-size: 16px;
+     border: solid 1px rgb(245, 240, 240);
+     border-radius: 5px;
+     color: rgb(12, 9, 9);
+     width: 100%;
+     height: 30px;
+     max-width: 22rem;
+ }
+ 
+ form label.sbs {
+     display: block;
+     padding: .75rem 0;
+     color: rgb(27, 20, 20);
+ }
+ 
+ form input.submitbutton {
+     border: none;
+     background-color: #812a0f;
+     color: white;
+     margin: 0 0 2rem 2%;
+     border-radius: 1rem;
+     width: 96%;
+     box-shadow: 5px 5px 5px #006287;
+     max-width: 20rem;
+     padding: .75rem 1.5rem;
+ }
+ 
+ form label.top input:required {
+     border-left: red solid 6px;
+ }
+ 
+ form label.top :required:valid {
+     border-left: green solid 6px;
+ }
+ /*-------------------------------Slider-----------------------------*/
+ 
+ .slider {
+     width: 100%;
+     height: 10px;
+     background-color: #80b7df;
+ }
+ 
+ .slider:hover {
+     background-color: #0080aa;
+ }
+ 
+ .range {
+     display: flex;
+     flex-direction: row;
+     text-align: left;
+     padding: 20px;
+     width: 100%;
+ }
+ 
+ .sbs {
+     text-align: left;
+ }
+ 
+ .rate {
+     display: block;
+     padding: 15px;
+     margin-left: 0px;
+     text-align: left;
+ }
+ 
+ textarea {
+     width: 96%;
+     height: 160px;
+     margin: 10px;
+ }
+ /* ---------CSS Thank you Page---------------*/
+ 
+ .thanks {
+     text-align: center;
+     border: solid 1px #006287;
+     border-radius: 15px;
+     box-shadow: 5px 5px 5px #006287;
+ }
+ 
+ .checkmark {
+     height: 70px;
+ }
+ /*--------------Gallery----------------------*/
+ 
+ section {
+     background-color: #deecf9;
+     border: solid .1px rgb(146, 146, 146);
+     border-radius: 5px;
+ }
+ 
+ section img {
+     width: 90%;
+     filter: blur(0em);
+     transition: filter 0.5s;
+     padding: 10px;
+ }
+ 
+ .grid {
+     grid-gap: 25px;
+     display: grid;
+ }
+ 
+ img[data-src] {
+     filter: blur(0.2em);
  }

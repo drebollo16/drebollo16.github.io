@@ -1,6 +1,5 @@
  let date = new Date();
  let todaydate = date.getDate();
-
  document.getElementById("update").innerHTML = date.toDateString();
 
 
@@ -15,10 +14,3 @@
  } else {
      banner.style.display = "none";
  }
-
-
-
- const hambutton = document.querySelector('.menusign');
- const mainnav = document.querySelector('.navigation')
-
- hambutton.addEventListener('click', () => { mainnav.classList.toggle('responsive') }, false);

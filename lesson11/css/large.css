@@ -83,4 +83,12 @@
         box-shadow: 0 0 30px #111;
         top: -50px
     }
+    /*--------------------Gallery---------------------------*/
+    section:hover {
+        box-shadow: 5px 5px 5px 5px rgb(143, 143, 143);
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

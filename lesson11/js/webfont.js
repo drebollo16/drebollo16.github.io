@@ -1,5 +1,6 @@
 WebFont.load({
     google: {
-        families: ['Acme']
+        families: ['Crimson Text', 'Acme']
     }
+
 });
