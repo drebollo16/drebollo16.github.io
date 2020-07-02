@@ -205,7 +205,7 @@
  }
  
  .articlebox {
-     border: 1px solid #006287;
+     border: solid 2px #b8c9ee;
      padding: 15px;
      background-color: #deecf9;
      box-shadow: 5px 5px 5px #0b617e;
@@ -250,7 +250,7 @@
  .flex-item {
      background-color: #deecf9;
      box-shadow: 5px 5px 5px rgb(69, 71, 73);
-     border: 1px solid #006287;
+     border: solid 2px #b8c9ee;
      margin: 3px;
      padding: 10px 0 0 10px;
      padding: 10px;
@@ -272,7 +272,7 @@
  
  .flex-item2 {
      background-color: #deecf9;
-     border: 1px solid #006287;
+     border: solid 2px #b8c9ee;
      box-shadow: 5px 5px 5px rgb(69, 71, 73);
      margin: 3px;
      padding: 10px 0 0 10px;
@@ -319,7 +319,7 @@
  /* -------------Forum-----------------*/
  
  form fieldset {
-     border: 1px solid #0b617e;
+     border: solid 3px #b8c9ee;
      background-color: #deecf9;
      margin: 2rem 0;
      border-radius: 5px;
@@ -436,7 +436,7 @@
  
  article {
      background-color: #deecf9;
-     border: solid .1px rgb(146, 146, 146);
+     border: solid 2px #b8c9ee;
      border-radius: 5px;
  }
  
