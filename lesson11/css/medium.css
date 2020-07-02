@@ -15,4 +15,32 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    /*-----------------Card Index---------------------*/
+    .cards {
+        grid-gap: 15px;
+    }
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        overflow: hidden;
+    }
+    .star {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .secdtdiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sectdiv img {
+        width: 70%;
+        overflow: hidden;
+    }
+    .display {
+        margin-bottom: 20px;
+    }
 }
