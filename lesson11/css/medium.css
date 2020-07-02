@@ -23,8 +23,8 @@
         flex-direction: row-reverse;
     }
     section {
-        display: flex;
         flex-direction: row;
+        display: flex;
         text-align: center;
         overflow: hidden;
     }
