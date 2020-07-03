@@ -3,6 +3,7 @@
  body {
      font-size: 16px;
      margin: 0 auto;
+     background-color: #f5f8fa;
  }
  
  main {
@@ -10,6 +11,9 @@
      padding: 20px;
      font-family: 'Crimson Text', serif;
      text-align: center;
+     margin-top: 5px;
+     margin-bottom: 6px;
+     border-radius: 6px;
  }
  
  img {
@@ -159,7 +163,7 @@
  
  .navigation a:hover {
      color: white;
-     background-color: #003F62;
+     background-color: #5da2bd;
  }
  
  .responsive li {
