@@ -84,8 +84,7 @@ fetch(requestURL)
 
                 name.innerHTML = `${towns[i].name}`;
 
-
-                townevents.innerHTML = `${towns.events[i] + "<br>"}`;
+                townevents.innerHTML = `${towns[i].events}<br>`;
                 newCard.appendChild(name);
                 newCard.appendChild(townevents);
 
