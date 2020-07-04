@@ -13,7 +13,7 @@ document.getElementById("update").innerHTML = weeks + "," + " " + date.getDate()
 // Banner for Fridays
 
 const banner = document.getElementById("alert");
-if (date.getDate() == 5) {
+if (weeks == 'Friday') {
     banner.style.display = "block";
 } else {
     banner.style.display = "none";
