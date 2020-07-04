@@ -1,7 +1,7 @@
  /*------------------------------Main-----------------------------*/
  
  body {
-     font-size: 16px;
+     font-size: 18=6px;
      margin: 0 auto;
      background-color: #f5f8fa;
  }
@@ -12,7 +12,6 @@
      font-family: 'Crimson Text', serif;
      text-align: center;
      margin-top: 5px;
-     margin-bottom: 6px;
      border-radius: 6px;
  }
  

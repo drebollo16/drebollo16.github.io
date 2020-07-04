@@ -66,29 +66,31 @@ fetch(requestURL)
     })
     .then(function(jsonObject) {
 
-        const info = jsonObject['towns'];
+        const towns = jsonObject['towns'];
 
-        info.forEach(info => {
+        for (let i = 0; i < towns.length; i++) {
 
 
-            if (info.name == 'Preston') {
+            if (towns.name == 'Preston') {
 
                 let newCard = document.createElement('section');
                 let name = document.createElement('h4');
                 let display2 = document.createElement('div');
+
                 let townevents = document.createElement('div');
 
                 display2.setAttribute('class', 'display2');
                 newCard.setAttribute('class', 'event');
 
-                name.innerHTML = `${info.name} Town Events:<hr>`;
+                name.innerHTML = `${towns[i].name}`;
 
-                townevents.innerHTML = `${info.events}<br>`;
+
+                townevents.innerHTML = `${towns.events[i] + "<br>"}`;
                 newCard.appendChild(name);
                 newCard.appendChild(townevents);
 
                 document.querySelector('div.newCard').appendChild(newCard);
             }
+        }
 
-        });
     });
