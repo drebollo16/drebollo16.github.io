@@ -67,28 +67,17 @@ fetch(requestURL)
     .then(function(jsonObject) {
 
         const towns = jsonObject['towns'];
-
-        for (let i = 0; i < towns.length; i++) {
-
-
-            if (towns.name == 'Preston') {
-
-                let newCard = document.createElement('section');
-                let name = document.createElement('h4');
-                let display2 = document.createElement('div');
-
-                let townevents = document.createElement('div');
-
-                display2.setAttribute('class', 'display2');
-                newCard.setAttribute('class', 'event');
-
-                name.innerHTML = `${towns[i].name}`;
-
-                townevents.innerHTML = `${towns[i].events}<br>`;
-                newCard.appendChild(name);
-                newCard.appendChild(townevents);
-
-                document.querySelector('div.newCard').appendChild(newCard);
+        for (let i = 0; i < jsonObject.towns.length; i++) {
+            if (towns[i].name == 'Preston') {
+                let townnames = jsonObject.towns[i].events;
+                townnames.innerHTML = " ";
+                let newCard = document.createElement('Section');
+                for (i in towns[i].events) {
+                    let eventArray = document.createElement('p')
+                    eventArray.innerHTML = `${townnames[i]}`;
+                    newCard.setAttribute('class', 'eventArray');
+                    document.querySelector('section.newCard').appendChild(eventArray);
+                }
             }
         }
 

@@ -65,28 +65,20 @@ fetch(requestURL)
     })
     .then(function(jsonObject) {
 
-        const info = jsonObject['towns'];
-
-        info.forEach(info => {
-
-
-            if (info.name == 'Soda Springs') {
-
-                let newCard = document.createElement('section');
-                let name = document.createElement('h4');
-                let display2 = document.createElement('div');
-                let townevents = document.createElement('div');
-
-                display2.setAttribute('class', 'display2');
-                newCard.setAttribute('class', 'event');
-
-                name.innerHTML = `${info.name} Town Events:`;
-                townevents.innerHTML = `${info.events}<br>`;
-                newCard.appendChild(name);
-                newCard.appendChild(townevents);
-
-                document.querySelector('div.newCard').appendChild(newCard);
+        const towns = jsonObject['towns'];
+        for (let i = 0; i < jsonObject.towns.length; i++) {
+            if (towns[i].name == 'Soda Springs') {
+                let townnames = jsonObject.towns[i].events;
+                townnames.innerHTML = " ";
+                let newCard = document.createElement('Section');
+                for (i in towns[i].events) {
+                    let eventArray = document.createElement('p')
+                    eventArray.innerHTML = `${townnames[i]}`;
+                    newCard.setAttribute('class', 'event');
+                    document.querySelector('section.newCard').appendChild(eventArray);
+                }
             }
+        }
 
-        });
+
     });

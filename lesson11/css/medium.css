@@ -7,9 +7,6 @@
     .footer {
         width: 80%;
     }
-    main {
-        width: 80%;
-    }
     /*************Lazy Loading*******************/
     .grid {
         display: grid;
@@ -42,5 +39,12 @@
     }
     .display {
         margin-bottom: 20px;
+    }
+    /*-------------Event----------------*/
+    .newCard section {
+        width: 100%;
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
     }
 }

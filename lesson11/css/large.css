@@ -32,10 +32,10 @@
         flex: 1 1 auto;
     }
     footer {
-        width: 60%;
+        width: 65%;
     }
     main {
-        width: 60%;
+        width: 65%;
     }
     .forecasttable th {
         background-color: #006287;
@@ -129,5 +129,11 @@
     .secdiv img {
         width: 200px;
         width: 80%;
+    }
+    /*-------------Event----------------*/
+    .newCard {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
     }
 }

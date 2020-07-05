@@ -1,6 +1,6 @@
 WebFont.load({
     google: {
-        families: ['Crimson Text', 'Acme']
+        families: ['Poppins', 'Acme']
     }
 
 });
