@@ -7,6 +7,14 @@
     .footer {
         width: 80%;
     }
+    /**********************Location img***************************/
+    .flex-item2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .flex-item2 .prestonlocation {
+        width: 80%;
+    }
     /*************Lazy Loading*******************/
     .grid {
         display: grid;
@@ -21,7 +29,6 @@
     }
     section {
         flex-direction: row;
-        display: flex;
         text-align: center;
         overflow: hidden;
     }

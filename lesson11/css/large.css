@@ -77,11 +77,18 @@
         height: 350px;
     }
     .artimg {
-        width: 350px;
+        width: 450px;
         height: 350px;
         float: right;
         box-shadow: 0 0 30px #111;
         top: -50px
+    }
+    .flex-item2 .prestonlocation {
+        width: 70%;
+    }
+    .flex-item2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
     }
     /*--------------------Gallery---------------------------*/
     article:hover {

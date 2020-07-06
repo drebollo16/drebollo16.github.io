@@ -260,8 +260,6 @@
  }
  
  .flex-container2 {
-     flex-direction: column;
-     flex-wrap: wrap;
      max-width: 1220px;
      text-align: left;
      margin-top: 10px;
@@ -294,6 +292,10 @@
  .flex-item2 {
      background-color: #deecf9;
      border: solid 2px #b8c9ee;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 10px;
+     clear: fixed;
      box-shadow: 5px 5px 5px rgb(69, 71, 73);
      margin: 3px;
      padding: 10px 0 0 10px;
@@ -301,15 +303,13 @@
      text-align: left;
      border-radius: 6px;
  }
- /*-------------------------- Icon---------------------- */
  
- .map {
-     width: 300px;
-     height: 280px;
-     float: left;
-     margin-right: 160px;
-     box-shadow: 0 0 30px #111;
+ .flex-item2 .prestonlocation {
+     box-shadow: 4px 4px 3px rgb(69, 71, 73);
+     width: 100%;
+     text-align: center;
  }
+ /*-------------------------- Icon---------------------- */
  
  .google_icon {
      width: 25px;
