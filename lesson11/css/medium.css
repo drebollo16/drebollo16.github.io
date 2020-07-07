@@ -34,23 +34,24 @@
         overflow: hidden;
     }
     .star {
-        margin-bottom: 30px;
-        text-align: center;
-        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+        text-align: left;
     }
     .star img {
-        width: 100%;
+        float: left;
+        margin-right: 10px;
+        width: 50%;
     }
     .secdtdiv {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .sectdiv img {
-        width: 70%;
         overflow: hidden;
     }
     .display {
-        margin-bottom: 20px;
+        font-size: 18px;
+        width: 680px;
     }
     /*-------------Event----------------*/
     .newCard section {

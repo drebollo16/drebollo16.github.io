@@ -37,6 +37,7 @@
  h2 {
      color: steelblue;
      font-family: 'Acme', cursive;
+     font-size: 23px;
  }
  
  header {
@@ -49,11 +50,6 @@
      color: #f0f0f0;
      padding: 15px 0;
      text-align: center;
- }
- 
- .newCard p {
-     font-size: 23px;
-     text-shadow: lightseagreen;
  }
  
  header img {
@@ -99,10 +95,24 @@
      margin: 0 auto;
  }
  
+ .newCard p {
+     font-size: 18px;
+     text-shadow: lightseagreen;
+ }
+ 
  .cards {
      grid-gap: 15px;
      display: grid;
      grid-template-columns: 1fr;
+ }
+ 
+ .cards h2 {
+     font-size: 23px;
+ }
+ 
+ .display {
+     margin-bottom: 20px;
+     font-size: 15px;
  }
  
  section {
@@ -112,7 +122,6 @@
  }
  
  .star {
-     display: grid;
      grid-template-columns: 1fr;
      padding: 20px;
      margin-bottom: 30px;
@@ -120,10 +129,13 @@
      grid-gap: 20px;
  }
  
+ .star h2 {
+     font-size: 22px;
+ }
+ 
  .star img {
      box-shadow: 5px 5px 5px darkslategray;
      width: 100%;
-     margin-top: 35px;
  }
  /*****************Navigation***********************************/
  
