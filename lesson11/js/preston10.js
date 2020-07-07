@@ -71,7 +71,7 @@ fetch(requestURL)
             if (towns[i].name == 'Preston') {
                 let townnames = jsonObject.towns[i].events;
                 townnames.innerHTML = " ";
-                let newCard = document.createElement('Section');
+                let newCard = document.createElement('section');
                 for (i in towns[i].events) {
                     let eventArray = document.createElement('p')
                     eventArray.innerHTML = `${townnames[i]}`;

@@ -24,11 +24,12 @@
     .cards {
         grid-gap: 15px;
     }
-    section:nth-child(odd) {
+    .cards section:nth-child(odd) {
         flex-direction: row-reverse;
     }
-    section {
+    .cards section {
         flex-direction: row;
+        display: flex;
         text-align: center;
         overflow: hidden;
     }
