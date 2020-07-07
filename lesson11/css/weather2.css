@@ -85,15 +85,17 @@
  }
  
  footer a {
-     color: rgb(226, 230, 196);
+     color: rgb(254, 255, 244);
  }
  
- a:link {
-     color: orange;
+ a:hover {
+     color: rgb(241, 57, 57);
+     background-color: transparent;
+     text-decoration: underline;
  }
  
  a {
-     color: rgb(9, 73, 192);
+     color: rgb(73, 53, 245);
  }
  /*-----------------------Index Page -----------*/
  
