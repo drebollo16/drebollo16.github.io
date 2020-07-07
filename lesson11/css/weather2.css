@@ -84,8 +84,16 @@
      margin-top: 0;
  }
  
+ footer a {
+     color: rgb(17, 2, 2);
+ }
+ 
+ a:link {
+     color: orange;
+ }
+ 
  a {
-     color: rgb(12, 16, 250);
+     color: rgb(187, 14, 22);
  }
  /*-----------------------Index Page -----------*/
  
@@ -192,7 +200,7 @@
  
  .navigation a:hover {
      color: white;
-     background-color: #5da2bd;
+     background-color: #2e7fc2;
  }
  
  .responsive li {
