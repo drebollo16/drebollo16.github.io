@@ -44,6 +44,9 @@
         footer {
             width: 65%;
         }
+        footer p {
+            font-size: 16px;
+        }
         main {
             width: 65%;
         }
@@ -108,6 +111,9 @@
             margin-bottom: 35px;
             text-align: center;
         }
+        .star h2 {
+            font-size: 32px;
+        }
         .star img {
             margin: 0 auto;
             height: 350px;
@@ -148,6 +154,7 @@
         }
         .cards h2 {
             text-align: center;
+            font-size: 25px;
         }
         .display {
             font-size: 17px;
