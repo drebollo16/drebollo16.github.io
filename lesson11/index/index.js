@@ -25,6 +25,7 @@ fetch(requestURL)
                 let averageRainfall = document.createElement('h3');
 
                 photo.setAttribute('src', towns.photo);
+                photo.setAttribute('alt', towns.photo);
                 motto.innerHTML = `<i>${towns.motto}`;
                 display.setAttribute('class', 'display');
                 card.setAttribute('class', 'sectdiv');
