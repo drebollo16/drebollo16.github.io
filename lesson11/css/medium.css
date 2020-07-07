@@ -36,6 +36,10 @@
     .star {
         margin-bottom: 30px;
         text-align: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .star img {
+        width: 100%;
     }
     .secdtdiv {
         display: grid;

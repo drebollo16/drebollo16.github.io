@@ -3,7 +3,7 @@
  body {
      font-size: 16px;
      margin: 0 auto;
-     background-color: #f5f8fa;
+     background-color: #e6eef3;
  }
  
  main {
@@ -100,11 +100,6 @@
      grid-template-columns: 1fr;
  }
  
- .star {
-     margin-bottom: 30px;
-     text-align: center;
- }
- 
  section {
      background-color: #deecf9;
      border: solid 2px #b8c9ee;
@@ -114,6 +109,10 @@
  .star {
      display: grid;
      grid-template-columns: 1fr;
+     padding: 20px;
+     margin-bottom: 30px;
+     text-align: center;
+     grid-gap: 20px;
  }
  
  .star img {
