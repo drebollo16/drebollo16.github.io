@@ -201,7 +201,7 @@
  
  p {
      margin: .5px;
-     font-size: 15px;
+     font-size: 17px;
  }
  /*****************Banner***********************************/
  
@@ -314,7 +314,6 @@
      display: grid;
      grid-template-columns: 1fr;
      grid-gap: 10px;
-     clear: fixed;
      box-shadow: 5px 5px 5px rgb(69, 71, 73);
      margin: 3px;
      padding: 10px 0 0 10px;
@@ -325,7 +324,6 @@
  
  .flex-item2 .prestonlocation {
      box-shadow: 4px 4px 3px rgb(69, 71, 73);
-     width: 100%;
      text-align: center;
  }
  /*-------------------------- Icon---------------------- */

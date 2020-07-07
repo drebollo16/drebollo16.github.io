@@ -7,6 +7,9 @@
     .footer {
         width: 80%;
     }
+    p {
+        font-size: 18px;
+    }
     /**********************Location img***************************/
     .flex-item2 {
         grid-template-columns: 1fr 1fr;
