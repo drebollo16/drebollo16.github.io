@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week12 - Array | Denise Rebollo | Cit160</title>
+    <script>
+        function caculate() {
+            var list = [17, 8, 9, 5, 20];
+
+            document.getElementById('output').innerText = value;
+
+            var value = addEnds(list);
+
+            var middle = getMiddle(list);
+            document.writeln("text");
+
+        }
+
+        function addEnds(list) {
+
+            var list = [12, 4, 8, 15, 17, 5, 20, 11];
+            let firstnum = list[0];
+            let lastnum = list[list.length - 1];
+            return firstnum + lastnum;
+
+
+        }
+
+        function getMiddle(list) {
+
+            for (i in list.length / 2) {
+                let mid = list;
+            }
+            return value;
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Array</h2>
+
+    <button type="button" onclick="addEnds()">Sum of Ends</button>
+    <div id="output"></div>
+</body>
+
+</html>
