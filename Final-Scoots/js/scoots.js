@@ -1,4 +1,4 @@
-const apiURLs = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=8ef3acee6058752fb9adc42140902cd6&units=imperial";
+const apiURLs = "drebollo16.github.io/Final-Scoots/json";
 fetch(apiURLs)
     .then((response) => response.json())
     .then((jsObject) => {

@@ -1,0 +1,50 @@
+{
+    "pricechart": [{
+            "rentaltype": "~Honda Metro Scooter",
+            "maxperson": "1",
+            "halfday": "$20",
+            "fullday": "$30",
+            "falfday(3hrs)": "$25",
+            "fullday": "$35"
+        },
+        {
+            "rentaltype": "~Honda Dio Scooter",
+            "maxperson": "2",
+            "halfday": "$30",
+            "fullday": "$40",
+            "halfdfay(3hrs)": "$35",
+            "fullday": "$45"
+        },
+        {
+            "rentaltype": "~Honda PCX150 Scooter",
+            "maxperson": "2",
+            "halfday": "$40",
+            "fullday": "$50",
+            "halfday(3hrs)": "$45",
+            "fullday": "$55"
+        },
+        {
+            "rentaltype": "~Honda Pioneer ATV",
+            "maxperson": "4",
+            "halfday": "$50",
+            "fullday": "$70",
+            "halfday(3hrs)": "$60",
+            "fullday": "$80"
+        },
+        {
+            "rentaltype": "~Jeep Wrangler - 4 door with a/c",
+            "maxperson": "5",
+            "halfday": "$70 ",
+            "fullday": "$100",
+            "halfday(3hrs)": "$85",
+            "fullday": "$125"
+        },
+        {
+            "rentaltype": "~Jeep Wrangler - 2 door",
+            "maxperson": "4",
+            "halfday": "$60",
+            "fullday": "$85",
+            "halfday(3hrs)": "$70",
+            "fullday": "$90"
+        }
+    ]
