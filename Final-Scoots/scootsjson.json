@@ -1,50 +1,51 @@
 {
     "pricechart": [{
             "rentaltype": "~Honda Metro Scooter",
-            "maxperson": "1",
-            "halfday": "$20",
-            "fullday": "$30",
-            "falfday(3hrs)": "$25",
-            "fullday": "$35"
+            "maxperson": 1,
+            "halfdayreservation": "$20",
+            "Reservatinfullday": "$30",
+            "walkinhalfday(3hrs)": "$25",
+            "walkinfullday": "$35"
         },
         {
             "rentaltype": "~Honda Dio Scooter",
-            "maxperson": "2",
-            "halfday": "$30",
-            "fullday": "$40",
-            "halfdfay(3hrs)": "$35",
-            "fullday": "$45"
+            "maxperson": 2,
+            "halfdayreservation": "$30",
+            "reservationhalfday": "$40",
+            "walkinhalfdfay(3hrs)": "$35",
+            "walkinfullday": "$45"
         },
         {
             "rentaltype": "~Honda PCX150 Scooter",
-            "maxperson": "2",
-            "halfday": "$40",
-            "fullday": "$50",
-            "halfday(3hrs)": "$45",
-            "fullday": "$55"
+            "maxperson": 2,
+            "halfdayreservation": "$40",
+            "Reservationhalfday": "$50",
+            "walkinhalfday(3hrs)": "$45",
+            "walkinfullday": "$55"
         },
         {
             "rentaltype": "~Honda Pioneer ATV",
-            "maxperson": "4",
-            "halfday": "$50",
-            "fullday": "$70",
-            "halfday(3hrs)": "$60",
-            "fullday": "$80"
+            "maxperson": 4,
+            "halfdayreservation": "$50",
+            "Reservationhalfday": "$70",
+            "walkinhalfday(3hrs)": "$60",
+            "walkinfullday": "$80"
         },
         {
             "rentaltype": "~Jeep Wrangler - 4 door with a/c",
-            "maxperson": "5",
-            "halfday": "$70 ",
-            "fullday": "$100",
-            "halfday(3hrs)": "$85",
-            "fullday": "$125"
+            "maxperson": 5,
+            "halfdayreservation": "$70 ",
+            "Reservationhalfday": "$100",
+            "walkinhalfday(3hrs)": "$85",
+            "walkinfullday": "$125"
         },
         {
             "rentaltype": "~Jeep Wrangler - 2 door",
-            "maxperson": "4",
-            "halfday": "$60",
-            "fullday": "$85",
-            "halfday(3hrs)": "$70",
-            "fullday": "$90"
+            "maxperson": 4,
+            "halfdayreservation": "$60",
+            "Reservationhalfday": "$85",
+            "walkinhalfday(3hrs)": "$70",
+            "walkinfullday": "$90"
         }
     ]
+}
