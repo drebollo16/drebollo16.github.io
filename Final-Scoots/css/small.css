@@ -8,6 +8,10 @@
     h1 {
         color: #ea9a96;
     }
+    
+    section {
+        background-color: rgb(22, 82, 150);
+    }
     /* ---------CSS from SMALL Navagation Footer Header---------------*/
     
     header,
