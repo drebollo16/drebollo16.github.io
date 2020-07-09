@@ -1,0 +1,81 @@
+    main {
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #ea9a96;
+    }
+    /* ---------CSS from SMALL Navagation Footer Header---------------*/
+    
+    header,
+    footer {
+        background-color: #1761a0;
+        margin: 0 auto;
+        display: flex;
+        color: #f0f0f0;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    header img {
+        width: 120px;
+    }
+    
+    nav {
+        background-color: rgb(219, 225, 230);
+        text-align: center;
+        box-shadow: 0 2px 15px gray;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li a {
+        text-align: center;
+        padding: 0.50rem;
+        text-decoration: none;
+        display: block;
+        font-size: 0.95rem;
+    }
+    
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .menusign {
+        align-content: center;
+    }
+    
+    .navigation li:first-child {
+        display: block;
+    }
+    
+    .navigation li {
+        display: none
+    }
+    
+    .navigation a {
+        display: block;
+        padding: 0.50rem;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+    
+    .navigation a:hover {
+        color: white;
+        background-color: #003F62;
+    }
+    
+    .responsive li {
+        display: block;
+    }

@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60em) {
+    nav ul {
+        display: flex;
+    }
+    .navigation {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    footer {
+        width: 80%;
+    }
+}
