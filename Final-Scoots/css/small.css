@@ -11,6 +11,7 @@
     
     section {
         background-color: rgb(22, 82, 150);
+        color: white;
     }
     /* ---------CSS from SMALL Navagation Footer Header---------------*/
     
@@ -19,8 +20,9 @@
         background-color: #1761a0;
         margin: 0 auto;
         display: flex;
+        justify-content: center;
         color: #f0f0f0;
-        padding: 15px 0;
+        padding: 20px 0;
         text-align: center;
     }
     
