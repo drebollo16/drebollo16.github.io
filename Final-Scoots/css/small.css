@@ -17,21 +17,20 @@
     
     header,
     footer {
-        background-color: #1761a0;
+        background-color: #22C7D3;
         margin: 0 auto;
         display: flex;
         justify-content: center;
-        color: #f0f0f0;
-        padding: 20px 0;
+        color: #080808;
         text-align: center;
     }
     
     header img {
-        width: 120px;
+        width: 150px;
     }
     
     nav {
-        background-color: rgb(219, 225, 230);
+        background-color: #D9DCD0;
         text-align: center;
         box-shadow: 0 2px 15px gray;
         width: 100%;
