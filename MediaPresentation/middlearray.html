@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middle Array| Week 12 | Denise Rebollo
+    </title>
+    <script>
+        function caculate() {
+
+            var list = [12, 4, 8, 15, 17, 5, 20, 11];
+            var value = getMiddle(list);
+            document.getElementById('output').innerText = value;
+        }
+
+        function getMiddle(list) {
+            if (list.length % 2 == 0) {
+                let list1 = list.length / 2;
+                let list2 = list.length / 2 - 1;
+                let list3 = list.length / 2 - 0.5;
+                return (list[list1] + list[list2]) / 2;
+            } else {
+                return list[list3];
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Middle Array</h2>
+
+    <button type="button" onclick="caculate()">Sum of Ends</button>
+    <div id="output"></div>
+</body>
+
+</html>
