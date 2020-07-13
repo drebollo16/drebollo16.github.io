@@ -1,3 +1,5 @@
+   /*-----------------------------MAIN *-------------------------------*/
+   
    main {
        margin: 0 auto;
        padding: 20px;
@@ -14,12 +16,14 @@
    p {
        font-family: 'Cormorant Garamond', serif;
    }
+   /*---------------------Json Section---------------------------------*/
    
    section {
        background-color: rgb(211, 159, 15);
        color: white;
    }
-   /* ---------CSS from SMALL Navagation Footer Header---------------*/
+   /*End of Json Section*/
+   /* ----------------------Footer Header-------------------------------*/
    
    header {
        background-color: #22C7D3;
@@ -40,7 +44,7 @@
    }
    
    header img {
-       width: 130px;
+       width: 100px;
        text-align: left;
        margin-left: 30px;
    }
@@ -52,6 +56,13 @@
    .container {
        width: 100%;
        margin: 0 auto;
+   }
+   /*End of Header/ Footer */
+   /* ------------------CSS from SMALL Navagation------------------*/
+   
+   .active {
+       background-color: #f7c761;
+       color: #fff;
    }
    
    nav {
@@ -89,6 +100,11 @@
    .navlinks li {
        display: none;
        text-transform: uppercase;
+       border-right: 2px solid rgb(12, 12, 12);
+   }
+   
+   .navlinks:last-child {
+       border-right: none;
    }
    
    .navlinks a {
@@ -107,3 +123,5 @@
    .responsive li {
        display: block;
    }
+   /*End of Navigation*/
+   /* -------------------------------------------------------*/
