@@ -2,13 +2,15 @@
     main {
         width: 80%;
     }
+    footer {
+        width: 80%;
+    }
     .navlinks {
         width: 70%;
         overflow: hidden;
-        height: 50px;
-        line-height: 50px;
+        height: 60px;
+        line-height: 60px;
         display: flex;
-        border-radius: 10px;
     }
     nav {
         width: 70%;
@@ -16,8 +18,9 @@
     nav ul {
         display: flex;
         position: fixed;
-        top: 74px;
-        width: 70%;
+        top: 103px;
+        width: 60%;
+        padding: 0;
     }
     nav ul li {
         flex: 1 1 100%;
@@ -32,8 +35,6 @@
         display: block;
         width: 10px;
         border-radius: 10px;
-    }
-    footer {
-        width: 80%;
+        flex: 1 1 auto;
     }
 }
