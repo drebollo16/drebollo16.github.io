@@ -2,24 +2,22 @@
     main {
         width: 80%;
     }
-    .navBar {
-        width: 100%;
+    .navlinks {
+        width: 70%;
         overflow: hidden;
         height: 50px;
         line-height: 50px;
+        display: flex;
+        border-radius: 10px;
     }
     nav {
         width: 70%;
-        border-radius: 10px;
     }
     nav ul {
         display: flex;
         position: fixed;
-        top: 70px;
+        top: 74px;
         width: 70%;
-    }
-    .navlinks {
-        display: flex;
     }
     nav ul li {
         flex: 1 1 100%;
@@ -33,11 +31,9 @@
     .navlinks li {
         display: block;
         width: 10px;
+        border-radius: 10px;
     }
     footer {
         width: 80%;
-    }
-    section {
-        background-color: rgb(243, 210, 103);
     }
 }
