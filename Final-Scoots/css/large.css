@@ -2,10 +2,24 @@
     main {
         width: 80%;
     }
+    .navBar {
+        width: 100%;
+        overflow: hidden;
+        height: 50px;
+        line-height: 50px;
+    }
+    nav {
+        width: 70%;
+        border-radius: 10px;
+        background-color: #45f8e9;
+    }
     nav ul {
         display: flex;
+        position: fixed;
+        top: 97px;
+        width: 70%;
     }
-    .navigation {
+    .navlinks {
         display: flex;
     }
     nav ul li {
@@ -14,12 +28,12 @@
     nav a {
         font-size: 10px;
     }
-    .navigation li:first-child {
+    .navlinks li:first-child {
         display: none;
     }
-    .navigation li {
+    .navlinks li {
         display: block;
-        flex: 1 1 auto;
+        width: 10px;
     }
     footer {
         width: 80%;
@@ -28,6 +42,6 @@
         text-align: center;
     }
     section {
-        background-color: rgb(22, 82, 150);
+        background-color: rgb(82, 196, 211);
     }
 }

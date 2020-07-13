@@ -1,86 +1,109 @@
-    main {
-        margin: 0 auto;
-        padding: 20px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-    }
-    
-    h1 {
-        color: #ea9a96;
-    }
-    
-    section {
-        background-color: rgb(22, 82, 150);
-        color: white;
-    }
-    /* ---------CSS from SMALL Navagation Footer Header---------------*/
-    
-    header,
-    footer {
-        background-color: #22C7D3;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        color: #080808;
-        text-align: center;
-    }
-    
-    header img {
-        width: 150px;
-    }
-    
-    nav {
-        background-color: #D9DCD0;
-        text-align: center;
-        box-shadow: 0 2px 15px gray;
-        width: 100%;
-    }
-    
-    nav ul {
-        list-style-type: none;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
-    
-    nav ul li a {
-        text-align: center;
-        padding: 0.50rem;
-        text-decoration: none;
-        display: block;
-        font-size: 0.95rem;
-    }
-    
-    .navigation {
-        list-style: none;
-        padding: 0;
-    }
-    
-    .menusign {
-        align-content: center;
-    }
-    
-    .navigation li:first-child {
-        display: block;
-    }
-    
-    .navigation li {
-        display: none
-    }
-    
-    .navigation a {
-        display: block;
-        padding: 0.50rem;
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
-    }
-    
-    .navigation a:hover {
-        color: white;
-        background-color: #003F62;
-    }
-    
-    .responsive li {
-        display: block;
-    }
+   main {
+       margin: 0 auto;
+       padding: 20px;
+       font-family: 'Cormorant Garamond', serif;
+       text-align: center;
+   }
+   
+   h1,
+   h2 {
+       color: #040211;
+       font-family: 'Fondamento', cursive;
+   }
+   
+   p {
+       font-family: 'Cormorant Garamond', serif;
+   }
+   
+   section {
+       background-color: rgb(211, 159, 15);
+       color: white;
+   }
+   /* ---------CSS from SMALL Navagation Footer Header---------------*/
+   
+   header {
+       background-color: #22C7D3;
+       margin: 0 auto;
+       display: flex;
+       color: #080808;
+       text-align: center;
+       border-bottom: 5px solid rgb(12, 12, 12);
+       font-family: 'Cormorant Garamond', serif;
+   }
+   
+   footer {
+       background-color: #22C7D3;
+       margin: 0 auto;
+       display: flex;
+       color: #080808;
+       text-align: center;
+   }
+   
+   header img {
+       width: 130px;
+       text-align: left;
+       margin-left: 30px;
+   }
+   
+   .scootslogo {
+       float: left;
+   }
+   
+   .container {
+       width: 100%;
+       margin: 0 auto;
+   }
+   
+   nav {
+       width: 100%;
+       float: right;
+   }
+   
+   nav ul {
+       list-style-type: none;
+       overflow: hidden;
+       margin: 0;
+       background-color: rgb(227, 234, 248);
+   }
+   
+   nav ul li a {
+       text-align: center;
+       text-decoration: none;
+       display: block;
+       font-size: 0.95rem;
+   }
+   
+   .navlinks {
+       list-style: none;
+       padding: 0;
+   }
+   
+   .menusign {
+       align-content: center;
+   }
+   
+   .navlinks li:first-child {
+       display: block;
+   }
+   
+   .navlinks li {
+       display: none;
+       text-transform: uppercase;
+   }
+   
+   .navlinks a {
+       display: block;
+       padding: 0.50rem;
+       text-decoration: none;
+       color: rgb(6, 10, 8);
+       font-weight: 700;
+   }
+   
+   .navlinks a:hover {
+       color: rgb(22, 22, 20);
+       background-color: #21dad0;
+   }
+   
+   .responsive li {
+       display: block;
+   }
