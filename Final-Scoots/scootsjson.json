@@ -2,7 +2,7 @@
     "pricechart": [{
             "rentaltype": "Honda Metro Scooter",
             "maxperson": 1,
-            "Photo": "metro.jpg",
+            "photo": "metro.jpg",
             "halfdayreservation": "$20",
             "Reservatinfullday": "$30",
             "walkinhalfday(3hrs)": "$25",
@@ -11,7 +11,7 @@
         {
             "rentaltype": "Honda Dio Scooter",
             "maxperson": 2,
-            "Photo": "dio.jpg",
+            "photo": "dio.jpg",
             "halfdayreservation": "$30",
             "reservationhalfday": "$40",
             "walkinhalfdfay(3hrs)": "$35",
@@ -20,7 +20,7 @@
         {
             "rentaltype": "Honda PCX150 Scooter",
             "maxperson": 2,
-            "Photo": "pcx150.jpg",
+            "photo": "pcx150.jpg",
             "halfdayreservation": "$40",
             "Reservationhalfday": "$50",
             "walkinhalfday(3hrs)": "$45",
@@ -29,7 +29,7 @@
         {
             "rentaltype": "Honda Pioneer ATV",
             "maxperson": 4,
-            "Photo": "pioneeratv.jpg",
+            "photo": "pioneeratv.jpg",
             "halfdayreservation": "$50",
             "Reservationhalfday": "$70",
             "walkinhalfday(3hrs)": "$60",
@@ -38,7 +38,7 @@
         {
             "rentaltype": "Jeep Wrangler - 4 door with a/c",
             "maxperson": 5,
-            "Photo": "jeep4door.jpg",
+            "photo": "jeep4door.jpg",
             "halfdayreservation": "$70 ",
             "Reservationhalfday": "$100",
             "walkinhalfday(3hrs)": "$85",
@@ -47,7 +47,7 @@
         {
             "rentaltype": "Jeep Wrangler - 2 door",
             "maxperson": 4,
-            "Photo": "wrangler2door.jpg",
+            "photo": "wrangler2door.jpg",
             "halfdayreservation": "$60",
             "Reservationhalfday": "$85",
             "walkinhalfday(3hrs)": "$70",
