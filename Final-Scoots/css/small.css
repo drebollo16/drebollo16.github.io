@@ -135,6 +135,12 @@
        margin: 0 auto;
    }
    /*End of Header/ Footer */
+   
+   .cards {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 15px;
+   }
    /* ------------------CSS from SMALL Navagation------------------*/
    
    .active {

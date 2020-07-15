@@ -1,47 +1,53 @@
 {
     "pricechart": [{
-            "rentaltype": "~Honda Metro Scooter",
+            "rentaltype": "Honda Metro Scooter",
             "maxperson": 1,
+            "Photo": "metro.jpg",
             "halfdayreservation": "$20",
             "Reservatinfullday": "$30",
             "walkinhalfday(3hrs)": "$25",
             "walkinfullday": "$35"
         },
         {
-            "rentaltype": "~Honda Dio Scooter",
+            "rentaltype": "Honda Dio Scooter",
             "maxperson": 2,
+            "Photo": "dio.jpg",
             "halfdayreservation": "$30",
             "reservationhalfday": "$40",
             "walkinhalfdfay(3hrs)": "$35",
             "walkinfullday": "$45"
         },
         {
-            "rentaltype": "~Honda PCX150 Scooter",
+            "rentaltype": "Honda PCX150 Scooter",
             "maxperson": 2,
+            "Photo": "pcx150.jpg",
             "halfdayreservation": "$40",
             "Reservationhalfday": "$50",
             "walkinhalfday(3hrs)": "$45",
             "walkinfullday": "$55"
         },
         {
-            "rentaltype": "~Honda Pioneer ATV",
+            "rentaltype": "Honda Pioneer ATV",
             "maxperson": 4,
+            "Photo": "pioneeratv.jpg",
             "halfdayreservation": "$50",
             "Reservationhalfday": "$70",
             "walkinhalfday(3hrs)": "$60",
             "walkinfullday": "$80"
         },
         {
-            "rentaltype": "~Jeep Wrangler - 4 door with a/c",
+            "rentaltype": "Jeep Wrangler - 4 door with a/c",
             "maxperson": 5,
+            "Photo": "jeep4door.jpg",
             "halfdayreservation": "$70 ",
             "Reservationhalfday": "$100",
             "walkinhalfday(3hrs)": "$85",
             "walkinfullday": "$125"
         },
         {
-            "rentaltype": "~Jeep Wrangler - 2 door",
+            "rentaltype": "Jeep Wrangler - 2 door",
             "maxperson": 4,
+            "Photo": "wrangler2door.jpg",
             "halfdayreservation": "$60",
             "Reservationhalfday": "$85",
             "walkinhalfday(3hrs)": "$70",

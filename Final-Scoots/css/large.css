@@ -12,6 +12,9 @@
     .indexbanner {
         margin: 0;
     }
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
     /*---------------------Large Navagation---------------------------------*/
     .navlinks {
         width: 70%;
