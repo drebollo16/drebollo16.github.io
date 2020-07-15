@@ -23,8 +23,10 @@
    /*---------------------Json Section---------------------------------*/
    
    section {
-       background-color: rgb(238, 210, 134);
-       color: white;
+       background-color: rgb(250, 231, 177);
+       color: rgb(4, 82, 112);
+       border-radius: 10px;
+       box-shadow: 7px 7px 7px;
    }
    /*End of Json Section*/
    
