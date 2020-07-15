@@ -5,6 +5,14 @@
     footer {
         width: 80%;
     }
+    /*---------------------Large index banner ---------------------------------*/
+    .indexbanner img {
+        height: 350px;
+    }
+    .indexbanner {
+        margin: 0;
+    }
+    /*---------------------Large Navagation---------------------------------*/
     .navlinks {
         width: 70%;
         overflow: hidden;
@@ -37,4 +45,5 @@
         border-radius: 10px;
         flex: 1 1 auto;
     }
+    /*--------------End Navagation----------------*/
 }

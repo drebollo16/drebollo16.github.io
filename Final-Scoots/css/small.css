@@ -1,5 +1,9 @@
    /*-----------------------------MAIN *-------------------------------*/
    
+   body {
+       background-color: rgb(228, 245, 245);
+   }
+   
    main {
        margin: 0 auto;
        padding: 20px;
@@ -23,6 +27,18 @@
        color: white;
    }
    /*End of Json Section*/
+   /*---------------------Index Bannner---------------------------------*/
+   
+   .indexbanner {
+       margin: 0px auto;
+       position: relative;
+       margin-top: 35px;
+   }
+   
+   .indexbanner img {
+       width: 100%;
+       border-radius: 10px;
+   }
    /* ----------------------Footer Header-------------------------------*/
    
    header {

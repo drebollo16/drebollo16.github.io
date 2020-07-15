@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cit 160| Count Evens| Denise Rebollo</title>
+    <script>
+        function caculate() {
+            var list = [17, 8, 9, 5, 20];
+            var count = countEvens(list);
+            document.getElementById('output').innerHTML = count;
+
+        }
+
+        function countEvens(list) {
+            let array = [];
+            let even = [];
+            for (let i = 0; i < list.length; i++) {
+                if (list[i] % 2 === 0) {
+                    even = array.push(list[i]);
+                }
+            }
+            return even;
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Array Counting Evens</h2>
+    <p> [ 17, 8, 9, 5, 20 ] Displaying total evens </p>
+    <button type="button" onclick="caculate()">Count Evens</button>
+    <div id="output"></div>
+
+</body>
+
+</html>

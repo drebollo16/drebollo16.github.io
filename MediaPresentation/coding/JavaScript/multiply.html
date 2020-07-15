@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cit 160 | Denise Rebollo | Multiply</title>
+    <script>
+        function caculate() {
+            var list = [17, 8, 9, 5, 20];
+            var products = multiply(list, 3);
+
+            document.getElementById('output').innerText = products;
+        }
+
+        function multiply(list, multiplier) {
+            let multiply = [];
+            for (let i = 0; i < list.length; i++) {
+                multiply.push(list[i] *= multiplier);
+            }
+            return multiply;
+
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Array Multiplier</h2>
+    <p>[17, 8, 9, 5, 20] Multiply by 3</p>
+    <button type="button" onclick="caculate()">Multiply</button>
+    <div id="output"></div>
+</body>
+
+</html>
