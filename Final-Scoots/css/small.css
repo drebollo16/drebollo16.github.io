@@ -27,6 +27,38 @@
        color: white;
    }
    /*End of Json Section*/
+   
+   .forecasttable th {
+       background-color: #10a0d4;
+       height: 30px;
+       width: 120px;
+       color: white;
+       text-align: center;
+       border: 1px solid black;
+   }
+   
+   .forecasttable td {
+       border: 1px solid black;
+       border-collapse: initial;
+       height: 100px;
+   }
+   
+   .forecasttable img {
+       width: 90px;
+       height: 70px;
+       align-items: center;
+   }
+   
+   table {
+       border-collapse: collapse;
+       margin: auto;
+   }
+   
+   .forecastsection {
+       display: contents;
+       background-color: #78b7ce;
+       border-radius: 10px;
+   }
    /*---------------------Index Bannner---------------------------------*/
    
    .indexbanner {
@@ -38,6 +70,35 @@
    .indexbanner img {
        width: 100%;
        border-radius: 10px;
+   }
+   
+   .action {
+       position: absolute;
+       top: 20px;
+       left: 20px;
+       flex-wrap: wrap;
+       padding: 20px;
+       background-color: rgba(140, 239, 247, 0.8);
+       text-align: center;
+   }
+   
+   .action-text {
+       color: white;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       border-top: 4px double;
+       border-bottom: 4px double;
+   }
+   
+   .action li a {
+       display: block;
+   }
+   
+   .action button {
+       line-height: 2em;
+       width: 10em;
+       background-color: #e7d425;
+       font-size: 1.2em;
    }
    /* ----------------------Footer Header-------------------------------*/
    
