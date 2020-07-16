@@ -30,13 +30,8 @@
   fetch(apiURLs)
       .then((response) => response.json())
       .then((jsObject) => {
-
-
           document.getElementById('currently').textContent = jsObject.weather[0].description;
           let high = document.getElementById('high').innerHTML = jsObject.main.temp_max + '&deg;F';
           document.getElementById('humid').innerHTML = jsObject.main.humidity + '%';
-
-
-
 
       });

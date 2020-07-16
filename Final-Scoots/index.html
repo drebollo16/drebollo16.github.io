@@ -45,6 +45,7 @@
 
     <main>
 
+        <h2>Scooter Home Page</h2>
         <div class="indexbanner">
             <picture>
                 <source srcset="/Final-Scoots/img/bannersmall.jpg" media="(max-width: 33.5em)">
@@ -58,35 +59,35 @@
             </picture>
         </div>
 
-        <h2>Scooter Home Page</h2>
 
-        <div class="forecastsection">
-            <h2>Cozumel Weather</h2>
-            <div class="bannerSection">
+        <div class="weathersummary">
+            <div>
+                <h2>Cozumel Weather</h2>
                 <h3 id="h2banner">Weather Summary</h3>
                 <p>Current Temperature: <span id="currently"></span></p>
                 <p>High:<span id="high"></span></p>
                 <p>Humidity:<span id="humid"></span></p>
             </div>
+            <div>
+                <table class="forecasttable">
+                    <tr>
+                        <th><span id="dayofweek6"></span></th>
+                        <th><span id="dayofweek14"></span> </th>
+                        <th><span id="dayofweek22"></span> </th>
+                        <th><span id="dayofweek30"></span> </th>
+                        <th><span id="dayofweek38"></span> </th>
+                    </tr>
+                    <tr>
+                        <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon6"><br> <span id="forecast6"></span>&deg; F</td>
+                        <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon14"> <br><span id="forecast14"></span>&deg; F</td>
+                        <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon22"> <br><span id="forecast22"></span>&deg; F</td>
+                        <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon30"> <br><span id="forecast30"></span>&deg; F</td>
+                        <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon38"> <br><span id="forecast38"></span>&deg; F</td>
+                    </tr>
+                </table>
+            </div>
         </div>
-        <table class="forecasttable">
-            <tr>
-                <th><span id="dayofweek6"></span></th>
-                <th><span id="dayofweek14"></span> </th>
-                <th><span id="dayofweek22"></span> </th>
-                <th><span id="dayofweek30"></span> </th>
-                <th><span id="dayofweek38"></span> </th>
-            </tr>
-            <tr>
 
-
-                <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon6"><br> <span id="forecast6"></span>&deg; F</td>
-                <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon14"> <br><span id="forecast14"></span>&deg; F</td>
-                <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon22"> <br><span id="forecast22"></span>&deg; F</td>
-                <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon30"> <br><span id="forecast30"></span>&deg; F</td>
-                <td> <br> &nbsp;<img src="/lesson11/gallery/placeholder.png" alt="placeholder" id="icon38"> <br><span id="forecast38"></span>&deg; F</td>
-            </tr>
-        </table>
 
     </main>
 

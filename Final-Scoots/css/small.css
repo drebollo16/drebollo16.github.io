@@ -25,22 +25,19 @@
    /*End of Json Section*/
    
    .forecasttable th {
-       background-color: #10a0d4;
        height: 30px;
        width: 120px;
-       color: white;
+       color: rgb(12, 12, 12);
        text-align: center;
-       border: 1px solid black;
    }
    
    .forecasttable td {
-       border: 1px solid black;
        border-collapse: initial;
-       height: 100px;
+       height: 80px;
    }
    
    .forecasttable img {
-       width: 90px;
+       width: 100px;
        height: 70px;
        align-items: center;
    }
@@ -48,12 +45,18 @@
    table {
        border-collapse: collapse;
        margin: auto;
+       margin-top: 20px;
    }
    
-   .forecastsection {
-       display: contents;
-       background-color: #78b7ce;
-       border-radius: 10px;
+   .weathersummary {
+       background-color: rgb(153, 231, 241);
+       display: grid;
+       margin: 20px;
+       grid-template-columns: 1fr 1fr;
+       color: rgb(15, 15, 15);
+       border-radius: 15px/45px;
+       border: 1px solid #111111;
+       box-shadow: 7px 7px 7px rgb(140, 141, 143);
    }
    /*---------------------Index Bannner---------------------------------*/
    
@@ -66,6 +69,7 @@
    .indexbanner img {
        width: 100%;
        border-radius: 15px/45px;
+       border: 1px solid #111111;
    }
    
    .action {
@@ -145,7 +149,7 @@
        background-color: rgb(153, 231, 241);
        color: rgb(15, 15, 15);
        border-radius: 15px/45px;
-       border: 4px solid #111111;
+       border: 1px solid #111111;
        box-shadow: 7px 7px 7px rgb(140, 141, 143);
    }
    
@@ -224,7 +228,7 @@
    /* -------------------FORUM---------------------------------*/
    
    form fieldset {
-       border: solid 4px #070707;
+       border: solid 1px #070707;
        background-color: rgb(153, 231, 241);
        color: rgb(15, 15, 15);
        border-radius: 15px/45px;
