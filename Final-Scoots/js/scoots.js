@@ -22,7 +22,7 @@ fetch(requestURL)
             let photo = document.createElement('img');
             photo.setAttribute('src', pricechart.photo);
             photo.setAttribute('alt', pricechart.photo);
-
+            card.setAttribute('class', 'sectiondiv');
 
             h2.textContent = pricechart.rentaltype;
             p1.textContent = pricechart.maxperson;

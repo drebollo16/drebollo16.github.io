@@ -16,7 +16,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
     img {
-        width: 300px;
+        width: 90%;
     }
     /*---------------------Large Navagation---------------------------------*/
     .navlinks {

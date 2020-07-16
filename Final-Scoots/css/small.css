@@ -21,13 +21,6 @@
        font-family: 'Cormorant Garamond', serif;
    }
    /*---------------------Json Section---------------------------------*/
-   
-   section {
-       background-color: rgb(250, 231, 177);
-       color: rgb(4, 82, 112);
-       border-radius: 10px;
-       box-shadow: 7px 7px 7px;
-   }
    /*End of Json Section*/
    
    .forecasttable th {
@@ -127,7 +120,7 @@
        display: flex;
    }
    
-   .scootslogo {
+   .scootslogo img {
        float: left;
        padding: 15px 15px 0 15px;
    }
@@ -145,8 +138,16 @@
        grid-gap: 15px;
    }
    
-   img {
-       width: 100%;
+   .sectiondiv {
+       background-color: rgb(250, 231, 177);
+       color: rgb(4, 82, 112);
+       border-radius: 10px;
+       box-shadow: 7px 7px 7px;
+   }
+   
+   .sectiondiv img {
+       height: 300px;
+       width: 90%;
    }
    /* ------------------CSS from SMALL Navagation------------------*/
    
