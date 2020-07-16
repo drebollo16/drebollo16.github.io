@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="/Final-Scoots/css/small.css">
     <link rel="stylesheet" href="/Final-Scoots/css/medium.css">
     <link rel="stylesheet" href="/Final-Scoots/css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Grenze+Gotisch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,8 +44,87 @@
 
     </nav>
     <main>
-        <h2>Reservations Page</h2>
+        <h2>Schedule a Reservation</h2>
 
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information
+                </legend>
+                <label class="top"> Full Name:&ast;
+                        <input type="text" name="fullname" pattern="[A-Za-z]{5,}" placeholder="Full Name" required></label>
+                <label class="top"> Email:
+                        <input type="email" name="email" placeholder="Someone@gmail.com"></label>
+                <label class="top"> Phone Number:&ast;
+                        <input type="tel" name="phone"
+                            placeholder="##########" required></label>
+                <label class="top"> Country:&ast;
+                                <input type="name" name="Country" required></label>
+                <label class="top"> Zip code:&ast;
+                        <input type="number" name="Zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Rental Information
+                </legend>
+                <label class="top"> Reservation Date:
+                        <input type="date" name="stormdate"></label>
+                <label class="top"> Scooter Rental Type:
+                        <input list="list">
+                        <datalist id="list">
+                            <option value="">Please select &#9662;</option>
+                            <option value="Honda Metro Scooter"></option>
+                            <option value="Honda Dio Scooter"></option>
+                            <option value="Honda PCX150 Scooter"></option>
+                            <option value="Honda Pioneer ATV"></option>
+                            <option value="Jeep Wrangler - 4 Doors with a/c"></option>
+                            <option value="Jeep Wrangler - 2 Doors"></option>
+                   
+                        </datalist></label>
+                <label class="top">Rental Time:
+                            <input list="list2">
+                <datalist id="list2">
+                            <option value="">Please select &#9662;</option>
+                            <option value="Half Day -3 hours"></option>
+                            <option value="Full Day"></option>                   
+                        </datalist></label>
+
+
+
+
+                <label class="top">Rental Location:
+                            <select name="option">
+                                <option value="0">Select Location</option>
+                                <option value="1">Playa del Carmen-Cozumel Ferry dock</option>
+                                <option value="2">Terminal Puerta Maya</option>
+                           
+                                </select>
+                                </label>
+
+
+
+            </fieldset>
+
+
+            <fieldset>
+                <label class="top">Drop off Location:
+                    <select name="option">
+                        <option value="0">Select Location</option>
+                        <option value="1">Playa del Carmen-Cozumel Ferry dock</option>
+                        <option value="2">Terminal Puerta Maya</option>
+                   
+                        </select>
+                        </label>
+                <legend>Return Information</legend>
+
+
+                <div>Pick up?</div>
+                <label class="sbs"><input type="radio" name="audience" value="yes" checked> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="no" checked> No</label>
+
+
+                <textarea name="comments" placeholder="Enter comments or Additional Information here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Send Storm Report" class="submitbutton">
+        </form>
     </main>
 
     <footer>
