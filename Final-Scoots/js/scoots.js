@@ -1,4 +1,4 @@
-const requestURL = "https://drebollo16.github.io/Final-Scoots/scootsjson.json";
+const requestURL = "https://drebollo16.github.io/Final-Scoots/json/scootsjson.json";
 fetch(requestURL)
     .then(function(response) {
         return response.json();
