@@ -221,7 +221,7 @@
        display: block;
    }
    /*End of Navigation*/
-   /* -------------------------------------------------------*/
+   /* -------------------FORUM---------------------------------*/
    
    form fieldset {
        border: solid 4px #070707;
@@ -290,42 +290,6 @@
    form label.top :required:valid {
        border-left: green solid 6px;
    }
-   /*-------------------------------Slider-----------------------------*/
-   
-   .slider {
-       width: 100%;
-       height: 10px;
-       background-color: #80b7df;
-   }
-   
-   .slider:hover {
-       background-color: #0080aa;
-   }
-   
-   .range {
-       display: flex;
-       flex-direction: row;
-       text-align: left;
-       padding: 20px;
-       width: 100%;
-   }
-   
-   .sbs {
-       text-align: left;
-   }
-   
-   .rate {
-       display: block;
-       padding: 15px;
-       margin-left: 0px;
-       text-align: left;
-   }
-   
-   textarea {
-       width: 96%;
-       height: 160px;
-       margin: 10px;
-   }
    /* ---------CSS Thank you Page---------------*/
    
    .thanks {
@@ -338,4 +302,15 @@
    .checkmark {
        height: 70px;
        width: 90px;
+   }
+   /*---------------------------Forum comment area-----------------------------*/
+   
+   .sbs {
+       text-align: left;
+   }
+   
+   textarea {
+       margin-left: 10px;
+       width: 80%;
+       height: 100px;
    }
