@@ -15,6 +15,9 @@
     .cards {
         grid-template-columns: repeat(3, 1fr);
     }
+    img {
+        width: 300px;
+    }
     /*---------------------Large Navagation---------------------------------*/
     .navlinks {
         width: 70%;
@@ -28,7 +31,7 @@
     }
     nav ul {
         display: flex;
-        position: fixed;
+        position: absolute;
         top: 103px;
         width: 60%;
         padding: 0;

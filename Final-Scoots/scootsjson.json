@@ -4,7 +4,7 @@
             "maxperson": 1,
             "photo": "metro.jpg",
             "halfdayreservation": "$20",
-            "Reservatinfullday": "$30",
+            "fulldayreservation": "$30",
             "walkinhalfday3hrs": "$25",
             "walkinfullday": "$35"
         },
@@ -13,8 +13,8 @@
             "maxperson": 2,
             "photo": "dioscooter.jpg",
             "halfdayreservation": "$30",
-            "reservationhalfday": "$40",
-            "walkinhalfdfay3hrs": "$35",
+            "fulldayreservation": "$40",
+            "walkinhalfday3hrs": "$35",
             "walkinfullday": "$45"
         },
         {
@@ -22,7 +22,7 @@
             "maxperson": 2,
             "photo": "pcx150.jpg",
             "halfdayreservation": "$40",
-            "Reservationhalfday": "$50",
+            "fulldayreservation": "$50",
             "walkinhalfday3hrs": "$45",
             "walkinfullday": "$55"
         },
@@ -31,7 +31,7 @@
             "maxperson": 4,
             "photo": "pioneeratv.jpg",
             "halfdayreservation": "$50",
-            "Reservationhalfday": "$70",
+            "fulldayreservation": "$70",
             "walkinhalfday3hrs": "$60",
             "walkinfullday": "$80"
         },
@@ -40,7 +40,7 @@
             "maxperson": 5,
             "photo": "jeep4door.jpg",
             "halfdayreservation": "$70 ",
-            "Reservationhalfday": "$100",
+            "fulldayreservation": "$100",
             "walkinhalfday3hrs": "$85",
             "walkinfullday": "$125"
         },
@@ -49,7 +49,7 @@
             "maxperson": 4,
             "photo": "wrangler2door.jpg",
             "halfdayreservation": "$60",
-            "Reservationhalfday": "$85",
+            "fulldayreservation": "$85",
             "walkinhalfday3hrs": "$70",
             "walkinfullday": "$90"
         }

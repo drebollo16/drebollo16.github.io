@@ -137,11 +137,16 @@
        margin: 0 auto;
    }
    /*End of Header/ Footer */
+   /* ------------------CSS from SMALL Rental Cards------------------*/
    
    .cards {
        display: grid;
        grid-template-columns: 1fr;
        grid-gap: 15px;
+   }
+   
+   img {
+       width: 100%;
    }
    /* ------------------CSS from SMALL Navagation------------------*/
    
