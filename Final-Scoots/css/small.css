@@ -227,6 +227,17 @@
    /*End of Navigation*/
    /* -------------------FORUM---------------------------------*/
    
+   .information {
+       margin: 0 auto;
+       text-align: left;
+       padding: 15px;
+       width: 50%;
+       background-color: rgb(153, 231, 241);
+       border: solid 1px rgb(15, 15, 14);
+       border-radius: 15px/45px;
+       font-size: 20px;
+   }
+   
    form fieldset {
        border: solid 1px #070707;
        background-color: rgb(153, 231, 241);
