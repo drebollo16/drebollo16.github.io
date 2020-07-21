@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function caculate() {
+            var list = [70, 1010, 950, 2014, 6];
+            var score = averageBig(list);
+
+            var score = list.filter(averageBig);
+            document.getElementById("demo").innerHTML = score;
+        }
+
+        function averageBig(list) {
+            let sum = list++;
+            let total = "";
+            let d = total + sum[0];
+            if (list > 1000) {
+                sum + total / 2;
+                return d;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <button type="button" onclick="caculate()">Get list average</button>
+    <div id="demo"></div>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function caculate() {
+            let first = parseFloat(document.getElementById('start').value);
+            let second = parseFloat(document.getElementById('end').value);
+            let third = parseFloat(document.getElementById('divisor').value);
+            let result = depreciation(first, second, third);
+
+            document.getElementById('output').innerHTML = result.toFixed(2);
+        }
+
+        function depreciation(startValue, endValue, months) {
+
+            let d = (startValue - endValue) / months;
+            return d;
+
+
+        }
+    </script>
+</head>
+
+<body>
+    StartValue: <input type="text" id="start" size="5"><br> Endvalue: <input type="text" id="end" size="5"><br> Months: <input type="text" id="divisor" size="5"><br>
+    <button type="button" onclick="caculate()">Click</button>
+    <div id="output"></div>
+</body>
+
+</html>

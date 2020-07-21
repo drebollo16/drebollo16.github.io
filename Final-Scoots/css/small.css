@@ -58,6 +58,26 @@
        border: 1px solid #111111;
        box-shadow: 7px 7px 7px rgb(140, 141, 143);
    }
+   /*----------------------------Tour Div--------------------------------------*/
+   
+   .tour1 {
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-bottom: 30px;
+       background-color: rgb(153, 231, 241);
+       color: rgb(15, 15, 15);
+       border-radius: 15px/45px;
+       border: 1px solid #111111;
+       box-shadow: 7px 7px 7px rgb(140, 141, 143);
+   }
+   
+   .tour1 img {
+       width: 100%;
+       height: 325px;
+       border-radius: 15px/45px;
+       box-shadow: 7px 7px 7px rgb(140, 141, 143);
+       border: 1px solid #111111;
+   }
    /*---------------------Index Bannner---------------------------------*/
    
    .indexbanner {
@@ -120,6 +140,9 @@
        display: flex;
        color: #080808;
        text-align: center;
+       height: 80px;
+       border-radius: 15px/45px;
+       box-shadow: 7px 7px 7px rgb(140, 141, 143);
    }
    
    header img {
@@ -175,7 +198,8 @@
        list-style-type: none;
        overflow: hidden;
        margin: 0;
-       background-color: rgb(179, 228, 236);
+       background-color: rgb(162, 222, 238);
+       border-radius: 15px/45px;
    }
    
    nav ul li a {
@@ -203,6 +227,7 @@
        display: none;
        text-transform: uppercase;
        border-right: 2px solid rgb(12, 12, 12);
+       border-radius: 15px/45px;
    }
    
    .navlinks:last-child {
@@ -219,6 +244,7 @@
    .navlinks a:hover {
        color: rgb(22, 22, 20);
        background-color: #21dad0;
+       border-radius: 10px;
    }
    
    .responsive li {

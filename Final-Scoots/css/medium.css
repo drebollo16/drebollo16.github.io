@@ -5,4 +5,7 @@
     img {
         width: 80%;
     }
+    .tour1 {
+        grid-template-columns: 1fr 1fr;
+    }
 }

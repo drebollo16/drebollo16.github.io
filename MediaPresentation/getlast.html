@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function caculate() {
+            var list = [5, -2.1, 6.3, 9, 5, 13];
+            let result = getLast(list);
+
+            document.getElementById("demo").innerHTML = result;
+        }
+
+        function getLast(list) {
+            var last = list[list.length - 1];
+            return last;
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <button type="button" onclick="caculate()">Get last</button>
+    <div id="demo"></div>
+</body>
+
+</html>
