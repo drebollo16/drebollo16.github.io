@@ -78,6 +78,10 @@
        box-shadow: 7px 7px 7px rgb(140, 141, 143);
        border: 1px solid #111111;
    }
+   
+   img[data-src] {
+       filter: blur(0.2em);
+   }
    /*---------------------Index Bannner---------------------------------*/
    
    .indexbanner {
@@ -139,6 +143,7 @@
        margin: 0 auto;
        color: #080808;
        font-size: 18px;
+       border: 1px solid #111111;
        text-align: center;
        height: 80px;
        border-radius: 15px/45px;
