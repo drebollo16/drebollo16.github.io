@@ -137,8 +137,8 @@
    footer {
        background-color: #22C7D3;
        margin: 0 auto;
-       display: flex;
        color: #080808;
+       font-size: 18px;
        text-align: center;
        height: 80px;
        border-radius: 15px/45px;
