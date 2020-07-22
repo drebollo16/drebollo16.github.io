@@ -1,66 +1,85 @@
-@media only screen and (min-width: 60em) {
-    main {
-        width: 70%;
+    @media only screen and (min-width: 60em) {
+        main {
+            width: 70%;
+        }
+        footer {
+            width: 80%;
+        }
+        /*---------------------Large index banner ---------------------------------*/
+        .indexbanner img {
+            height: 350px;
+        }
+        .indexbanner {
+            margin: 0;
+        }
+        .cards {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        img {
+            width: 90%;
+        }
+        /*---------------------Large Tour section ---------------------------------*/
+        .tour1 {
+            grid-template-columns: 1fr 1fr;
+        }
+        .tour1 img {
+            width: 100%;
+            height: 325px;
+            border-radius: 15px/45px;
+            box-shadow: 7px 7px 7px rgb(140, 141, 143);
+        }
+        .indexgrid {
+            border-radius: 15px/45px;
+            box-shadow: 7px 7px 7px rgb(140, 141, 143);
+        }
+        .indexgrid img {
+            border-radius: 15px/45px;
+            box-shadow: 7px 7px 7px rgb(140, 141, 143);
+            border: 1px solid #111111;
+        }
+        .indexmaingrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 30px;
+        }
+        .weatherdiv {
+            grid-template-columns: 1fr 1fr;
+        }
+        table {
+            display: block;
+        }
+        /*---------------------Large Navagation---------------------------------*/
+        .navlinks {
+            width: 70%;
+            overflow: hidden;
+            height: 60px;
+            line-height: 60px;
+            display: flex;
+        }
+        nav {
+            width: 70%;
+        }
+        nav ul {
+            display: flex;
+            position: absolute;
+            top: 103px;
+            width: 60%;
+            padding: 0;
+        }
+        nav ul li {
+            flex: 1 1 100%;
+        }
+        nav a {
+            font-size: 10px;
+        }
+        .navlinks li:first-child {
+            display: none;
+        }
+        .navlinks li {
+            display: block;
+            width: 10px;
+            border-radius: 10px;
+            flex: 1 1 auto;
+        }
+        /*--------------End Navagation----------------*/
     }
-    footer {
-        width: 80%;
-    }
-    /*---------------------Large index banner ---------------------------------*/
-    .indexbanner img {
-        height: 350px;
-    }
-    .indexbanner {
-        margin: 0;
-    }
-    .cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    img {
-        width: 90%;
-    }
-    /*---------------------Large Tour section ---------------------------------*/
-    .tour1 {
-        grid-template-columns: 1fr 1fr;
-    }
-    .tour1 img {
-        width: 100%;
-        height: 325px;
-        border-radius: 15px/45px;
-        box-shadow: 7px 7px 7px rgb(140, 141, 143);
-        border: 1px solid #111111;
-    }
-    /*---------------------Large Navagation---------------------------------*/
-    .navlinks {
-        width: 70%;
-        overflow: hidden;
-        height: 60px;
-        line-height: 60px;
-        display: flex;
-    }
-    nav {
-        width: 70%;
-    }
-    nav ul {
-        display: flex;
-        position: absolute;
-        top: 103px;
-        width: 60%;
-        padding: 0;
-    }
-    nav ul li {
-        flex: 1 1 100%;
-    }
-    nav a {
-        font-size: 10px;
-    }
-    .navlinks li:first-child {
-        display: none;
-    }
-    .navlinks li {
-        display: block;
-        width: 10px;
-        border-radius: 10px;
-        flex: 1 1 auto;
-    }
-    /*--------------End Navagation----------------*/
-}
