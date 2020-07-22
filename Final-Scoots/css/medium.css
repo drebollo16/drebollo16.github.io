@@ -1,11 +1,17 @@
-@media only screen and (min-width: 34.5em) {
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
+    @media only screen and (min-width: 34.5em) {
+        .cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        img {
+            width: 80%;
+        }
+        .tour1 {
+            grid-template-columns: 1fr 1fr;
+        }
+        .headertext {
+            margin: initial;
+            display: flex;
+            font-size: 18px;
+            margin-left: 80px;
+        }
     }
-    img {
-        width: 80%;
-    }
-    .tour1 {
-        grid-template-columns: 1fr 1fr;
-    }
-}

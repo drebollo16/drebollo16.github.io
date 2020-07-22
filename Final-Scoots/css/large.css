@@ -5,6 +5,11 @@
         footer {
             width: 80%;
         }
+        .headertext {
+            margin-left: 500px;
+            margin-top: 30px;
+            font-size: 25px;
+        }
         /*---------------------Large index banner ---------------------------------*/
         .indexbanner img {
             height: 350px;
@@ -40,6 +45,7 @@
         .indexmaingrid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            grid-row: 1fr 1fr;
             grid-gap: 30px;
         }
         .weatherdiv {

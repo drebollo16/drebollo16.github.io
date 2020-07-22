@@ -13,7 +13,7 @@
            
            h1,
            h2 {
-               color: #040211;
+               color: #217af0;
                font-family: 'Fondamento', cursive;
            }
            
@@ -21,22 +21,26 @@
                font-family: 'Cormorant Garamond', serif;
                font-size: 18px;
            }
+           
+           .headertext {
+               display: none;
+           }
            /*---------------------Json Section---------------------------------*/
            /*End of Json Section*/
            
-           .forecasttable th {
+           .fivedayweather th {
                height: 30px;
                width: 120px;
                color: rgb(12, 12, 12);
                text-align: center;
            }
            
-           .forecasttable td {
+           .fivedayweather td {
                border-collapse: initial;
                height: 80px;
            }
            
-           .forecasttable img {
+           .fivedayweather img {
                width: 100px;
                height: 70px;
                align-items: center;
@@ -64,7 +68,6 @@
            .indexgrid {
                width: 100%;
                background-color: rgb(153, 231, 241);
-               margin-bottom: 30px;
                border-radius: 15px/45px;
                box-shadow: 7px 7px 7px rgb(140, 141, 143);
                border: 1px solid #111111;
@@ -122,14 +125,14 @@
                top: 20px;
                left: 20px;
                flex-wrap: wrap;
-               padding: 20px;
+               padding: 10px;
                background-color: rgba(140, 239, 247, 0.8);
                text-align: center;
                border-radius: 15px/45px;
            }
            
            .action-text {
-               color: white;
+               color: rgb(8, 8, 8);
                transform: translate(-50%, -50%);
                text-align: center;
                border-top: 4px double;
@@ -141,11 +144,15 @@
            }
            
            .action button {
-               line-height: 2em;
+               line-height: 1.2em;
                width: 10em;
-               background-color: #e7d425;
+               background-color: #17d456;
                border-radius: 15px/45px;
                font-size: 1.2em;
+           }
+           
+           .action button:hover {
+               background-color: rgb(233, 236, 34);
            }
            /* ----------------------Footer Header-------------------------------*/
            
@@ -162,11 +169,12 @@
            footer {
                background-color: #22C7D3;
                margin: 0 auto;
+               padding: 20px;
                color: #080808;
-               font-size: 18px;
+               font-size: 20px;
                border: 1px solid #111111;
                text-align: center;
-               height: 80px;
+               height: 50px;
                border-radius: 15px/45px;
                box-shadow: 7px 7px 7px rgb(140, 141, 143);
            }
@@ -178,6 +186,7 @@
            
            .scootslogo img {
                float: left;
+               margin-left: 240px;
                padding: 15px 15px 0 15px;
            }
            
@@ -348,6 +357,10 @@
                box-shadow: 5px 5px 5px #7b8081;
                max-width: 20rem;
                padding: .75rem 1.5rem;
+           }
+           
+           form input.submitbutton:hover {
+               background-color: rgb(42, 212, 204);
            }
            
            form label.top input:required {
