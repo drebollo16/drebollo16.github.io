@@ -5,10 +5,17 @@
         footer {
             width: 80%;
         }
-        .headertext {
-            margin-left: 500px;
-            margin-top: 30px;
-            font-size: 25px;
+        .searchbar {
+            float: right;
+            width: 100%;
+            display: block;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .scootslogo img {
+            float: left;
+            margin-left: 20px;
+            padding: 15px 15px 0 15px;
         }
         /*---------------------Large index banner ---------------------------------*/
         .indexbanner img {
@@ -58,8 +65,8 @@
         .navlinks {
             width: 70%;
             overflow: hidden;
-            height: 60px;
-            line-height: 60px;
+            height: 45px;
+            line-height: 40px;
             display: flex;
         }
         nav {
@@ -68,7 +75,7 @@
         nav ul {
             display: flex;
             position: absolute;
-            top: 103px;
+            top: 120px;
             width: 60%;
             padding: 0;
         }

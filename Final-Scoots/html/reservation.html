@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>~Scoots | Reservations Page | Denise Rebollo</title>
+    <link rel="shortcut icon" href="/Final-Scoots/favicon-32x32.png">
     <link rel="stylesheet" href="/Final-Scoots/css/normalize.css">
     <link rel="stylesheet" href="/Final-Scoots/css/small.css">
     <link rel="stylesheet" href="/Final-Scoots/css/medium.css">
@@ -19,8 +20,12 @@
         <picture class="scootslogo"> <img src="/Final-Scoots/img/d89c8e37-9f40-4089-a348-76a883f9afe9_200x200.png" alt="weathericon">
         </picture>
 
+        <div class="searchbar">
+            Contact 1-888-8888-8000 to schedule your reservation
+            <input type="text" class="searchinput" placeholder="Search..">
+            <button class="search">Go</button>
+        </div>
 
-        <h2 class="headertext">Contact 1-888-8888-8000 to schedule your reservation</h2>
     </header>
     <nav>
 
@@ -137,12 +142,14 @@
     </main>
 
     <footer>
-        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api">Open Weather API</a> | <a href="/Final-Scoots/html/references.html">References</a>
+        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api">Open Weather API</a> | <a href="/Final-Scoots/html/references.html">References</a> Last Updated:
+        <span id="lastupdate"></span>
 
     </footer>
 
     <script src="/Final-Scoots/js/response.js"></script>
 
+    <script src="/Final-Scoots/js/lastdate.js"></script>
 </body>
 
 </html>

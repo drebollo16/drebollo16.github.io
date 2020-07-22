@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>~Scoots | Home Page | Denise Rebollo</title>
+    <link rel="shortcut icon" href="/Final-Scoots/favicon-32x32.png">
     <link rel="stylesheet" href="/Final-Scoots/css/normalize.css">
     <link rel="stylesheet" href="/Final-Scoots/css/small.css">
     <link rel="stylesheet" href="/Final-Scoots/css/medium.css">
@@ -17,7 +18,14 @@
     <header>
         <picture class="scootslogo"> <img src="/Final-Scoots/img/d89c8e37-9f40-4089-a348-76a883f9afe9_200x200.png" alt="weathericon">
         </picture>
-        <h2 class="headertext">Contact 1-888-8888-8000 to schedule your reservation</h2>
+        <div class="searchbar">
+            Contact 1-888-8888-8000 to schedule your reservation
+            <input type="text" class="searchinput" placeholder="Search..">
+            <button class="#">Go</button>
+        </div>
+
+
+
     </header>
     <nav>
 
@@ -53,7 +61,7 @@
                 <div class="action">
                     <h3>Ready to reserve your scooter<br> for your travel needs</h3>
 
-                    <button onclick="/Final-Scoots/html/reservation.html ">Schedule your Reservation with Us</button>
+                    <a href="/Final-Scoots/html/reservation.html" class="button">Click Here</a>
                 </div>
             </picture>
         </div>
@@ -102,12 +110,12 @@
             <div class="indexgrid ">
 
                 <h2>Rental Information</h2>
-                <span class="price ">Scooter Rental</span>
-                <p class="description ">Best For Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <span class="price">Scooter Rental</span>
+                <p class="description">Scooters help you get from point A to B without the hassle and traffic jams.</p>
 
                 <ul>
-                    <li>Lorem Ipsum is simply dummy text</li>
-                    <li>Lorem Ipsum is simply dummy text</li>
+                    <li>We have jeeps, Atv, and Scooters to choose from</li>
+                    <li>Please look into our rental site to check the options available</li>
                 </ul>
             </div>
 
@@ -118,8 +126,9 @@
                 <div>
                     <h2>Contact information</h2>
                     <ul>
-                        <li>Lorem Ipsum is simply dummy text</li>
-                        <li>Lorem Ipsum is simply dummy text</li>
+                        <H3>Scoots Contact Information</H3>
+                        <li>West 2nd Street North Cozumel</li>
+                        <li>Cozumel Mexico, </li>
                     </ul>
                 </div>
                 <div>
@@ -141,9 +150,12 @@
     </main>
 
     <footer>
-        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api ">Open Weather API</a> | <a href="/Final-Scoots/html/references.html ">References</a>
+        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api ">Open Weather API</a> | <a href="/Final-Scoots/html/references.html ">References</a> Last Updated:
+        <span id="lastupdate"></span>
+
     </footer>
     <script src="/Final-Scoots/js/response.js "></script>
+    <script src="js/lastdate.js"></script>
     <script src="/Final-Scoots/js/cozumelweather.js "></script>
 
 </html>

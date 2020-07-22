@@ -8,10 +8,7 @@
         .tour1 {
             grid-template-columns: 1fr 1fr;
         }
-        .headertext {
-            margin: initial;
-            display: flex;
-            font-size: 18px;
-            margin-left: 80px;
+        .searchbar {
+            display: block;
         }
     }
