@@ -103,6 +103,16 @@
            img[data-src] {
                filter: blur(0.3em);
            }
+           
+           .map1 {
+               width: 100%;
+               border-radius: 15px/45px;
+           }
+           
+           .map2 {
+               width: 100%;
+               border-radius: 15px/45px;
+           }
            /*---------------------Index Bannner---------------------------------*/
            
            .indexbanner {
@@ -202,7 +212,7 @@
                margin: 0 auto;
            }
            /*End of Header/ Footer */
-           /* ------------------CSS from SMALL Rental Cards------------------*/
+           /* ------------------CSS from small rental Cards------------------*/
            
            .cards {
                display: grid;
@@ -224,7 +234,7 @@
                border-radius: 15px/45px;
                box-shadow: 7px 0px 7px 2px rgb(84, 87, 90);
            }
-           /* ------------------CSS from SMALL Navagation------------------*/
+           /* ------------------CSS from small navagation------------------*/
            
            .active {
                background-color: #f7c761;

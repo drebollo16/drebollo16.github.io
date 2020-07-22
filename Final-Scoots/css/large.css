@@ -95,4 +95,10 @@
             flex: 1 1 auto;
         }
         /*--------------End Navagation----------------*/
+        .map1 {
+            border-radius: 15px/45px;
+        }
+        .map2 {
+            border-radius: 15px/45px;
+        }
     }
