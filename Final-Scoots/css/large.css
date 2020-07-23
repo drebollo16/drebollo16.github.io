@@ -38,6 +38,8 @@
         /*---------------------Large Tour section ---------------------------------*/
         .tour1 {
             grid-template-columns: 1fr 1fr;
+            font-size: 18px;
+            padding: 10px;
         }
         .tour1 img {
             width: 100%;

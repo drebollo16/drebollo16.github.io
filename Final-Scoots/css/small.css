@@ -17,9 +17,13 @@
                font-family: 'Fondamento', cursive;
            }
            
+           h3 {
+               font-size: 22px;
+           }
+           
            p {
                font-family: 'Cormorant Garamond', serif;
-               font-size: 18px;
+               font-size: 20px;
            }
            /*---------------------Json Section---------------------------------*/
            /*End of Json Section*/
@@ -70,6 +74,7 @@
                margin-bottom: 30px;
                grid-template-rows: 1fr;
                display: grid;
+               padding: 10px;
            }
            
            .indexgrid .topindex p {
@@ -88,6 +93,7 @@
            
            .indexmaingrid {
                grid-template-columns: 1fr;
+               padding: 10px;
            }
            /*----------------------------Tour Div--------------------------------------*/
            
@@ -110,7 +116,7 @@
                border-radius: 15px/45px;
                border: 1px solid #111111;
                box-shadow: 7px 7px 7px rgb(140, 141, 143);
-               padding: 0px;
+               padding: 10px;
            }
            
            .tour1 img {
