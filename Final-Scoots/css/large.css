@@ -102,8 +102,12 @@
         /*--------------End Navagation----------------*/
         .map1 {
             border-radius: 15px/45px;
+            width: 600px;
+            height: 450px;
         }
         .map2 {
             border-radius: 15px/45px;
+            width: 600px;
+            height: 450px;
         }
     }
