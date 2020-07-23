@@ -4,6 +4,7 @@
         }
         footer {
             width: 80%;
+            font-size: 20px;
         }
         .searchbar {
             float: right;
@@ -16,6 +17,10 @@
             float: left;
             margin-left: 20px;
             padding: 15px 15px 0 15px;
+        }
+        .secondaddress {
+            margin-left: 120px;
+            text-align: left;
         }
         /*---------------------Large index banner ---------------------------------*/
         .indexbanner img {
@@ -43,16 +48,15 @@
         .indexgrid {
             border-radius: 15px/45px;
             box-shadow: 7px 7px 7px rgb(140, 141, 143);
+            grid-template-columns: 1fr;
         }
         .indexgrid img {
             border-radius: 15px/45px;
             box-shadow: 7px 7px 7px rgb(140, 141, 143);
-            border: 1px solid #111111;
         }
         .indexmaingrid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-row: 1fr 1fr;
             grid-gap: 30px;
         }
         .weatherdiv {
