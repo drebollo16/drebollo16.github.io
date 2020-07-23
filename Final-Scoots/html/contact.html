@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/Final-Scoots/css/small.css">
     <link rel="stylesheet" href="/Final-Scoots/css/medium.css">
     <link rel="stylesheet" href="/Final-Scoots/css/large.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Grenze+Gotisch&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -51,7 +51,24 @@
 
         <h2>Contact Page</h2>
 
+        <div class="forums">
+            <form class="contactform" method="get" action="contactsubmit.html">
+                <fieldset>
+                    <legend>Contact Information
+                    </legend>
+                    <p>If you have any other questions for concerns please contact us</p>
+                    <label class="topcontact"> Full Name:&ast;
+                    <input type="text" name="fullname" pattern="[A-Za-z]{5,}" placeholder="Full Name" required></label>
+                    <label class="topcontact"> Email:
+                    <input type="email" name="email" placeholder="youremail@gmail.com"></label><br>
 
+
+                    <textarea name="comments2" placeholder="Enter your message here..."></textarea>
+
+                </fieldset>
+                <input type="submit" value="Submit Contact" class="submitbutton"> </form>
+
+        </div>
 
 
         <div class="tour1">
@@ -59,18 +76,29 @@
                     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
             </div>
-            <div>
+
+            <div class="cozumeladdress">
                 <h2>SAN MIGUEL DE COZUMEL MAIN OFFICE</h2>
 
+                <h3>Scoots Rentals</h3>
+                <p>
+                    Address Location:</p>
+                <p> <i class='fa fa-map'></i> &nbsp; Zona 2, Km 1.5 Cozumel Ave<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gonzalo Guerrero, San Miguel Cozumel Q.R Mexico<br><i class="fa fa-envelope"></i> &nbsp; scootersrentals@scoots.com<br>
+                    <i class="fa fa-mobile-phone"></i> &nbsp;&nbsp;&nbsp; Phone: 1(888)-8888-8000
+                </p>
 
             </div>
 
         </div>
         <div class="tour1">
 
-            <div>
+            <div class="secondaddress">
                 <h2>COZUMEL MAYA TERMINAL LOCATION</h2>
                 <br>
+                <h3>Scoots Rentals</h3>
+                <p>Address Location:</p>
+                <p><i class='fa fa-map'></i> &nbsp;123 Carretera Chankanaab Km 4.5 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gonzalo Guerrero, Miguel De Cozumel Q.R Mexico<br><i class="fa fa-envelope"></i> &nbsp; scootersrentals@scoots.com<br> <i class="fa fa-mobile-phone"></i>                    &nbsp;&nbsp;&nbsp;Phone: 1(888)-8888-8001
+                </p>
             </div>
             <div> <iframe class="map2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.74103134102!2d-86.97695604945604!3d20.47582701173214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e5748bac98d29%3A0xec697a2a774f7a00!2sPuerta%20Maya%20Cruise%20Ship%20Terminal!5e0!3m2!1sen!2sus!4v1595456988811!5m2!1sen!2sus"
                     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -80,7 +108,7 @@
     </main>
 
     <footer>
-        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api">Open Weather API</a> | <a href="/Final-Scoots/html/references.html">References</a> Last Updated:
+        @~Scoots | Denise Rebollo | BYU Idaho Online <br><a href="https://openweathermap.org/api">Open Weather API</a> | <a href="/Final-Scoots/html/references.html">References |</a> Last Updated:
         <span id="lastupdate"></span>
 
     </footer>

@@ -80,6 +80,16 @@
            }
            /*----------------------------Tour Div--------------------------------------*/
            
+           .cozumeladdress p {
+               margin-left: 30px;
+               text-align: left;
+           }
+           
+           .secondaddress {
+               margin-left: 120px;
+               text-align: left;
+           }
+           
            .tour1 {
                display: grid;
                grid-template-columns: 1fr;
@@ -303,6 +313,56 @@
                display: block;
            }
            /*End of Navigation*/
+           
+           .icon img {
+               height: 20px;
+           }
+           /* ------------------CONTACT-FORUM---------------------------------*/
+           
+           .contactform legend {
+               background-color: #e6ca2f;
+               padding: 5px 5px;
+               text-align: center;
+               box-shadow: 2px 2px 2px 2px gray;
+               border-radius: 15px/45px;
+               color: #070707;
+           }
+           
+           form .contactform fieldset {
+               border: solid 1px #070707;
+               background-color: rgb(153, 231, 241);
+               color: rgb(15, 15, 15);
+               border-radius: 15px/45px;
+               margin: 2rem 0;
+               padding: 15px;
+               box-shadow: 5px 5px 5px rgb(69, 71, 73);
+               box-sizing: border-box;
+           }
+           
+           .topcontact,
+           form div {
+               display: block;
+               padding-top: 5px;
+               text-align: left;
+               color: rgb(17, 15, 15);
+           }
+           
+           .contactform label.topcontact input,
+           .contactform label.topcontact select {
+               -webkit-appearance: none;
+               display: block;
+               font-size: 16px;
+               border: solid 1px rgb(245, 240, 240);
+               border-radius: 5px;
+               color: rgb(12, 9, 9);
+               width: 100%;
+               height: 30px;
+               max-width: 22rem;
+           }
+           
+           .contactform label.topcontact :required:valid {
+               border-left: green solid 6px;
+           }
            /* -------------------FORUM---------------------------------*/
            
            .information {
@@ -388,13 +448,6 @@
                border-left: green solid 6px;
            }
            /* ---------CSS Thank you Page---------------*/
-           
-           .thanks {
-               text-align: center;
-               border: solid 1px #006287;
-               border-radius: 15px;
-               box-shadow: 5px 5px 5px #006287;
-           }
            
            .checkmark {
                height: 70px;
