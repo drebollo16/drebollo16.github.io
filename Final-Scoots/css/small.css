@@ -192,6 +192,18 @@
            }
            /* ----------------------Footer Header-------------------------------*/
            
+           .map1 {
+               border-radius: 15px/45px;
+               width: 100%;
+               height: 350px;
+           }
+           
+           .map2 {
+               border-radius: 15px/45px;
+               width: 100%;
+               height: 350px;
+           }
+           
            header {
                background-color: #22C7D3;
                margin: 0 auto;
@@ -379,7 +391,7 @@
                margin: 0 auto;
                text-align: left;
                padding: 15px;
-               width: 50%;
+               width: 90%;
                background-color: rgb(153, 231, 241);
                border: solid 1px rgb(15, 15, 14);
                border-radius: 15px/45px;

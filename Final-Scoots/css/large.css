@@ -110,4 +110,7 @@
             width: 600px;
             height: 450px;
         }
+        .information {
+            width: 60%;
+        }
     }
